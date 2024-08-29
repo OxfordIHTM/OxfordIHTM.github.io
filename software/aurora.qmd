@@ -1,0 +1,14 @@
+---
+title: "aurora: Interface to the Oxord University Research Archive (ORA) API"
+image: ../img/aurora.png
+---
+
+::: column-margin
+[![](../img/aurora.png)](https://oxford-ihtm.io/aurora/){fig-align="center" width="200px" target="_blank"}
+:::
+
+The [Oxford University Research Archive (ORA)](https://ora.ox.ac.uk/) is an Open Access platform and is the institutional repository for the [University of Oxford](https://ox.ac.uk). ORA serves as a permanent and secure online archive of research materials produced by members of the University of Oxford. ORA supports and participates in the Open Archives Initiative (OAI). ORA is a registered OAI-PMH data-provider and provides metadata for all public records which is updated as soon as each record is published or updated. ORA also provides API access to its resources. This package provides low level functions to interface with the [ORA API](https://ora.ox.ac.uk/api).
+
+For more information on the `{aurora}` package, you can visit the [project website](https://oxford-ihtm.io/aurora/). To learn about the underlying code for this software development project, see the [GitHub code repository](https://github.com/OxfordIHTM/aurora).
+
+If you are interested in contributing to this project, please be aware of its [Contributor Code of Conduct](https://oxford-ihtm.io/aurora/CODE_OF_CONDUCT.html). By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our [GitHub issues](https://github.com/OxfordIHTM/aurora/issues) page. If you find something that you can help with, follow these [steps on how to contribute](https://oxford-ihtm.io/aurora/CONTRIBUTING.html).

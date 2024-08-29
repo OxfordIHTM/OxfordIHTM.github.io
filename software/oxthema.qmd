@@ -1,0 +1,19 @@
+---
+title: "oxthema: Oxford Colours, Palettes, Fonts, and Themes"
+image: ../img/oxthema.png
+---
+
+::: column-margin
+[![](../img/oxthema.png)](https://oxford-ihtm.io/oxthema/){fig-align="center" width="200px" target="_blank"}
+:::
+
+
+`{oxthema}` aims to provide templates, themes, and theme components for colour palettes, typography, and layout compliant with [University of Oxford](https://ox.ac.uk)’s visual identity guidelines for use in the [R](https://r-project.org) language for statistical computing graphics and publishing ecosystem.
+
+The package provides colours, palettes, and fonts consistent with the university visual identity guidelines. The package also includes themes for specific packages and functionalities that make use of colours, palettes, and fonts. The package currently has themes for `{ggplot2}` and for `{forestploter}` packages.
+
+`{oxthema}` is currently in pre-release (alpha release) to allow for alpha testing of current functionalities.
+
+For more information on the `{oxthema}` package, you can visit the [project website](https://oxford-ihtm.io/oxthema/). To learn about the underlying code for this software development project, see the [GitHub code repository](https://github.com/OxfordIHTM/oxthema).
+
+If you are interested in contributing to this project, please be aware of its [Contributor Code of Conduct](https://oxford-ihtm.io/oxthema/CODE_OF_CONDUCT.html). By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our [GitHub issues](https://github.com/OxfordIHTM/oxthema/issues) page. If you find something that you can help with, follow these [steps on how to contribute](https://oxford-ihtm.io/oxthema/CONTRIBUTING.html).

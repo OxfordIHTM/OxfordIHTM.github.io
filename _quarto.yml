@@ -6,32 +6,53 @@ website:
   title: Oxford IHTM CodeHub
   site-url: https://oxford-ihtm.io/
   navbar:
-    title: false
+    title: "Oxford IHTM CodeHub"
     background: primary
     logo: https://avatars.githubusercontent.com/u/35218318?s=200&v=4
     logo-alt: Oxford IHTM CodeHub
     tools:
-      - icon: twitt
-        href: https://twitter.com
       - icon: github
         href: https://github.com/OxfordIHTM
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: Teaching
+        menu:
+          - href: open-reproducible-science.qmd
+            text: Open Science and Reproducible Research in R
+          - href: teaching/resources.qmd
+            text: Learning Resources
+      - href: projects/index.qmd
+        text: Projects
+  sidebar:
+    logo: https://raw.githubusercontent.com/OxfordIHTM/open-reproducible-science/main/images/oxford_codehub.png
+    logo-alt: Oxford IHTM CodeHub
   page-footer: 
-    center: "Copyright 2024, Oxford IHTM" 
+    center: "Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine" 
     background: light
     border: false
   reader-mode: true
   repo-url: https://github.com/OxfordIHTM/oxfordihtm.github.io
   repo-actions: [edit, source, issue]
   issue-url: https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues
+  cookie-consent:
+    type: express
+    style: simple
+    palette: dark
+  google-analytics:
+    tracking-id: ""
+    anonymize-ip: true
   
 format:
   html:
     theme: litera
     css: styles.css
+    #page-layout: full
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 250px
+      gutter-width: 1.5rem
     toc: true
 
 editor: visual

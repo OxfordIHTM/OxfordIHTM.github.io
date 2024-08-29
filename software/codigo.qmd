@@ -1,0 +1,14 @@
+---
+title: "codigo: Interface to the International Classification of Diseases (ICD) API"
+image: ../img/codigo.png
+---
+
+::: column-margin
+[![](../img/codigo.png)](https://oxford-ihtm.io/codigo/)
+:::
+
+The [International Classification of Diseases (ICD)](https://www.who.int/standards/classifications/classification-of-diseases) serves a broad range of uses globally and provides critical knowledge on the extent, causes and consequences of human disease and death worldwide via data that is reported and coded with the ICD. [ICD API](https://icd.who.int/icdapi) allows programmatic access to the ICD. It is an HTTP based REST API. This package provides functions that interface with the ICD API.
+
+For more information on the `{codigo}` package, you can visit the [project website](https://oxford-ihtm.io/codigo/). To learn about the underlying code for this software development project, see the [GitHub code repository](https://github.com/OxfordIHTM/codigo).
+
+If you are interested in contributing to this project, please be aware of its [Contributor Code of Conduct](https://oxford-ihtm.io/codigo/CODE_OF_CONDUCT.html). By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our [GitHub issues](https://github.com/OxfordIHTM/codigo/issues) page. If you find something that you can help with, follow these [steps on how to contribute](https://oxford-ihtm.io/codigo/CONTRIBUTING.html).

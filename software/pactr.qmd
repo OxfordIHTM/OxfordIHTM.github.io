@@ -1,0 +1,14 @@
+---
+title: "pactr: An Interface to the Pandemic PACT Data Repository"
+image: ../img/pactr.png
+---
+
+::: column-margin
+[![](../img/pactr.png)](https://oxford-ihtm.io/pactr/){fig-align="center" width="200px" target="_blank"}
+::: 
+
+The [Pandemic PACT](https://www.pandemicpact.org/) monitors and analyses global funding and research evidence related to diseases with pandemic potential, as well as broader research preparedness efforts, and is equipped to pivot in response to outbreaks. It collects, curates, codes, and analyses data in alignment with WHO priority diseases and other selected illnesses, including pandemic influenza, mpox, and plague. Pandemic PACT aims to guide policy and decision-making for research funders, policymakers, researchers, multilateral agencies. The Pandemic PACT data is publicly available for download from its [website](https://www.pandemicpact.org/) and from [Figshare](https://portal.sds.ox.ac.uk/pandemicpact). This package provides an application programming interface (API) to the research programme's [Figshare](https://portal.sds.ox.ac.uk/pandemicpact) repository to provide programmatic access to its publicly available tracker data along with it's other data products.
+
+For more information on the `{pactr}` package, you can visit the [project website](https://oxford-ihtm.io/pactr/). To learn about the underlying code for this software development project, see the [GitHub code repository](https://github.com/OxfordIHTM/pactr).
+
+If you are interested in contributing to this project, please be aware of its [Contributor Code of Conduct](https://oxford-ihtm.io/pactr/CODE_OF_CONDUCT.html). By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our [GitHub issues](https://github.com/OxfordIHTM/pactr/issues) page. If you find something that you can help with, follow these [steps on how to contribute](https://oxford-ihtm.io/pactr/CONTRIBUTING.html).

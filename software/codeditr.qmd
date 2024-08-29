@@ -1,0 +1,14 @@
+---
+title: "codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool"
+image: ../img/codeditr.png
+---
+
+::: column-margin
+[![](../img/codeditr.png)](https://oxford-ihtm.io/codeditr.png)
+:::
+
+The [World Health Organization](https://www.who.int/)'s [CoDEdit electronic tool](https://www.who.int/standards/classifications/classification-of-diseases/services/codedit-tool) is intended to help producers of cause-of-death statistics in strengthening their capacity to perform routine checks on their data. This package ports the original tool built using Microsoft Access into R. The aim is to leverage the utility and function of the original tool into a usable application program interface (API) that can be used for building more universal tools or for creating programmatic scientific workflows aimed at routine, automated, and large-scale monitoring of cause-of-death data.
+
+For more information on the `{codeditr}` package, you can visit the [project website](https://oxford-ihtm.io/codeditr/). To learn about the underlying code for this software development project, see the [GitHub code repository](https://github.com/OxfordIHTM/codeditr).
+
+If you are interested in contributing to this project, please be aware of its [Contributor Code of Conduct](https://oxford-ihtm.io/codeditr/CODE_OF_CONDUCT.html). By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our [GitHub issues](https://github.com/OxfordIHTM/codeditr/issues) page. If you find something that you can help with, follow these [steps on how to contribute](https://oxford-ihtm.io/codeditr/CONTRIBUTING.html).

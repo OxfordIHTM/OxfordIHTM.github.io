@@ -1,0 +1,7 @@
+---
+title: Projects
+listing:
+  contents:
+    - "../software/*.qmd"
+  type: grid
+---
