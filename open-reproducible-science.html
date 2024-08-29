@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,6 +60,31 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
 
 
 <link rel="stylesheet" href="styles.css">
@@ -97,13 +124,13 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Open Science and Reproducible Research in R</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources.html" rel="" target="">
+    <a class="dropdown-item" href="./teaching/resources.html" rel="" target="">
  <span class="dropdown-text">Learning Resources</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
+    <a class="nav-link" href="./projects/index.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -142,29 +169,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#key-features-of-the-module" id="toc-key-features-of-the-module" class="nav-link active" data-scroll-target="#key-features-of-the-module">Key Features of the Module</a></li>
-  <li><a href="#part-1-all-about-r" id="toc-part-1-all-about-r" class="nav-link" data-scroll-target="#part-1-all-about-r">Part 1: All about R</a>
-  <ul class="collapse">
-  <li><a href="#session-1-getting-the-right-tools-for-the-job" id="toc-session-1-getting-the-right-tools-for-the-job" class="nav-link" data-scroll-target="#session-1-getting-the-right-tools-for-the-job">Session 1: Getting the right tools for the job</a></li>
-  <li><a href="#session-2-learning-the-basics-of-r---part-1-r-through-the-user-interface-of-rstudio" id="toc-session-2-learning-the-basics-of-r---part-1-r-through-the-user-interface-of-rstudio" class="nav-link" data-scroll-target="#session-2-learning-the-basics-of-r---part-1-r-through-the-user-interface-of-rstudio">Session 2: Learning the basics of R - Part 1: R through the user interface of RStudio</a></li>
-  <li><a href="#session-3-learning-the-basics-of-r---part-2-creating-and-manipulating-objects-and-extending-r-using-packages" id="toc-session-3-learning-the-basics-of-r---part-2-creating-and-manipulating-objects-and-extending-r-using-packages" class="nav-link" data-scroll-target="#session-3-learning-the-basics-of-r---part-2-creating-and-manipulating-objects-and-extending-r-using-packages">Session 3: Learning the basics of R - Part 2: Creating and manipulating objects, and extending R using packages</a></li>
-  <li><a href="#session-4-learning-the-basics-of-r---part-3-creating-your-own-functions" id="toc-session-4-learning-the-basics-of-r---part-3-creating-your-own-functions" class="nav-link" data-scroll-target="#session-4-learning-the-basics-of-r---part-3-creating-your-own-functions">Session 4: Learning the basics of R - Part 3: Creating your own functions</a></li>
-  <li><a href="#session-5-creating-basic-r-workflows-and-literate-programming" id="toc-session-5-creating-basic-r-workflows-and-literate-programming" class="nav-link" data-scroll-target="#session-5-creating-basic-r-workflows-and-literate-programming">Session 5: Creating basic R workflows and literate programming</a></li>
-  </ul></li>
-  <li><a href="#part-2-open-and-reproducible-science" id="toc-part-2-open-and-reproducible-science" class="nav-link" data-scroll-target="#part-2-open-and-reproducible-science">Part 2: Open and Reproducible Science</a>
-  <ul class="collapse">
-  <li><a href="#session-6-open-science-and-reproducible-research-in-r-an-overview" id="toc-session-6-open-science-and-reproducible-research-in-r-an-overview" class="nav-link" data-scroll-target="#session-6-open-science-and-reproducible-research-in-r-an-overview">Session 6: Open Science and Reproducible Research in R: An Overview</a></li>
-  <li><a href="#session-7-git-and-github-for-use-with-r-tools-for-versioning-and-sharing-research" id="toc-session-7-git-and-github-for-use-with-r-tools-for-versioning-and-sharing-research" class="nav-link" data-scroll-target="#session-7-git-and-github-for-use-with-r-tools-for-versioning-and-sharing-research">Session 7: Git and GitHub for use with R: tools for versioning and sharing research</a></li>
-  <li><a href="#session-8-reproducible-scientific-workflows-in-r---part-1-introduction-to-the-targets-package" id="toc-session-8-reproducible-scientific-workflows-in-r---part-1-introduction-to-the-targets-package" class="nav-link" data-scroll-target="#session-8-reproducible-scientific-workflows-in-r---part-1-introduction-to-the-targets-package">Session 8: Reproducible scientific workflows in R - Part 1: Introduction to the {targets} package</a></li>
-  <li><a href="#session-9-reproducible-scientific-workflows-in-r---part-2-creating-targets-based-scientific-workflows" id="toc-session-9-reproducible-scientific-workflows-in-r---part-2-creating-targets-based-scientific-workflows" class="nav-link" data-scroll-target="#session-9-reproducible-scientific-workflows-in-r---part-2-creating-targets-based-scientific-workflows">Session 9: Reproducible scientific workflows in R - Part 2: Creating targets-based scientific workflows</a></li>
-  <li><a href="#session-10-making-your-r-based-research-project-portable" id="toc-session-10-making-your-r-based-research-project-portable" class="nav-link" data-scroll-target="#session-10-making-your-r-based-research-project-portable">Session 10: Making your R-based research project portable</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/open-reproducible-science.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/blob/main/open-reproducible-science.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action">Report an issue</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -187,252 +192,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>The <strong>Open Science and Reproducible Research in R</strong> module of the <a href="https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm">MSc in International Health and Tropical Medicine</a> is designed to equip students with the skills and knowledge necessary to conduct research that is transparent, <a href="https://book.the-turing-way.org/">reproducible</a>, and in line with the principles of <a href="https://www.unesco.org/en/open-science">open science</a>.</p>
-<section id="key-features-of-the-module" class="level2">
-<h2 class="anchored" data-anchor-id="key-features-of-the-module">Key Features of the Module</h2>
-<ol type="1">
-<li><strong>Introduction to Open Science</strong></li>
-</ol>
-<ul>
-<li><p>The module begins by introducing the concepts and principles of open science, including the importance of transparency, accessibility, and collaboration in research.</p></li>
-<li><p>Students learn about the benefits of open science practices, such as increased credibility, easier collaboration, and enhanced reproducibility of research findings.</p></li>
-</ul>
-<ol start="2" type="1">
-<li><strong>Reproducibility in Research</strong></li>
-</ol>
-<ul>
-<li><p>A significant focus of the module is on reproducibility, which refers to the ability of researchers to replicate the results of a study using the same data and methods.</p></li>
-<li><p>Students are taught the principles of reproducible research and the best practices on how to ensure their findings can be reproduced by others.</p></li>
-</ul>
-<ol start="3" type="1">
-<li><strong>Data Management and Documentation</strong></li>
-</ol>
-<ul>
-<li><p>Proper data management is crucial for reproducible research. The module covers best practices for organizing, documenting, and sharing research data.</p></li>
-<li><p>Students learn about version control systems (e.g., Git) and how to use them to track changes in their data and code.</p></li>
-</ul>
-<ol start="4" type="1">
-<li><strong>Introduction to R</strong></li>
-</ol>
-<ul>
-<li><p>The module introduces students to the <a href="https://www.r-project.org/">R</a>, a programming language widely used for statistical analysis and data visualisation.</p></li>
-<li><p>Through hands-on exercises, students learn how to use R for data wrangling, analysis, and visualisation..</p></li>
-</ul>
-<ol start="5" type="1">
-<li><strong>Reproducible Workflows in R</strong></li>
-</ol>
-<ul>
-<li><p>Students learn how to create reproducible workflows in R using tools like RMarkdown, which allows them to integrate text, code, and output into a single document.</p></li>
-<li><p>The module emphasizes the importance of automating analyses to reduce errors and ensure that research can be easily updated or reproduced.</p></li>
-</ul>
-<ol start="6" type="1">
-<li><strong>Collaboration and Sharing</strong></li>
-</ol>
-<ul>
-<li><p>The module also covers tools and platforms that facilitate collaboration and sharing in open science, such as <a href="https://github.com">GitHub</a>, <a href="https://osf.io/">Open Science Framework (OSF)</a>, and other repositories.</p></li>
-<li><p>Students are encouraged to share their code, data, and research outputs openly to contribute to the global scientific community.</p></li>
-</ul>
-<ol start="7" type="1">
-<li><strong>Ethical Considerations</strong></li>
-</ol>
-<ul>
-<li>Ethical aspects of open science and reproducible research are discussed, including issues related to data privacy, intellectual property, and the responsible conduct of research.</li>
-</ul>
-<ol start="8" type="1">
-<li><strong>Application to Global Health and Tropical Medicine</strong></li>
-</ol>
-<ul>
-<li><p>Throughout the module, there is an emphasis on applying open science and reproducible research practices to the field of global health and tropical medicine.</p></li>
-<li><p>Students learn how these practices can enhance the quality and impact of research in these areas, particularly in low-resource settings.</p></li>
-</ul>
-</section>
-<section id="part-1-all-about-r" class="level2">
-<h2 class="anchored" data-anchor-id="part-1-all-about-r">Part 1: All about R</h2>
-<p><a href="https://r-project.org">R</a> is a language and environment for statistical computing and graphics. It is a <a href="https://en.wikipedia.org/wiki/GNU">GNU</a> project which is similar to the <a href="https://en.wikipedia.org/wiki/S_(programming_language)">S language and environment</a> which was developed at Bell Laboratories (formerly AT&amp;T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R.</p>
-<p>R provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering, etc.) and graphical techniques, and is highly extensible. The S language is often the vehicle of choice for research in statistical methodology, and R provides an Open Source route to participation in that activity.</p>
-<p>One of R’s strengths is the ease with which well-designed publication-quality plots can be produced, including mathematical symbols and formulae where needed. Great care has been taken over the defaults for the minor design choices in graphics, but the user retains full control.</p>
-<p>R is available as Free Software under the terms of the Free Software Foundation’s GNU General Public License in source code form. It compiles and runs on a wide variety of UNIX platforms and similar systems (including FreeBSD and Linux), Windows and MacOS.</p>
-<p>R is unique in that it is not general-purpose. It does not compromise by trying to do a lot of things. It does a few things very well, mainly statistical analysis and data visualization. While you can find data analysis and machine learning libraries for languages like <a href="https://www.python.org/">Python</a>, R has many statistical functionalities built into its core. No third-party libraries are needed for much of the core data analysis you can do with the language.</p>
-<p>But even with this specific use case, it is used in every industry you can think of because a modern business runs on data. Using past data, data scientists and data analysts can determine the health of a business and give business leaders actionable insights into the future of their company.</p>
-<p>Just because R is specifically used for statistical analysis and data visualization doesn’t mean its use is limited. It’s actually quite popular, ranking 12th in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE index</a> of the most popular programming languages.</p>
-<p>Academics, scientists, and researchers use R to analyze the results of experiments. In addition, businesses of all sizes and in every industry use it to extract insights from the increasing amount of daily data they generate.</p>
-<section id="session-1-getting-the-right-tools-for-the-job" class="level3">
-<h3 class="anchored" data-anchor-id="session-1-getting-the-right-tools-for-the-job">Session 1: Getting the right tools for the job</h3>
-<p>Using the right tools for the job is critical for success in any endeavour. In scientific research, specifically with scientific analysis, R is widely used by researchers from diverse disciplines to estimate and display results and by teachers of statistics and research methods. One of the most powerful characteristics of R is that it is open-source, meaning anyone can access the underlying code used to run the program and add their own code for free. Along with R, other tools facilitate/potentiate the benefits of using R.</p>
-<p>In this session, we will introduce a basic set of tools that maximises the effectiveness of R for scientific research. Students will be given a basic introduction to R, <a href="https://posit.co/products/open-source/rstudio/">RStudio</a>, and to <a href="https://git-scm.com/">git</a> and <a href="https://github.com">GitHub</a>. The students will also be guided and facilitated in installing and setting up each of these tools in the way that is considered best practice for scientific research purposes.</p>
-<section id="further-reading" class="level4">
-<h4 class="anchored" data-anchor-id="further-reading">Further Reading</h4>
-<ul>
-<li><p>Grolemund G. (2014). Installing R and RStudio from Hands-on Programming with R. In <em>Hands-on programming with R : write your own functions and simulations</em>. https://rstudio-education.github.io/hopr/starting.html</p></li>
-<li><p>Bryan J. and Hester J. Installing git and creating a GitHub account. In <em>Happy Git and GitHub for the useR</em> https://happygitwithr.com/install-intro.html</p></li>
-<li><p>R-Ladies Sydney. BasicBasics1: An opinionated tour of RStudio. https://rladiessydney.org/courses/ryouwithme/01-basicbasics-1/</p></li>
-</ul>
-</section>
-<section id="teaching-material" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-material">Teaching Material</h4>
-<p>Slides can be viewed <a href="https://oxford-ihtm.io/open-reproducible-science/session1.html">here</a>.</p>
-<p>PDF version of slides can be downloaded <a href="https://oxford-ihtm.io/open-reproducible-science/pdf/session1-getting-the-right-tools.pdf">here</a>.</p>
-<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session1.Rmd">here</a>.</p>
-</section>
-</section>
-<section id="session-2-learning-the-basics-of-r---part-1-r-through-the-user-interface-of-rstudio" class="level3">
-<h3 class="anchored" data-anchor-id="session-2-learning-the-basics-of-r---part-1-r-through-the-user-interface-of-rstudio">Session 2: Learning the basics of R - Part 1: R through the user interface of RStudio</h3>
-<p>In this session, a discussion on the current state of “data” in general and how this translates to <em>global health data</em> specifically. This discussion will then be linked to how the use of R can facilitate and support researchers in computing and statistical analysis. The final part of the session will be focused on a data exercise using R based on Exercise 1 found in the <a href="https://practical-r.org">Practical R for Epidemiologists</a>.</p>
-<section id="further-reading-1" class="level4">
-<h4 class="anchored" data-anchor-id="further-reading-1">Further Reading</h4>
-<ul>
-<li><p>Grolemund G. (2014). Loading and Saving Data in R. In <em>Hands-on programming with R : write your own functions and simulations</em>. https://rstudio-education.github.io/hopr/dataio.html</p></li>
-<li><p>Myatt M. Exercise 1 - Getting acquainted with R. In <em>Practical R for Epidemiologists</em>. https://practical-r.org/exercise1.html</p></li>
-</ul>
-</section>
-<section id="teaching-material-1" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-material-1">Teaching Material</h4>
-<p>Slides can be viewed <a href="https://oxford-ihtm.io/open-reproducible-science/session2.html">here</a>.</p>
-<p>PDF version of slides can be downloaded <a href="https://oxford-ihtm.io/open-reproducible-science/pdf/session2-r-basics-part1.pdf">here</a>.</p>
-<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session2.Rmd">here</a>.</p>
-</section>
-</section>
-<section id="session-3-learning-the-basics-of-r---part-2-creating-and-manipulating-objects-and-extending-r-using-packages" class="level3">
-<h3 class="anchored" data-anchor-id="session-3-learning-the-basics-of-r---part-2-creating-and-manipulating-objects-and-extending-r-using-packages">Session 3: Learning the basics of R - Part 2: Creating and manipulating objects, and extending R using packages</h3>
-<p>In this session, the students will continue to work through using R to work with data and will be introduced to more built-in functions in R for performing data analysis. They will also be introduced to R packages and how they extend the functionalities of R specifically with regard to computing and statistical analysis. Students will be taught how to install and load R packages and be given a background and introduction to object-oriented programming.</p>
-<section id="further-reading-2" class="level4">
-<h4 class="anchored" data-anchor-id="further-reading-2">Further Reading</h4>
-<ul>
-<li><p>Grolemund G. (2014). R Packages. In <em>Hands-on programming with R : write your own functions and simulations</em>. https://rstudio-education.github.io/hopr/packages2.html</p></li>
-<li><p>Myatt M. Extending R with packages. In <em>Practical R for Epidemiologists</em>. https://practical-r.org/exercise5.html</p></li>
-</ul>
-</section>
-<section id="teaching-material-2" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-material-2">Teaching Material</h4>
-<p>Slides can be viewed <a href="https://oxford-ihtm.io/open-reproducible-science/session3.html">here</a>.</p>
-<p>PDF version of slides can be downloaded <a href="https://oxford-ihtm.io/open-reproducible-science/pdf/session3-r-basics-part2.pdf">here</a>.</p>
-<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session3.Rmd">here</a>.</p>
-</section>
-</section>
-<section id="session-4-learning-the-basics-of-r---part-3-creating-your-own-functions" class="level3">
-<h3 class="anchored" data-anchor-id="session-4-learning-the-basics-of-r---part-3-creating-your-own-functions">Session 4: Learning the basics of R - Part 3: Creating your own functions</h3>
-<p>In this session, the students will be introduced to functions in R and how they can be used to extend the functionalities of R. The students will be introduced to what functions are and how to create their own functions for specific computing and statistical analysis tasks that they require.</p>
-<section id="further-reading-3" class="level4">
-<h4 class="anchored" data-anchor-id="further-reading-3">Further Reading</h4>
-<ul>
-<li><p>Wickham H and Grolemund G. Functions. In <em>R for Data Science</em>. https://r4ds.had.co.nz/functions.html</p></li>
-<li><p>Myatt M. Exercise 2 - Manipulating objects and creating new functions. In <em>Practical R for Epidemiologists</em>. https://practical-r.org/exercise2.html</p></li>
-</ul>
-</section>
-<section id="teaching-material-3" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-material-3">Teaching Material</h4>
-<p>Slides can be viewed <a href="https://oxford-ihtm.io/open-reproducible-science/session4.html">here</a>.</p>
-<p>PDF version of slides can be downloaded <a href="https://oxford-ihtm.io/open-reproducible-science/pdf/session4-r-basics-part3.pdf">here</a>.</p>
-<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session4.Rmd">here</a>.</p>
-</section>
-</section>
-<section id="session-5-creating-basic-r-workflows-and-literate-programming" class="level3">
-<h3 class="anchored" data-anchor-id="session-5-creating-basic-r-workflows-and-literate-programming">Session 5: Creating basic R workflows and literate programming</h3>
-<p>In this session, the students will be taught and guided through creating basic R workflows with a focus on using a project-oriented approach in building scientific analysis workflows. The students will then be introduced to literate programming in R and the tools, packages, and techniques used to convert raw code workflows into those that combine content and data analysis code.</p>
-<section id="further-reading-4" class="level4">
-<h4 class="anchored" data-anchor-id="further-reading-4">Further Reading</h4>
-<ul>
-<li><p>Bryan J and Hester J. Project-oriented workflow. In <em>What they forgot to teach you about R</em>. https://rstats.wtf/project-oriented-workflow.html</p></li>
-<li><p>Shepperd M. Literate programming and RMarkdown. In <em>CS5701 Modern Data Book</em>. https://bookdown.org/martin_shepperd/ModernDataBook/C3-Literate.html</p></li>
-</ul>
-</section>
-<section id="teaching-material-4" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-material-4">Teaching Material</h4>
-<p>Slides can be viewed <a href="https://oxford-ihtm.io/open-reproducible-science/session5.html">here</a>.</p>
-<p>PDF version of slides can be downloaded <a href="https://oxford-ihtm.io/open-reproducible-science/pdf/session5-literate-programming.pdf">here</a>.</p>
-<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session5.Rmd">here</a>.</p>
-</section>
-</section>
-</section>
-<section id="part-2-open-and-reproducible-science" class="level2">
-<h2 class="anchored" data-anchor-id="part-2-open-and-reproducible-science">Part 2: Open and Reproducible Science</h2>
-<p>Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods. Reproducible research means that research data and code are made available so that others are able to reach the same results as are claimed in scientific outputs. Closely related is the concept of replicability, the act of repeating a scientific methodology to reach similar conclusions. These concepts are core elements of empirical research.</p>
-<p>This lecture series is designed to give Oxford IHTM students a foundational understanding and appreciation of the pillars of Open Science more broadly and within that the concepts, methods and tools for Reproducible Research more specifically. To further the students’ learning, practical examples and exercises will be discussed and walked through using the R language for statistical computing as a way to practically demonstrate these concepts.</p>
-<section id="session-6-open-science-and-reproducible-research-in-r-an-overview" class="level3">
-<h3 class="anchored" data-anchor-id="session-6-open-science-and-reproducible-research-in-r-an-overview">Session 6: Open Science and Reproducible Research in R: An Overview</h3>
-<p>In this session, an overview of the what, why, and how of Open Science and Reproducible Research will be discussed to provide the learners with foundational understanding and appreciation of these concepts and their applications.</p>
-<section id="further-reading-5" class="level4">
-<h4 class="anchored" data-anchor-id="further-reading-5">Further Reading</h4>
-<p>Rick, Jessica &amp; Alston, Jesse. (2020). A beginner’s guide to conducting reproducible research in ecology, evolution, and conservation. 10.32942/osf.io/h5r6n.</p>
-</section>
-<section id="teaching-material-5" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-material-5">Teaching Material</h4>
-<p>Slides can be viewed <a href="https://oxford-ihtm.io/open-reproducible-science/session6.html">here</a>.</p>
-<p>PDF version of slides can be downloaded <a href="https://oxford-ihtm.io/open-reproducible-science/pdf/session6-open-reproducible-science.pdf">here</a>.</p>
-<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session6.Rmd">here</a>.</p>
-</section>
-</section>
-<section id="session-7-git-and-github-for-use-with-r-tools-for-versioning-and-sharing-research" class="level3">
-<h3 class="anchored" data-anchor-id="session-7-git-and-github-for-use-with-r-tools-for-versioning-and-sharing-research">Session 7: Git and GitHub for use with R: tools for versioning and sharing research</h3>
-<p>In this session, an overview of git and GitHub will be discussed along with their integration with R using RStudio. This wil then be followed by a practical session to guide learners on setting up git and GitHub onto their personal machines culminating in the learners accessing their first assignment in GitHub Classroom.</p>
-<section id="further-reading-6" class="level4">
-<h4 class="anchored" data-anchor-id="further-reading-6">Further Reading</h4>
-<ul>
-<li><p>Happy Git and GitHub for the useR - https://happygitwithr.com/</p></li>
-<li><p>Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., Leprevost, F., Fufezan, C., Ternent, T., Eglen, S. J., Katz, D. S., Pollard, T. J., Konovalov, A., Flight, R. M., Blin, K., &amp; Vizcaíno, J. A. (2016). Ten Simple Rules for Taking Advantage of Git and GitHub. PLoS computational biology, 12(7), e1004947. https://doi.org/10.1371/journal.pcbi.1004947</p></li>
-<li><p>Blischak JD, Davenport ER, Wilson G (2016) A Quick Introduction to Version Control with Git and GitHub. PLOS Computational Biology 12(1): e1004668. https://doi.org/10.1371/journal.pcbi.1004668</p></li>
-</ul>
-</section>
-<section id="teaching-material-6" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-material-6">Teaching Material</h4>
-<p>Slides can be viewed <a href="https://oxford-ihtm.io/open-reproducible-science/session7.html">here</a>.</p>
-<p>PDF version of slides can be downloaded <a href="https://oxford-ihtm.io/open-reproducible-science/pdf/session7-git-and-github-with-r.pdf">here</a>.</p>
-<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session7.Rmd">here</a>.</p>
-</section>
-</section>
-<section id="session-8-reproducible-scientific-workflows-in-r---part-1-introduction-to-the-targets-package" class="level3">
-<h3 class="anchored" data-anchor-id="session-8-reproducible-scientific-workflows-in-r---part-1-introduction-to-the-targets-package">Session 8: Reproducible scientific workflows in R - Part 1: Introduction to the {targets} package</h3>
-<p>In this session, a discussion of best practices on reproducible scientific workflows and an introduction to using the <code>{targets}</code> to implemenet these workflows. The final part of the session will be the first day of <strong>Hackathon 2024</strong>.</p>
-<section id="further-reading-7" class="level4">
-<h4 class="anchored" data-anchor-id="further-reading-7">Further Reading</h4>
-<ul>
-<li><p>Dynamic Function-Oriented Make-Like Declarative Workflows - https://docs.ropensci.org/targets/</p></li>
-<li><p>The targets R Package User Manual - https://books.ropensci.org/targets/</p></li>
-</ul>
-</section>
-<section id="teaching-material-7" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-material-7">Teaching Material</h4>
-<p>Slides can be viewed <a href="https://oxford-ihtm.io/open-reproducible-science/session8.html">here</a>.</p>
-<p>PDF version of slides can be downloaded <a href="https://oxford-ihtm.io/open-reproducible-science/pdf/session8-reproducible-scientific-workflows.pdf">here</a>.</p>
-<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session8.Rmd">here</a>.</p>
-</section>
-</section>
-<section id="session-9-reproducible-scientific-workflows-in-r---part-2-creating-targets-based-scientific-workflows" class="level3">
-<h3 class="anchored" data-anchor-id="session-9-reproducible-scientific-workflows-in-r---part-2-creating-targets-based-scientific-workflows">Session 9: Reproducible scientific workflows in R - Part 2: Creating targets-based scientific workflows</h3>
-<p>In this session, the students will create their own targets-based workflows as part of the second day of <strong>Hackathon 2024</strong>.</p>
-<section id="further-reading-8" class="level4">
-<h4 class="anchored" data-anchor-id="further-reading-8">Further Reading</h4>
-<ul>
-<li><p>Dynamic Function-Oriented Make-Like Declarative Workflows - https://docs.ropensci.org/targets/</p></li>
-<li><p>The targets R Package User Manual - https://books.ropensci.org/targets/</p></li>
-</ul>
-</section>
-<section id="teaching-material-8" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-material-8">Teaching Material</h4>
-<p>Slides can be viewed <a href="https://oxfordihtm.github.io/open-reproducible-science/session9.html">here</a>.</p>
-<p>PDF version of slides can be downloaded <a href="https://oxfordihtm.github.io/open-reproducible-science/pdf/session9-reproducible-scientific-workflows.pdf">here</a>.</p>
-<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session9.Rmd">here</a>.</p>
-</section>
-</section>
-<section id="session-10-making-your-r-based-research-project-portable" class="level3">
-<h3 class="anchored" data-anchor-id="session-10-making-your-r-based-research-project-portable">Session 10: Making your R-based research project portable</h3>
-<p>In this session, a discussion of R code portability, the factors that impact how the R code/script we develop can be used and run successfully by someone else, and the currently available solutions to ensuring portability.</p>
-<p>The final part of the session will the third day of <strong>Hackathon 2024</strong>.</p>
-<section id="further-reading-9" class="level4">
-<h4 class="anchored" data-anchor-id="further-reading-9">Further Reading</h4>
-<ul>
-<li>Introduction to renv - https://rstudio.github.io/renv/articles/renv.html</li>
-</ul>
-</section>
-<section id="teaching-material-9" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-material-9">Teaching Material</h4>
-<p>Slides can be viewed <a href="https://oxford-ihtm.io/open-reproducible-science/session10.html">here</a>.</p>
-<p>PDF version of slides can be downloaded <a href="https://oxford-ihtm.io/open-reproducible-science/pdf/session10-portable-r-projects.pdf">here</a>.</p>
-<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session10.Rmd">here</a></p>
+<p>The module website can be found <a href="https://oxford-ihtm.io/open-reproducible-science">here</a>. The website makes available session information and session slides.</p>
+<!-- ## Key Features of the Module -->
+<!-- 1.  **Introduction to Open Science** -->
+<!-- -   The module begins by introducing the concepts and principles of open science, including the importance of transparency, accessibility, and collaboration in research. -->
+<!-- -   Students learn about the benefits of open science practices, such as increased credibility, easier collaboration, and enhanced reproducibility of research findings. -->
+<!-- 2.  **Reproducibility in Research** -->
+<!-- -   A significant focus of the module is on reproducibility, which refers to the ability of researchers to replicate the results of a study using the same data and methods. -->
+<!-- -   Students are taught the principles of reproducible research and the best practices on how to ensure their findings can be reproduced by others. -->
+<!-- 3.  **Data Management and Documentation** -->
+<!-- -   Proper data management is crucial for reproducible research. The module covers best practices for organizing, documenting, and sharing research data. -->
+<!-- -   Students learn about version control systems (e.g., Git) and how to use them to track changes in their data and code. -->
+<!-- 4.  **Introduction to R** -->
+<!-- -   The module introduces students to the [R](https://www.r-project.org/), a programming language widely used for statistical analysis and data visualisation. -->
+<!-- -   Through hands-on exercises, students learn how to use R for data wrangling, analysis, and visualisation.. -->
+<!-- 5.  **Reproducible Workflows in R** -->
+<!-- -   Students learn how to create reproducible workflows in R using tools like RMarkdown, which allows them to integrate text, code, and output into a single document. -->
+<!-- -   The module emphasizes the importance of automating analyses to reduce errors and ensure that research can be easily updated or reproduced. -->
+<!-- 6.  **Collaboration and Sharing** -->
+<!-- -   The module also covers tools and platforms that facilitate collaboration and sharing in open science, such as [GitHub](https://github.com), [Open Science Framework (OSF)](https://osf.io/), and other repositories. -->
+<!-- -   Students are encouraged to share their code, data, and research outputs openly to contribute to the global scientific community. -->
+<!-- 7.  **Ethical Considerations** -->
+<!-- -   Ethical aspects of open science and reproducible research are discussed, including issues related to data privacy, intellectual property, and the responsible conduct of research. -->
+<!-- 8.  **Application to Global Health and Tropical Medicine** -->
+<!-- -   Throughout the module, there is an emphasis on applying open science and reproducible research practices to the field of global health and tropical medicine. -->
+<!-- -   Students learn how these practices can enhance the quality and impact of research in these areas, particularly in low-resource settings. -->
 
 
-</section>
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -674,7 +460,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine</div>
+    <div class="nav-footer-center">Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/open-reproducible-science.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/blob/main/open-reproducible-science.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action">Report an issue</a></p></div></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
