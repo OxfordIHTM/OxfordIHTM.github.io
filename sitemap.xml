@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://oxford-ihtm.io/open-reproducible-science.html</loc>
+    <lastmod>2024-08-29T07:01:42.103Z</lastmod>
+  </url>
+  <url>
     <loc>https://oxford-ihtm.io/index.html</loc>
-    <lastmod>2024-08-29T02:27:26.220Z</lastmod>
+    <lastmod>2024-08-29T07:01:42.297Z</lastmod>
   </url>
   <url>
     <loc>https://oxford-ihtm.io/projects.html</loc>
-    <lastmod>2024-08-29T02:27:26.410Z</lastmod>
+    <lastmod>2024-08-29T07:01:42.500Z</lastmod>
   </url>
   <url>
-    <loc>https://oxford-ihtm.io/teaching.html</loc>
-    <lastmod>2024-08-29T02:27:26.601Z</lastmod>
+    <loc>https://oxford-ihtm.io/resources.html</loc>
+    <lastmod>2024-08-29T07:01:42.709Z</lastmod>
   </url>
 </urlset>
