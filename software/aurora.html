@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Oxford IHTM CodeHub - Projects</title>
+<title>Oxford IHTM CodeHub - aurora: Interface to the Oxord University Research Archive (ORA) API</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -62,35 +60,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -117,13 +86,11 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-sidebar floating nav-fixed slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -183,7 +150,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Projects</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">aurora: Interface to the Oxord University Research Archive (ORA) API</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -205,11 +172,11 @@ cookieconsent.run({
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">aurora: Interface to the Oxord University Research Archive (ORA) API</h1>
 </div>
 
 
@@ -225,170 +192,19 @@ cookieconsent.run({
 </header>
 
 
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://oxford-ihtm.io/aurora/" data-fig-align="center" width="200px" target="_blank"><img src="../img/aurora.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div></div><p>The <a href="https://ora.ox.ac.uk/">Oxford University Research Archive (ORA)</a> is an Open Access platform and is the institutional repository for the <a href="https://ox.ac.uk">University of Oxford</a>. ORA serves as a permanent and secure online archive of research materials produced by members of the University of Oxford. ORA supports and participates in the Open Archives Initiative (OAI). ORA is a registered OAI-PMH data-provider and provides metadata for all public records which is updated as soon as each record is published or updated. ORA also provides API access to its resources. This package provides low level functions to interface with the <a href="https://ora.ox.ac.uk/api">ORA API</a>.</p>
+<p>For more information on the <code>{aurora}</code> package, you can visit the <a href="https://oxford-ihtm.io/aurora/">project website</a>. To learn about the underlying code for this software development project, see the <a href="https://github.com/OxfordIHTM/aurora">GitHub code repository</a>.</p>
+<p>If you are interested in contributing to this project, please be aware of its <a href="https://oxford-ihtm.io/aurora/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our <a href="https://github.com/OxfordIHTM/aurora/issues">GitHub issues</a> page. If you find something that you can help with, follow these <a href="https://oxford-ihtm.io/aurora/CONTRIBUTING.html">steps on how to contribute</a>.</p>
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1724938557862" data-listing-reading-time-sort="1">
-<a href="../software/africalaws.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../img/lawsafrica.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-africalaws: Interface to the Laws.Africa API
-</h5>
-<div class="card-text listing-description">
-Laws.Africa endeavours to facilitate African governments in offering sustainable, free access to dependable digital laws. It aims to achieve this by ensuring that the laws are easily…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1724937995234" data-listing-reading-time-sort="1">
-<a href="../software/aurora.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../img/aurora.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-aurora: Interface to the Oxord University Research Archive (ORA) API
-</h5>
-<div class="card-text listing-description">
-The Oxford University Research Archive (ORA) is an Open Access platform and is the institutional repository for the University of Oxford. ORA serves as a permanent and secure online archive of research materials produced by members of the University of Oxford. ORA supports and participates in the Open…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1724936416753" data-listing-reading-time-sort="1">
-<a href="../software/codeditr.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../img/codeditr.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool
-</h5>
-<div class="card-text listing-description">
-The World Health Organization’s CoDEdit electronic tool is intended to help producers of cause-of-death statistics in strengthening their capacity to perform routine checks on their data. This package ports the original tool…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1724936541036" data-listing-reading-time-sort="1">
-<a href="../software/codigo.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../img/codigo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-codigo: Interface to the International Classification of Diseases (ICD) API
-</h5>
-<div class="card-text listing-description">
-The International Classification of Diseases (ICD) serves a broad range of uses globally and provides critical knowledge…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1724935329431" data-listing-reading-time-sort="1">
-<a href="../software/oxcgrt.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../img/oxcgrt.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-oxcgrt: An Interface to the Oxford COVID-19 Government Response Tracker API
-</h5>
-<div class="card-text listing-description">
-The [Oxford COVID-19 Government Response Tracker (OxCGRT) tracks and compares worldwide government responses to the COVID-19 pandemic rigorously and consistently. OxCGRT…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1724935154063" data-listing-reading-time-sort="1">
-<a href="../software/oxthema.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../img/oxthema.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-oxthema: Oxford Colours, Palettes, Fonts, and Themes
-</h5>
-<div class="card-text listing-description">
-<code>{oxthema}</code> aims to provide templates, themes, and theme components for colour palettes, typography, and layout compliant with University of Oxford’s visual…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1724937655031" data-listing-reading-time-sort="2">
-<a href="../software/pactr.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../img/pactr.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-pactr: An Interface to the Pandemic PACT Data Repository
-</h5>
-<div class="card-text listing-description">
-The Pandemic PACT monitors and analyses global funding and research evidence related to diseases with pandemic potential, as well as broader research preparedness efforts, and is equipped to…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -628,7 +444,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/projects/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/blob/main/projects/index.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action">Report an issue</a></p></div></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/software/aurora.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/blob/main/software/aurora.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action">Report an issue</a></p></div></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
