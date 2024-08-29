@@ -4,13 +4,6 @@
     "href": "index.html",
     "title": "Oxford IHTM CodeHub",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "The Oxford IHTM CodeHub is an initiative within the MSc in International Health and Tropical Medicine. It serves as a focal point for fostering innovation, research, and education in the field of computational sciences for health.\nThe CodeHub is designed to provide IHTM students with a learning environment for open and reproducible science and its enabling tools and technologies. Through the course’s placement programme, students are then able to leverage this learning in research, design, and development of possible solutions to complete challenges in global health.\nThis initiative also facilitates interdisciplinary collaboration, enabling participants from different fields to work together on innovative projects that can have a real-world impact on healthcare."
   }
 ]
