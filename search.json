@@ -28,6 +28,20 @@
     "text": "The [Oxford COVID-19 Government Response Tracker (OxCGRT) tracks and compares worldwide government responses to the COVID-19 pandemic rigorously and consistently. OxCGRT makes available systematic information in a consistent way, aiding those who require information have access to it efficiently for their purposes. This package facilitates access to the OxCGRT data via its API and includes functions to calculate the various OxCGRT indices in R.\nFor more information on the {oxcgrt} package, you can visit the project website. To learn about the underlying code for this software development project, see the GitHub code repository.\nIf you are interested in contributing to this project, please be aware of its Contributor Code of Conduct. By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our GitHub issues page. If you find something that you can help with, follow these steps on how to contribute."
   },
   {
+    "objectID": "software/codigo.html",
+    "href": "software/codigo.html",
+    "title": "codigo: Interface to the International Classification of Diseases (ICD) API",
+    "section": "",
+    "text": "The International Classification of Diseases (ICD) serves a broad range of uses globally and provides critical knowledge on the extent, causes and consequences of human disease and death worldwide via data that is reported and coded with the ICD. ICD API allows programmatic access to the ICD. It is an HTTP based REST API. This package provides functions that interface with the ICD API.\nFor more information on the {codigo} package, you can visit the project website. To learn about the underlying code for this software development project, see the GitHub code repository.\nIf you are interested in contributing to this project, please be aware of its Contributor Code of Conduct. By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our GitHub issues page. If you find something that you can help with, follow these steps on how to contribute."
+  },
+  {
+    "objectID": "software/codeditr.html",
+    "href": "software/codeditr.html",
+    "title": "codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool",
+    "section": "",
+    "text": "The World Health Organization’s CoDEdit electronic tool is intended to help producers of cause-of-death statistics in strengthening their capacity to perform routine checks on their data. This package ports the original tool built using Microsoft Access into R. The aim is to leverage the utility and function of the original tool into a usable application program interface (API) that can be used for building more universal tools or for creating programmatic scientific workflows aimed at routine, automated, and large-scale monitoring of cause-of-death data.\nFor more information on the {codeditr} package, you can visit the project website. To learn about the underlying code for this software development project, see the GitHub code repository.\nIf you are interested in contributing to this project, please be aware of its Contributor Code of Conduct. By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our GitHub issues page. If you find something that you can help with, follow these steps on how to contribute."
+  },
+  {
     "objectID": "teaching/resources.html",
     "href": "teaching/resources.html",
     "title": "Resources",
@@ -53,6 +67,6 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "oxcgrt: An Interface to the Oxford COVID-19 Government Response Tracker API\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\noxthema: Oxford Colours, Palettes, Fonts, and Themes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncodigo: Interface to the International Classification of Diseases (ICD) API\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\noxcgrt: An Interface to the Oxford COVID-19 Government Response Tracker API\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\noxthema: Oxford Colours, Palettes, Fonts, and Themes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
