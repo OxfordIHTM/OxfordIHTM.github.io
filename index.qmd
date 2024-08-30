@@ -3,7 +3,7 @@ title: ""
 ---
 
 ::: column-margin
-[![](img/ihtm-square.png)](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm)
+[![](/img/ihtm-square.png)](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm){width="150px" target="_blank"}
 :::
 
 The Oxford IHTM CodeHub is an initiative of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm){target="_blank"}. It serves as a focal point within the course for fostering innovation, research, and education in the field of computational sciences for health.

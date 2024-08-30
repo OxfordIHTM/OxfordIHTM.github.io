@@ -8,7 +8,7 @@ website:
   navbar:
     title: "Oxford IHTM CodeHub"
     background: primary
-    logo: https://avatars.githubusercontent.com/u/35218318?s=200&v=4
+    logo: /img/oxford_codehub.png
     logo-alt: Oxford IHTM CodeHub
     tools:
       - icon: github
@@ -25,7 +25,7 @@ website:
       - href: projects/index.qmd
         text: Projects
   sidebar:
-    logo: https://raw.githubusercontent.com/OxfordIHTM/open-reproducible-science/main/images/oxford_codehub.png
+    logo: /img/oxford_codehub.png
     logo-alt: Oxford IHTM CodeHub
   page-footer: 
     center: "Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine" 
@@ -54,5 +54,3 @@ format:
       margin-width: 250px
       gutter-width: 1.5rem
     toc: true
-
-editor: visual
