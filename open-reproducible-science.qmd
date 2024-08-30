@@ -2,9 +2,9 @@
 title: "Open Science and Reproducible Research in R"
 ---
 
-The **Open Science and Reproducible Research in R** module of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm) is designed to equip students with the skills and knowledge necessary to conduct research that is transparent, [reproducible](https://book.the-turing-way.org/), and in line with the principles of [open science](https://www.unesco.org/en/open-science).
+The **Open Science and Reproducible Research in R** module of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm){target="_blank"} is designed to equip students with the skills and knowledge necessary to conduct research that is transparent, [reproducible](https://book.the-turing-way.org/){target="_blank"}, and in line with the principles of [open science](https://www.unesco.org/en/open-science){target="_blank"}.
 
-The module website can be found [here](https://oxford-ihtm.io/open-reproducible-science). The website makes available session information and session slides.
+The module website can be found [here](https://oxford-ihtm.io/open-reproducible-science){target="_blank"}. The website makes available session information and session slides.
 
 <!-- ## Key Features of the Module -->
 
@@ -53,5 +53,3 @@ The module website can be found [here](https://oxford-ihtm.io/open-reproducible-
 <!-- -   Throughout the module, there is an emphasis on applying open science and reproducible research practices to the field of global health and tropical medicine. -->
 
 <!-- -   Students learn how these practices can enhance the quality and impact of research in these areas, particularly in low-resource settings. -->
-
-

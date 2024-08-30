@@ -4,8 +4,15 @@ image: ../img/pactr.png
 ---
 
 ::: column-margin
-[![](../img/pactr.png)](https://oxford-ihtm.io/pactr/){fig-align="center" width="200px" target="_blank"}
-::: 
+[![](../img/pactr.png)](https://oxford-ihtm.io/pactr/)
+:::
+
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) 
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) 
+[![R-CMD-check](https://github.com/OxfordIHTM/pactr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/OxfordIHTM/pactr/actions/workflows/R-CMD-check.yaml) [![test-coverage.yaml](https://github.com/OxfordIHTM/pactr/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/OxfordIHTM/pactr/actions/workflows/test-coverage.yaml) 
+[![Codecov test coverage](https://codecov.io/gh/OxfordIHTM/pactr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/OxfordIHTM/pactr?branch=main) 
+[![CodeFactor](https://www.codefactor.io/repository/github/OxfordIHTM/pactr/badge)](https://www.codefactor.io/repository/github/OxfordIHTM/pactr) 
+[![DOI](https://zenodo.org/badge/847474685.svg)](https://zenodo.org/badge/latestdoi/847474685)
 
 The [Pandemic PACT](https://www.pandemicpact.org/) monitors and analyses global funding and research evidence related to diseases with pandemic potential, as well as broader research preparedness efforts, and is equipped to pivot in response to outbreaks. It collects, curates, codes, and analyses data in alignment with WHO priority diseases and other selected illnesses, including pandemic influenza, mpox, and plague. Pandemic PACT aims to guide policy and decision-making for research funders, policymakers, researchers, multilateral agencies. The Pandemic PACT data is publicly available for download from its [website](https://www.pandemicpact.org/) and from [Figshare](https://portal.sds.ox.ac.uk/pandemicpact). This package provides an application programming interface (API) to the research programme's [Figshare](https://portal.sds.ox.ac.uk/pandemicpact) repository to provide programmatic access to its publicly available tracker data along with it's other data products.
 

@@ -4,8 +4,14 @@ image: ../img/aurora.png
 ---
 
 ::: column-margin
-[![](../img/aurora.png)](https://oxford-ihtm.io/aurora/){fig-align="center" width="200px" target="_blank"}
+[![](../img/aurora.png)](https://oxford-ihtm.io/aurora/)
 :::
+
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) 
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) 
+[![R-CMD-check](https://github.com/OxfordIHTM/ourora/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/OxfordIHTM/ourora/actions/workflows/R-CMD-check.yaml) 
+[![Codecov test coverage](https://codecov.io/gh/OxfordIHTM/ourora/branch/main/graph/badge.svg)](https://app.codecov.io/gh/OxfordIHTM/ourora?branch=main) 
+[![CodeFactor](https://www.codefactor.io/repository/github/oxfordihtm/aurora/badge)](https://www.codefactor.io/repository/github/oxfordihtm/aurora)
 
 The [Oxford University Research Archive (ORA)](https://ora.ox.ac.uk/) is an Open Access platform and is the institutional repository for the [University of Oxford](https://ox.ac.uk). ORA serves as a permanent and secure online archive of research materials produced by members of the University of Oxford. ORA supports and participates in the Open Archives Initiative (OAI). ORA is a registered OAI-PMH data-provider and provides metadata for all public records which is updated as soon as each record is published or updated. ORA also provides API access to its resources. This package provides low level functions to interface with the [ORA API](https://ora.ox.ac.uk/api).
 

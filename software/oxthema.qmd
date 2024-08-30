@@ -4,9 +4,15 @@ image: ../img/oxthema.png
 ---
 
 ::: column-margin
-[![](../img/oxthema.png)](https://oxford-ihtm.io/oxthema/){fig-align="center" width="200px" target="_blank"}
+[![](../img/oxthema.png)](https://oxford-ihtm.io/oxthema/)
 :::
 
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) 
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable) 
+[![R-CMD-check](https://github.com/OxfordIHTM/oxthema/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/OxfordIHTM/oxthema/actions/workflows/R-CMD-check.yaml) [![test-coverage](https://github.com/OxfordIHTM/oxthema/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/OxfordIHTM/oxthema/actions/workflows/test-coverage.yaml) 
+[![Codecov test coverage](https://codecov.io/gh/OxfordIHTM/oxthema/branch/main/graph/badge.svg)](https://app.codecov.io/gh/OxfordIHTM/oxthema?branch=main) 
+[![CodeFactor](https://www.codefactor.io/repository/github/oxfordihtm/oxthema/badge)](https://www.codefactor.io/repository/github/oxfordihtm/oxthema) 
+[![DOI](https://zenodo.org/badge/711630340.svg)](https://zenodo.org/doi/10.5281/zenodo.10721129)
 
 `{oxthema}` aims to provide templates, themes, and theme components for colour palettes, typography, and layout compliant with [University of Oxford](https://ox.ac.uk)’s visual identity guidelines for use in the [R](https://r-project.org) language for statistical computing graphics and publishing ecosystem.
 
