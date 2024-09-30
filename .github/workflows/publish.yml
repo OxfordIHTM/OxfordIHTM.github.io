@@ -14,14 +14,14 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
       - name: Install system dependencies
         run: |
           apt-get update && apt-get install -y --no-install-recommends \
           imagemagick libmagick++-dev gsfonts libcurl4-openssl-dev \
           libssl-dev
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install R
         uses: r-lib/actions/setup-r@v2
