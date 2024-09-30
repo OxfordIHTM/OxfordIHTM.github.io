@@ -9,7 +9,7 @@ listing:
     - "software/*.qmd"
   type: grid
   image-height: 400px
-  image-placeholder: images/ihealth_square.png
+  image-placeholder: images/ihealth_base_pos_tn.png
   grid-item-border: false
   max-items: 3
 ---
