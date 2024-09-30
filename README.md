@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 ![License for code](https://img.shields.io/badge/license_for_code-GPL3.0-blue)
-![License for text](https://img.shields.io/badge/license_for_writing-CC_BY_4.0-blue)
+![License for writing](https://img.shields.io/badge/license_for_writing-CC_BY_4.0-blue)
 <!-- badges: end -->
 
 
@@ -14,7 +14,7 @@ This initiative also facilitates interdisciplinary collaboration, enabling parti
 
 ## About this repository
 
-This repository builds and serves the Oxford iHealth [website](https://oxford-ihtm.io) which is designed and coded using [R](https://r-project.org) language and environment for statistical computing and [Quarto](https://quarto.org) which is an open source tool for scientific and technical publishing system.
+This repository builds and serves the Oxford iHealth [website](https://oxford-ihtm.io) which is designed and coded using [R](https://r-project.org) language and environment for statistical computing and [Quarto](https://quarto.org), an open source scientific and technical publishing system.
 
 
 ## Authors and developers
