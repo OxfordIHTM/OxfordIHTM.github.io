@@ -19,7 +19,7 @@ jobs:
         run: |
           apt-get update && apt-get install -y --no-install-recommends \
           imagemagick libmagick++-dev gsfonts libcurl4-openssl-dev \
-          libssl-dev
+          libssl-dev gh
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
