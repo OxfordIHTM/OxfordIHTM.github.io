@@ -1,10 +1,10 @@
 ---
 title: "codigo: Interface to the International Classification of Diseases (ICD) API"
-image: ../img/codigo.png
+image: ../images/codigo.png
 ---
 
 ::: column-margin
-[![](../img/codigo.png)](https://oxford-ihtm.io/codigo/)
+[![](../images/codigo.png)](https://oxford-ihtm.io/codigo/)
 :::
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) 

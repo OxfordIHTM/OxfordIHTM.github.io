@@ -1,10 +1,10 @@
 ---
 title: "codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool"
-image: ../img/codeditr.png
+image: ../images/codeditr.png
 ---
 
 ::: column-margin
-[![](../img/codeditr.png)](https://oxford-ihtm.io/codeditr.png)
+[![](../images/codeditr.png)](https://oxford-ihtm.io/codeditr.png)
 :::
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) 

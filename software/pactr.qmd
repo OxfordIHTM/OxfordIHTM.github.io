@@ -1,10 +1,10 @@
 ---
 title: "pactr: An Interface to the Pandemic PACT Data Repository"
-image: ../img/pactr.png
+image: ../images/pactr.png
 ---
 
 ::: column-margin
-[![](../img/pactr.png)](https://oxford-ihtm.io/pactr/)
+[![](../images/pactr.png)](https://oxford-ihtm.io/pactr/)
 :::
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) 

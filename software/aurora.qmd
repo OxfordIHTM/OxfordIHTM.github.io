@@ -1,10 +1,10 @@
 ---
 title: "aurora: Interface to the Oxord University Research Archive (ORA) API"
-image: ../img/aurora.png
+image: ../images/aurora.png
 ---
 
 ::: column-margin
-[![](../img/aurora.png)](https://oxford-ihtm.io/aurora/)
+[![](../images/aurora.png)](https://oxford-ihtm.io/aurora/)
 :::
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) 

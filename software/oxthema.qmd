@@ -1,10 +1,10 @@
 ---
 title: "oxthema: Oxford Colours, Palettes, Fonts, and Themes"
-image: ../img/oxthema.png
+image: ../images/oxthema.png
 ---
 
 ::: column-margin
-[![](../img/oxthema.png)](https://oxford-ihtm.io/oxthema/)
+[![](../images/oxthema.png)](https://oxford-ihtm.io/oxthema/)
 :::
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) 
