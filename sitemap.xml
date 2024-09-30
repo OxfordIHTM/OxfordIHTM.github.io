@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://oxford-ihtm.io/projects/index.html</loc>
+    <lastmod>2024-09-30T10:45:31.689Z</lastmod>
+  </url>
+  <url>
     <loc>https://oxford-ihtm.io/software/codigo.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
+    <lastmod>2024-09-30T10:45:31.689Z</lastmod>
   </url>
   <url>
     <loc>https://oxford-ihtm.io/software/pactr.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/software/africalaws.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
+    <lastmod>2024-09-30T10:45:31.690Z</lastmod>
   </url>
   <url>
     <loc>https://oxford-ihtm.io/software/aurora.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/projects/index.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/teaching/resources.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/open-reproducible-science.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/index.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/software/codeditr.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/software/oxthema.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
+    <lastmod>2024-09-30T10:45:31.689Z</lastmod>
   </url>
   <url>
     <loc>https://oxford-ihtm.io/software/oxcgrt.html</loc>
-    <lastmod>2024-09-01T23:55:39.950Z</lastmod>
+    <lastmod>2024-09-30T10:45:31.689Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oxford-ihtm.io/index.html</loc>
+    <lastmod>2024-09-30T10:45:31.688Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oxford-ihtm.io/open-reproducible-science.html</loc>
+    <lastmod>2024-09-30T10:45:31.688Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oxford-ihtm.io/software/codeditr.html</loc>
+    <lastmod>2024-09-30T10:45:31.689Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oxford-ihtm.io/software/africalaws.html</loc>
+    <lastmod>2024-09-30T10:45:31.689Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oxford-ihtm.io/software/oxthema.html</loc>
+    <lastmod>2024-09-30T10:45:31.689Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oxford-ihtm.io/teaching/resources.html</loc>
+    <lastmod>2024-09-30T10:45:31.690Z</lastmod>
   </url>
 </urlset>
