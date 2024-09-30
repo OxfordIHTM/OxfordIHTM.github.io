@@ -1,10 +1,10 @@
 ---
 title: "oxcgrt: An Interface to the Oxford COVID-19 Government Response Tracker API"
-image: ../img/oxcgrt.png
+image: ../images/oxcgrt.png
 ---
 
 ::: column-margin
-[![](../img/oxcgrt.png)](https://oxford-ihtm.io/oxcgrt/)
+[![](../images/oxcgrt.png)](https://oxford-ihtm.io/oxcgrt/)
 :::
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) 

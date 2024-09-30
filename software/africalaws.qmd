@@ -1,10 +1,10 @@
 ---
 title: "africalaws: Interface to the Laws.Africa API"
-image: ../img/lawsafrica.png
+image: ../images/lawsafrica.png
 ---
 
 ::: column-margin
-[![](../img/lawsafrica.png)](https://oxford-ihtm.io/africalaws/)
+[![](../images/lawsafrica.png)](https://oxford-ihtm.io/africalaws/)
 :::
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) 
