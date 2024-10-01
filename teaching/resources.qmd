@@ -6,7 +6,7 @@ title: "Resources"
 
 Here is a quick guide of the various learning resources produced and/or managed by the course/module that are available to IHTM students and alumni.
 
-* [Oxford IHTM CodeHub Handbook](https://oxford-ihtm.io/handbook)
+* [Oxford IHTM CodeHub Handbook](https://oxford-ihtm.io/ihtm-handbook)
 
 This handbook provides detailed guides to common and frequently asked questions regarding tools, techniques, and workarounds that we use/implement when using R, RStudio, and git. This handbook is not a guide for writing code but a guide to using the R, RStudio, and git toolkit.
 
