@@ -199,6 +199,13 @@
   text-align: center;
 }
 
+.project-banner {
+  position: relative;
+  background-color: rgb(240,245,249);
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 575px) {
   .link-cards .card {
     margin-bottom: 20px;
