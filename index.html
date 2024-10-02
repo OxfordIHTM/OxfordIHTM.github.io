@@ -73,34 +73,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-themes .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-themes'] = new List('listing-themes', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-featured-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -269,78 +241,42 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<div class="project-banner">
 <section id="oxford-ihealth-is-about" class="info-block">
 <h1>Oxford iHealth is about</h1>
-<div id="listing-themes" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727876545339" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
-<a href="./themes/information.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./images/information.png" class="thumbnail-image card-img" style="height: 375px;">
-</p>
-<div class="card-body post-contents">
-<div class="card-text listing-description">
-Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global health
+<div class="grid">
+<div class="g-col-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/information.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
 </div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
+<p>Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global health</p>
 </div>
+<div class="g-col-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/innovation.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
 </div>
+<p>State-of-the-science analytic and computational workflows that are open and reproducible</p>
 </div>
+<div class="g-col-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/impact.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727876545339" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
-<a href="./themes/innovation.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./images/innovation.png" class="thumbnail-image card-img" style="height: 375px;">
-</p>
-<div class="card-body post-contents">
-<div class="card-text listing-description">
-State-of-the-science analytic and computational workflows that are open and reproducible
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727876545339" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
-<a href="./themes/impact.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./images/impact.png" class="thumbnail-image card-img" style="height: 375px;">
-</p>
-<div class="card-body post-contents">
-<div class="card-text listing-description">
-Discoveries that impact on global health and measures that assess global health impact
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
+<p>Discoveries that impact on global health and measures that assess global health impact</p>
 </div>
 </div>
 </section>
+</div>
 <section id="featured-projects" class="info-block">
 <h1>Featured projects</h1>
 <div id="listing-featured-projects" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727876545338" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727881538469" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
 <a href="./software/africalaws.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -362,7 +298,7 @@ africalaws: Interface to the Laws.Africa API
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727876545338" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727881538469" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
 <a href="./software/aurora.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -384,7 +320,7 @@ aurora: Interface to the Oxord University Research Archive (ORA) API
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727876545338" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727881538469" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
 <a href="./software/codeditr.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">

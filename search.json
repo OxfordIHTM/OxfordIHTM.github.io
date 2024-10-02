@@ -35,27 +35,6 @@
     "text": "The Oxford COVID-19 Government Response Tracker (OxCGRT) tracks and compares worldwide government responses to the COVID-19 pandemic rigorously and consistently. OxCGRT makes available systematic information in a consistent way, aiding those who require information have access to it efficiently for their purposes. This package facilitates access to the OxCGRT data via its API and includes functions to calculate the various OxCGRT indices in R.\nFor more information on the {oxcgrt} package, you can visit the project website. To learn about the underlying code for this software development project, see the GitHub code repository.\nIf you are interested in contributing to this project, please be aware of its Contributor Code of Conduct. By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our GitHub issues page. If you find something that you can help with, follow these steps on how to contribute."
   },
   {
-    "objectID": "themes/impact.html",
-    "href": "themes/impact.html",
-    "title": "Oxford iHealth",
-    "section": "",
-    "text": "Discoveries that impact on global health and measures that assess global health impact"
-  },
-  {
-    "objectID": "themes/information.html",
-    "href": "themes/information.html",
-    "title": "Oxford iHealth",
-    "section": "",
-    "text": "Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global health"
-  },
-  {
-    "objectID": "themes/innovation.html",
-    "href": "themes/innovation.html",
-    "title": "Oxford iHealth",
-    "section": "",
-    "text": "State-of-the-science analytic and computational workflows that are open and reproducible"
-  },
-  {
     "objectID": "open-reproducible-science.html",
     "href": "open-reproducible-science.html",
     "title": "Open and Reproducible Science in R",

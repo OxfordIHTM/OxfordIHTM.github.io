@@ -23,15 +23,6 @@
   }
 }
 
-.info-block h3 {
-  text-align: center;
-}
-
-.info-block h1 {
-  color: #39729E;
-  text-align: center;
-}
-
 .hero-banner {
   position: relative;
   background-color: rgb(240,245,249);
@@ -174,7 +165,6 @@
   margin-right: 30px;
 }
 
-
 @media(min-width: 900px) {
   .info-block {
     margin-left: 50px;
@@ -201,7 +191,7 @@
 
 .project-banner {
   position: relative;
-  background-color: rgb(240,245,249);
+  background-color: rgb(228,240,239);
   display: flex;
   justify-content: center;
 }
