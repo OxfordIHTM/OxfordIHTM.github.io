@@ -48,13 +48,13 @@ This initiative also facilitates interdisciplinary collaboration, enabling parti
 
 ::: {.info-block}
 
-# Oxford iHealth is about
+# Oxford iHealth is
 
 ::: {.grid}
 
 ::: {.g-col-4}
 
-![](images/information.png){fig-align="center"}
+![](images/insight.png){fig-align="center"}
 
 Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global health
 :::

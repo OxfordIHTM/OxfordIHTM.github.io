@@ -6,8 +6,8 @@ website:
   title: Oxford iHealth
   site-url: https://oxford-ihtm.io/
   navbar:
-    title: "Oxford iHealth"
-    background: primary
+    title: Oxford iHealth
+    background: info
     logo: images/ihealth_base_pos.png
     logo-alt: Oxford iHealth
     tools:
@@ -45,7 +45,7 @@ website:
   
 format:
   html:
-    theme: litera
+    theme: journal
     css: styles.css
     # grid:
     #   sidebar-width: 250px
