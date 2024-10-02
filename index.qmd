@@ -4,15 +4,7 @@ page-layout: custom
 section-divs: false
 toc: false
 listing:
-  - id: featured-projects
-    contents:
-      - "software/*.qmd"
-    type: grid
-    image-height: 400px
-    image-placeholder: images/ihealth_base_pos_tn.png
-    grid-item-border: false
-    max-items: 3
-  - id: topics
+  - id: themes
     contents:
       - "themes/information.qmd"
       - "themes/innovation.qmd"
@@ -21,6 +13,14 @@ listing:
     type: grid
     image-height: 375px
     image-placeholder: images/health_base_pos_tn.png
+    grid-item-border: false
+    max-items: 3
+  - id: featured-projects
+    contents:
+      - "software/*.qmd"
+    type: grid
+    image-height: 400px
+    image-placeholder: images/ihealth_base_pos_tn.png
     grid-item-border: false
     max-items: 3
 ---
@@ -56,16 +56,16 @@ This initiative also facilitates interdisciplinary collaboration, enabling parti
 :::
 
 
-::: {.content-block}
+::: {.info-block}
 
-::: {#topics}
+::: {#themes}
 :::
 
 :::
 
 
 
-::: {.content-block}
+::: {.info-block}
 
 # Featured projects
 
