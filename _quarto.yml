@@ -24,9 +24,9 @@ website:
             text: Learning Resources
       - href: projects/index.qmd
         text: Projects
-  sidebar:
-    logo: images/ihealth_base_pos.png
-    logo-alt: Oxford iHealth
+  # sidebar:
+  #   logo: images/ihealth_base_pos.png
+  #   logo-alt: Oxford iHealth
   page-footer: 
     center: "Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine" 
     background: light
@@ -47,10 +47,9 @@ format:
   html:
     theme: litera
     css: styles.css
-    #page-layout: full
-    grid:
-      sidebar-width: 250px
-      body-width: 900px
-      margin-width: 250px
-      gutter-width: 1.5rem
+    # grid:
+    #   sidebar-width: 250px
+    #   body-width: 900px
+    #   margin-width: 250px
+    #   gutter-width: 1.5rem
     toc: true

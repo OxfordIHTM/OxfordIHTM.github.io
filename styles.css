@@ -158,6 +158,28 @@
   padding-bottom: 0.4rem;
 }
 
+.info-grid {
+  position: relative;
+  background-color: rgb(228, 240, 239);
+  display: flex;
+  justify-content: center;
+}
+
+.info-grid .info-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.info-grid h3 {
+  text-align: center;
+}
+
+.info-grid .info-card a {
+  display: block;
+  text-align: center;
+}
 
 @media (max-width: 575px) {
   .link-cards .card {
