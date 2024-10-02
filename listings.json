@@ -14,16 +14,16 @@
   {
     "listing": "/index.html",
     "items": [
+      "/themes/information.html",
+      "/themes/innovation.html",
+      "/themes/impact.html",
       "/software/africalaws.html",
       "/software/aurora.html",
       "/software/codeditr.html",
       "/software/codigo.html",
       "/software/oxcgrt.html",
       "/software/oxthema.html",
-      "/software/pactr.html",
-      "/themes/information.html",
-      "/themes/innovation.html",
-      "/themes/impact.html"
+      "/software/pactr.html"
     ]
   }
 ]
