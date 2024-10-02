@@ -98,6 +98,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-topics .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-topics'] = new List('listing-topics', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PSJXMNM72F"></script>
 
@@ -160,7 +188,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar nav-fixed fullcontent">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -227,10 +255,10 @@ window.Quarto = {
 
 <div class="hero-banner">
 <div class="content-block">
-<section id="this-is-oxford-ihealth" class="hero-text">
-<h1>This is Oxford iHealth</h1>
-<p><strong>Oxford iHealth</strong> is an initiative of the <a href="https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm" target="_blank">MSc in International Health and Tropical Medicine</a>. It serves as a focal point within the course for fostering innovation, research, and education in the field of computational sciences for health.</p>
-<p><strong>Oxford iHealth</strong> is designed to provide MSc IHTM students with a learning environment for open and reproducible science and its enabling tools and technologies. Through various data and coding projects and the course’s <a href="https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm/ihtm-research-placements" target="_blank">research placement programme</a>, students are then able to leverage this learning in research, design, and development of possible solutions to complex challenges in global health.</p>
+<section id="welcome-to-oxford-ihealth" class="hero-text">
+<h1>Welcome to Oxford iHealth</h1>
+<p><strong>Oxford iHealth</strong> is an initiative of the <a href="https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm" target="_blank">MSc in International Health and Tropical Medicine</a>. It serves as a focal point within the course for fostering innovation, research, and education in the field of computational sciences for global health.</p>
+<p><strong>Oxford iHealth</strong> is designed to provide IHTM students with a learning environment for open and reproducible science and its enabling tools and technologies. Through various data and coding projects and the course’s <a href="https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm/ihtm-research-placements" target="_blank">research placement programme</a>, students are then able to leverage this learning in research, design, and development of possible solutions to complex challenges in global health.</p>
 <p>This initiative also facilitates interdisciplinary collaboration, enabling participants from different fields to work together on innovative projects that can have a real-world impact on global health.</p>
 <!-- ::: {.hero-buttons} -->
 <!-- [Projects](/docs/projects/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"} -->
@@ -241,11 +269,77 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<div class="content-block">
+<div id="listing-topics" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727872911026" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<a href="./themes/information.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="./images/information.png" class="thumbnail-image card-img" style="height: 375px;">
+</p>
+<div class="card-body post-contents">
+<div class="card-text listing-description">
+Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727872911026" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<a href="./themes/innovation.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="./images/innovation.png" class="thumbnail-image card-img" style="height: 375px;">
+</p>
+<div class="card-body post-contents">
+<div class="card-text listing-description">
+State-of-the-science analytic and computational workflows that are open and reproducible
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727872911026" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<a href="./themes/impact.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="./images/impact.png" class="thumbnail-image card-img" style="height: 375px;">
+</p>
+<div class="card-body post-contents">
+<div class="card-text listing-description">
+Discoveries that impact on global health and measures that assess global health impact
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
 <section id="featured-projects" class="content-block">
 <h1>Featured projects</h1>
 <div id="listing-featured-projects" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727803502640" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727872911025" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
 <a href="./software/africalaws.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -267,7 +361,7 @@ africalaws: Interface to the Laws.Africa API
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727803502640" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727872911025" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
 <a href="./software/aurora.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -289,7 +383,7 @@ aurora: Interface to the Oxord University Research Archive (ORA) API
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727803502640" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727872911025" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
 <a href="./software/codeditr.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
