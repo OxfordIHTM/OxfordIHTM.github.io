@@ -1,6 +1,7 @@
 ---
 title: ""
-image: ../images/impact.png
+description: "Discoveries that impact on global health and measures that assess global health impact"
+image: "../images/impact.png"
 ---
 
-Discoveries that impact on global health and measures that assess global health impact
+
