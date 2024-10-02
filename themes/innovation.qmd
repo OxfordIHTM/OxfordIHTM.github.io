@@ -1,6 +1,7 @@
 ---
 title: ""
-image: ../images/innovation.png
+description: "State-of-the-science analytic and computational workflows that are open and reproducible"
+image: "../images/innovation.png"
 ---
 
-State-of-the-science analytic and computational workflows that are open and reproducible
+

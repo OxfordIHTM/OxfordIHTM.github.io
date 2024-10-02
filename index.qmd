@@ -4,17 +4,6 @@ page-layout: custom
 section-divs: false
 toc: false
 listing:
-  - id: themes
-    contents:
-      - "themes/information.qmd"
-      - "themes/innovation.qmd"
-      - "themes/impact.qmd"
-    sort: false
-    type: grid
-    image-height: 375px
-    image-placeholder: images/health_base_pos_tn.png
-    grid-item-border: false
-    max-items: 3
   - id: featured-projects
     contents:
       - "software/*.qmd"
@@ -55,12 +44,35 @@ This initiative also facilitates interdisciplinary collaboration, enabling parti
 
 :::
 
+::: {.project-banner}
 
 ::: {.info-block}
 
 # Oxford iHealth is about
 
-::: {#themes}
+::: {.grid}
+
+::: {.g-col-4}
+
+![](images/information.png){fig-align="center"}
+
+Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global health
+:::
+
+::: {.g-col-4}
+![](images/innovation.png){fig-align="center"}
+
+State-of-the-science analytic and computational workflows that are open and reproducible
+:::
+
+::: {.g-col-4}
+![](images/impact.png){fig-align="center"}
+
+Discoveries that impact on global health and measures that assess global health impact
+:::
+
+:::
+
 :::
 
 :::

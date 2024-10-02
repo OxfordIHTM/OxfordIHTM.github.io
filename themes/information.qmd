@@ -1,6 +1,7 @@
 ---
 title: ""
-image: ../images/information.png
+description: "Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global health"
+image: "../images/information.png"
 ---
 
-Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global health
+
