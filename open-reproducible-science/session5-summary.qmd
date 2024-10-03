@@ -1,0 +1,20 @@
+---
+title: "Session 5: Creating basic R workflows and literate programming"
+subtitle: Basics of project-oriented workflows
+---
+
+In this session, the students will be taught and guided through creating basic R workflows with a focus on using a project-oriented approach in building scientific analysis workflows. The students will then be introduced to literate programming in R and the tools, packages, and techniques used to convert raw code workflows into those that combine content and data analysis code.
+
+## Further Reading
+
+-   Bryan J and Hester J. Project-oriented workflow. In *What they forgot to teach you about R*. https://rstats.wtf/project-oriented-workflow.html
+
+-   Shepperd M. Literate programming and RMarkdown. In *CS5701 Modern Data Book*. https://bookdown.org/martin_shepperd/ModernDataBook/C3-Literate.html
+
+## Teaching Material
+
+Slides can be viewed [here](https://oxford-ihtm.io/open-reproducible-science/session5.html).
+
+PDF version of slides can be downloaded [here](https://oxford-ihtm.io/open-reproducible-science/pdf/session5-literate-programming.pdf).
+
+R scripts for slides available [here](https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session5.Rmd).

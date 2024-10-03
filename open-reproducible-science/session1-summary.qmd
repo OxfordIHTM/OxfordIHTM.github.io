@@ -1,0 +1,26 @@
+---
+title: "Session 1: Getting the right tools for the job"
+subtitle: Introduction to R, RStudio, and GitHub
+image: "https://cran.r-project.org/Rlogo.svg"
+---
+
+Using the right tools for the job is critical for success in any endeavour. In scientific research, specifically with scientific analysis, R is widely used by researchers from diverse disciplines to estimate and display results and by teachers of statistics and research methods. One of the most powerful characteristics of R is that it is open-source, meaning anyone can access the underlying code used to run the program and add their own code for free. Along with R, other tools facilitate/potentiate the benefits of using R.
+
+In this session, we will introduce a basic set of tools that maximises the effectiveness of R for scientific research. Students will be given a basic introduction to [R](https://cran.r-project.org){target="_blank"}, [RStudio](https://posit.co/products/open-source/rstudio/){target="_blank"}, and to [git](https://git-scm.com/){target="_blank"} and [GitHub](https://github.com){target="_blank"}. The students will also be guided and facilitated in installing and setting up each of these tools in the way that is considered best practice for scientific research purposes.
+
+## Further Reading
+
+-   Grolemund G. (2014). Installing R and RStudio. In *Hands-on programming with R : write your own functions and simulations*. [online](https://rstudio-education.github.io/hopr/starting.html){target="_blank"}
+
+-   Bryan J. and Hester J. Installing git and creating a GitHub account. In *Happy Git and GitHub for the useR* [online](https://happygitwithr.com/install-intro.html){target="_blanks"}
+
+-   R-Ladies Sydney. BasicBasics1: An opinionated tour of RStudio. [online](https://rladiessydney.org/courses/ryouwithme/01-basicbasics-1/){target="_blank"}
+
+## Teaching Material
+
+Slides can be viewed [here](https://oxford-ihtm.io/open-reproducible-science/session1.html){target="_blank"}.
+
+PDF version of slides can be downloaded [here](https://oxford-ihtm.io/open-reproducible-science/pdf/session1-getting-the-right-tools.pdf){target="_blank"}.
+
+R scripts for slides available [here](https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session1.Rmd){target="_blank"}.
+

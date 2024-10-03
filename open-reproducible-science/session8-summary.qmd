@@ -1,0 +1,21 @@
+---
+title: "Session 8: Reproducible scientific workflows in R - Part 1"
+subtitle: "Introduction to the {targets} package"
+---
+
+In this session, a discussion of best practices on reproducible scientific workflows and an introduction to using the `{targets}` to implemenet these workflows. The final part of the session will be the first day of **Hackathon 2025**.
+
+## Further Reading
+
+-   Dynamic Function-Oriented Make-Like Declarative Workflows - https://docs.ropensci.org/targets/
+
+-   The targets R Package User Manual - https://books.ropensci.org/targets/
+
+## Teaching Material
+
+Slides can be viewed [here](https://oxford-ihtm.io/open-reproducible-science/session8.html).
+
+PDF version of slides can be downloaded [here](https://oxford-ihtm.io/open-reproducible-science/pdf/session8-reproducible-scientific-workflows.pdf).
+
+R scripts for slides available [here](https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session8.Rmd).
+

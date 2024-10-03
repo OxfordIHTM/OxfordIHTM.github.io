@@ -1,0 +1,22 @@
+---
+title: "Session 2: Learning the basics of R - Part 1"
+subtitle: "R through the user interface of RStudio"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/RStudio_logo_flat.svg/320px-RStudio_logo_flat.svg.png"
+---
+
+In this session, a discussion on the current state of "data" in general and how this translates to *global health data* specifically. This discussion will then be linked to how the use of R can facilitate and support researchers in computing and statistical analysis. The final part of the session will be focused on a data exercise using R based on Exercise 1 found in the [Practical R for Epidemiologists](https://practical-r.org).
+
+## Further Reading
+
+-   Grolemund G. (2014). Loading and Saving Data in R. In *Hands-on programming with R : write your own functions and simulations*. https://rstudio-education.github.io/hopr/dataio.html
+
+-   Myatt M. Exercise 1 - Getting acquainted with R. In *Practical R for Epidemiologists*. https://practical-r.org/exercise1.html
+
+## Teaching Material
+
+Slides can be viewed [here](https://oxford-ihtm.io/open-reproducible-science/session2.html).
+
+PDF version of slides can be downloaded [here](https://oxford-ihtm.io/open-reproducible-science/pdf/session2-r-basics-part1.pdf).
+
+R scripts for slides available [here](https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session2.Rmd).
+

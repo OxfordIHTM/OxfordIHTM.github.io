@@ -1,0 +1,21 @@
+---
+title: "Session 4: Learning the basics of R - Part 3"
+subtitle: "Creating your own functions: Introducing functional programming"
+---
+
+In this session, the students will be introduced to functions in R and how they can be used to extend the functionalities of R. The students will be introduced to what functions are and how to create their own functions for specific computing and statistical analysis tasks that they require.
+
+## Further Reading
+
+-   Wickham H and Grolemund G. Functions. In *R for Data Science*. https://r4ds.had.co.nz/functions.html
+
+-   Myatt M. Exercise 2 - Manipulating objects and creating new functions. In *Practical R for Epidemiologists*. https://practical-r.org/exercise2.html
+
+## Teaching Material
+
+Slides can be viewed [here](https://oxford-ihtm.io/open-reproducible-science/session4.html).
+
+PDF version of slides can be downloaded [here](https://oxford-ihtm.io/open-reproducible-science/pdf/session4-r-basics-part3.pdf).
+
+R scripts for slides available [here](https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session4.Rmd).
+
