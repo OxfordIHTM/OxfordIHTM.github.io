@@ -1,0 +1,17 @@
+---
+title: iHealth Stories
+subtitle: News, announcements, guides, and everything else
+page-layout: full
+listing:
+  contents: stories
+  sort: "date desc"
+  type: default
+  categories: true
+  date-format: "DD MMM YYYY"
+  image-placeholder: images/ihealth_base_inline.png
+title-block-banner: "#E4F0EF"
+title-block-banner-color: "#7F055F"
+search: false
+image: images/ihealth_base_pos_tn.png
+---
+
