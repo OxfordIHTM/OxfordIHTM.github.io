@@ -1,0 +1,15 @@
+format:
+  html:
+    grid:
+      sidebar-width: 250px
+      body-width: 1000px
+      margin-width: 300px
+      gutter-width: 1.5rem
+title-block-banner: "#E4F0EF"
+title-block-banner-color: "#7F055F"
+search: false
+date-format: "DD MMM YYYY"
+image-placeholder: ../images/ihealth_base_inline.png
+comments:
+  giscus: 
+    repo: OxfordIHTM/oxford-ihtm-forum
