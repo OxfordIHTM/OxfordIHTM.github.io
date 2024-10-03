@@ -1,0 +1,22 @@
+---
+title: "Session 7: Git and GitHub for use with R"
+subtitle: "Tools for versioning and sharing research"
+---
+
+In this session, an overview of git and GitHub will be discussed along with their integration with R using RStudio. This will then be followed by a practical session to guide learners on setting up git and GitHub onto their personal machines culminating in the learners accessing their first assignment in GitHub Classroom.
+
+## Further Reading
+
+-   Happy Git and GitHub for the useR - https://happygitwithr.com/
+
+-   Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., Leprevost, F., Fufezan, C., Ternent, T., Eglen, S. J., Katz, D. S., Pollard, T. J., Konovalov, A., Flight, R. M., Blin, K., & Vizcaíno, J. A. (2016). Ten Simple Rules for Taking Advantage of Git and GitHub. PLoS computational biology, 12(7), e1004947. https://doi.org/10.1371/journal.pcbi.1004947
+
+-   Blischak JD, Davenport ER, Wilson G (2016) A Quick Introduction to Version Control with Git and GitHub. PLOS Computational Biology 12(1): e1004668. https://doi.org/10.1371/journal.pcbi.1004668
+
+## Teaching Material
+
+Slides can be viewed [here](https://oxford-ihtm.io/open-reproducible-science/session7.html).
+
+PDF version of slides can be downloaded [here](https://oxford-ihtm.io/open-reproducible-science/pdf/session7-git-and-github-with-r.pdf).
+
+R scripts for slides available [here](https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session7.Rmd).

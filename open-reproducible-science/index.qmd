@@ -1,0 +1,54 @@
+---
+title: Open and Reproducible Science in R
+subtitle: Paradigms and Tools for Global Health - Michealmas and Hilary Term
+listing:
+  - id: all-about-r
+    contents:
+      - "session1-summary.qmd"
+      - "session2-summary.qmd"
+      - "session3-summary.qmd"
+      - "session4-summary.qmd"
+      - "session5-summary.qmd"
+    type: grid
+    sort: false
+    image-height: 200px
+    grid-item-border: false
+  - id: open-science
+    contents:
+      - "session6-summary.qmd"
+      - "session7-summary.qmd"
+      - "session8-summary.qmd"
+      - "session9-summary.qmd"
+      - "session10-summary.qmd"
+    type: grid
+    sort: false
+    image-height: 200px
+    grid-item-border: false
+---
+
+The **Open and Reproducible Science· in R** module of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm){target="_blank"} is designed to equip students with a foundational understanding and appreciation of the pillars of [Open Science](https://www.unesco.org/en/open-science){target="_blank"} more broadly and within that the concepts, methods and tools for [Reproducible Research](https://book.the-turing-way.org/){target="_blank"} more specifically. To further the students' learning, practical examples and exercises are discussed and walked through using the [R](https://cran.r-project.org){target="_blank"} language for statistical computing as a way to practically demonstrate these concepts.
+
+## Module organisation
+
+The module is organised in two parts. The first part focuses on teaching the basics of using R and RStudio. These topics are covered in the first 5 sessions of the module during Michealmas term. The second part, discussed in the last 5 sesions of the module during Hilary Term, focuses on giving on overview of open and reproducible science.
+
+::: {.info-block}
+
+### Part 1: All about R
+
+:::{#all-about-r}
+:::
+
+:::
+
+
+::: {.info-block}
+
+### Part 2: Open and Reproducible Science
+
+::: {#open-science}
+:::
+
+:::
+
+

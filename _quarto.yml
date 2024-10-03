@@ -20,9 +20,9 @@ website:
         href: stories.qmd
       - text: Teaching
         menu:
-          - href: open-reproducible-science.qmd
-            text: Open Science and Reproducible Research in R
-          - href: teaching/resources.qmd
+          - href: open-reproducible-science/index.qmd
+            text: Open and Reproducible Science in R
+          - href: teaching/learning-resources.qmd
             text: Learning Resources
       - href: projects/index.qmd
         text: Projects

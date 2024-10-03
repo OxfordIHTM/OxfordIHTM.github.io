@@ -1,10 +1,33 @@
 ---
 title: Projects
+page-layout: full
 listing:
-  contents:
-    - "../software/*.qmd"
-  type: grid
-page-layout: article
+  - id: software
+    contents:
+      - ../software/*.qmd
+    type: grid
+  - id: research
+    contents:
+      - ../research/*.qmd
+    type: grid
 ---
 
+::: {.info-block}
+
+# Research
+
+::: {#research}
+:::
+
+:::
+
+
+::: {.info-block}
+
+# Sofware
+
+::: {#software}
+:::
+
+:::
 

@@ -1,0 +1,20 @@
+---
+title: "Session 9: Reproducible scientific workflows in R - Part 2"
+subttitle: "Creating {targets}-based scientific workflows"
+---
+
+In this session, the students will create their own targets-based workflows as part of the second day of **Hackathon 2024**.
+
+## Further Reading
+
+-   Dynamic Function-Oriented Make-Like Declarative Workflows - https://docs.ropensci.org/targets/
+
+-   The targets R Package User Manual - https://books.ropensci.org/targets/
+
+## Teaching Material
+
+Slides can be viewed [here](https://oxfordihtm.github.io/open-reproducible-science/session9.html).
+
+PDF version of slides can be downloaded [here](https://oxfordihtm.github.io/open-reproducible-science/pdf/session9-reproducible-scientific-workflows.pdf).
+
+R scripts for slides available [here](https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session9.Rmd).

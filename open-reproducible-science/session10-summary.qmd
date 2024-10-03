@@ -1,0 +1,20 @@
+---
+title: "Session 10: Making your R-based research project portable"
+subtitle: Introduction to {renv}
+---
+
+In this session, a discussion of R code portability, the factors that impact how the R code/script we develop can be used and run successfully by someone else, and the currently available solutions to ensuring portability.
+
+The final part of the session will the third day of **Hackathon 2024**.
+
+## Further Reading
+
+-   Introduction to renv - https://rstudio.github.io/renv/articles/renv.html
+
+## Teaching Material
+
+Slides can be viewed [here](https://oxford-ihtm.io/open-reproducible-science/session10.html).
+
+PDF version of slides can be downloaded [here](https://oxford-ihtm.io/open-reproducible-science/pdf/session10-portable-r-projects.pdf).
+
+R scripts for slides available [here](https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session10.Rmd)

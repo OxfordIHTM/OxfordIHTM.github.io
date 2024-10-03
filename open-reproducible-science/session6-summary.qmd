@@ -1,0 +1,20 @@
+---
+title: "Session 6: Open Science and Reproducible Research in R"
+subtitle: An Overview
+---
+
+
+In this session, an overview of the what, why, and how of Open Science and Reproducible Research will be discussed to provide the learners with foundational understanding and appreciation of these concepts and their applications.
+
+## Further Reading
+
+Rick, Jessica & Alston, Jesse. (2020). A beginner’s guide to conducting reproducible research in ecology, evolution, and conservation. 10.32942/osf.io/h5r6n.
+
+## Teaching Material
+
+Slides can be viewed [here](https://oxford-ihtm.io/open-reproducible-science/session6.html).
+
+PDF version of slides can be downloaded [here](https://oxford-ihtm.io/open-reproducible-science/pdf/session6-open-reproducible-science.pdf).
+
+R scripts for slides available [here](https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session6.Rmd).
+
