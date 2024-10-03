@@ -44,7 +44,7 @@ This initiative also facilitates interdisciplinary collaboration, enabling parti
 
 :::
 
-::: {.project-banner}
+::: {.theme-banner}
 
 ::: {.info-block}
 

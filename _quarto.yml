@@ -3,12 +3,12 @@ project:
   output-dir: _site
 
 website:
-  title: Oxford iHealth
+  title: ""
   site-url: https://oxford-ihtm.io/
   navbar:
-    title: Oxford iHealth
+    title: ""
     background: info
-    logo: images/ihealth_base_pos.png
+    logo: images/ihealth_base_inline.png
     logo-alt: Oxford iHealth
     tools:
       - icon: github
