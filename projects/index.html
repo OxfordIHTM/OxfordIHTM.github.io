@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-software .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-software'] = new List('listing-software', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-research .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-research'] = new List('listing-research', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -191,11 +219,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
         <li>
-    <a class="dropdown-item" href="../open-reproducible-science.html">
- <span class="dropdown-text">Open Science and Reproducible Research in R</span></a>
+    <a class="dropdown-item" href="../open-reproducible-science/index.html">
+ <span class="dropdown-text">Open and Reproducible Science in R</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../teaching/resources.html">
+    <a class="dropdown-item" href="../teaching/learning-resources.html">
  <span class="dropdown-text">Learning Resources</span></a>
   </li>  
     </ul>
@@ -218,14 +246,21 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research" id="toc-research" class="nav-link active" data-scroll-target="#research">Research</a></li>
+  <li><a href="#sofware" id="toc-sofware" class="nav-link" data-scroll-target="#sofware">Sofware</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/projects/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -234,7 +269,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -246,20 +281,29 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<section id="research" class="level1 info-block">
+<h1>Research</h1>
+<div id="listing-research" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727953804638" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="sofware" class="level1 info-block">
+<h1>Sofware</h1>
+<div id="listing-software" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727965782462" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
 <a href="../software/africalaws.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../images/lawsafrica.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="sofware">
 africalaws: Interface to the Laws.Africa API
 </h5>
 <div class="card-text listing-description">
@@ -274,7 +318,7 @@ africalaws: Interface to the Laws.Africa API
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727953804638" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727965782462" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
 <a href="../software/aurora.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -296,7 +340,7 @@ aurora: Interface to the Oxord University Research Archive (ORA) API
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727953804638" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727965782462" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
 <a href="../software/codeditr.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -318,7 +362,7 @@ codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1727953804638" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1727965782462" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
 <a href="../software/codigo.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -340,7 +384,7 @@ codigo: Interface to the International Classification of Diseases (ICD) API
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1727953804638" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1727965782462" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
 <a href="../software/oxcgrt.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -362,7 +406,7 @@ oxcgrt: An Interface to the Oxford COVID-19 Government Response Tracker API
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1727953804638" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1727965782462" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
 <a href="../software/oxthema.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -384,7 +428,7 @@ oxthema: Oxford Colours, Palettes, Fonts, and Themes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1727953804638" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1727965782463" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
 <a href="../software/pactr.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -410,7 +454,13 @@ pactr: An Interface to the Pandemic PACT Data Repository
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -839,7 +889,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/projects/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/projects/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

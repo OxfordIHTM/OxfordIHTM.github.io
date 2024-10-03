@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>oxcgrt: An Interface to the Oxford COVID-19 Government Response Tracker API</title>
+<title>Open and Reproducible Science in R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -68,6 +70,63 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-all-about-r .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-all-about-r'] = new List('listing-all-about-r', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-open-science .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-open-science'] = new List('listing-open-science', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PSJXMNM72F"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -95,7 +154,53 @@ cookieconsent.run({
 });
 </script> 
   
+<style>
 
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #7F055F;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #7F055F;
+background: #E4F0EF;
+      }
+</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -103,7 +208,7 @@ cookieconsent.run({
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -158,43 +263,278 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Open and Reproducible Science in R</h1>
+            <p class="subtitle lead">Paradigms and Tools for Global Health - Michealmas and Hilary Term</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#module-organisation" id="toc-module-organisation" class="nav-link active" data-scroll-target="#module-organisation">Module organisation</a>
+  <ul class="collapse">
+  <li><a href="#part-1-all-about-r" id="toc-part-1-all-about-r" class="nav-link" data-scroll-target="#part-1-all-about-r">Part 1: All about R</a></li>
+  <li><a href="#part-2-open-and-reproducible-science" id="toc-part-2-open-and-reproducible-science" class="nav-link" data-scroll-target="#part-2-open-and-reproducible-science">Part 2: Open and Reproducible Science</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/open-reproducible-science/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">oxcgrt: An Interface to the Oxford COVID-19 Government Response Tracker API</h1>
+
+
+
+
+<p>The <strong>Open and Reproducible Science· in R</strong> module of the <a href="https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm" target="_blank">MSc in International Health and Tropical Medicine</a> is designed to equip students with a foundational understanding and appreciation of the pillars of <a href="https://www.unesco.org/en/open-science" target="_blank">Open Science</a> more broadly and within that the concepts, methods and tools for <a href="https://book.the-turing-way.org/" target="_blank">Reproducible Research</a> more specifically. To further the students’ learning, practical examples and exercises are discussed and walked through using the <a href="https://cran.r-project.org" target="_blank">R</a> language for statistical computing as a way to practically demonstrate these concepts.</p>
+<section id="module-organisation" class="level2">
+<h2 class="anchored" data-anchor-id="module-organisation">Module organisation</h2>
+<p>The module is organised in two parts. The first part focuses on teaching the basics of using R and RStudio. These topics are covered in the first 5 sessions of the module during Michealmas term. The second part, discussed in the last 5 sesions of the module during Hilary Term, focuses on giving on overview of open and reproducible science.</p>
+<section id="part-1-all-about-r" class="level3 info-block">
+<h3 class="anchored" data-anchor-id="part-1-all-about-r">Part 1: All about R</h3>
+<div id="listing-all-about-r" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727965782461" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
+<a href="../open-reproducible-science/session1-summary.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="https://cran.r-project.org/Rlogo.svg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Session 1: Getting the right tools for the job
+</h5>
+<div class="card-text listing-description">
+Using the right tools for the job is critical for success in any endeavour. In scientific research, specifically with scientific analysis, R is widely used by researchers…
 </div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727965782461" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+<a href="../open-reproducible-science/session2-summary.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/RStudio_logo_flat.svg/320px-RStudio_logo_flat.svg.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Session 2: Learning the basics of R - Part 1
+</h5>
+<div class="card-text listing-description">
+In this session, a discussion on the current state of “data” in general and how this translates to <em>global health data</em> specifically. This discussion will then be linked to…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727965782461" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+<a href="../open-reproducible-science/session3-summary.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Session 3: Learning the basics of R - Part 2
+</h5>
+<div class="card-text listing-description">
+In this session, the students will continue to work through using R to work with data and will be introduced to more built-in functions in R for performing data analysis.…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1727965782461" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<a href="../open-reproducible-science/session4-summary.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Session 4: Learning the basics of R - Part 3
+</h5>
+<div class="card-text listing-description">
+In this session, the students will be introduced to functions in R and how they can be used to extend the functionalities of R. The students will be introduced to what…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1727965782461" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
+<a href="../open-reproducible-science/session5-summary.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Session 5: Creating basic R workflows and literate programming
+</h5>
+<div class="card-text listing-description">
+In this session, the students will be taught and guided through creating basic R workflows with a focus on using a project-oriented approach in building scientific analysis…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="part-2-open-and-reproducible-science" class="level3 info-block">
+<h3 class="anchored" data-anchor-id="part-2-open-and-reproducible-science">Part 2: Open and Reproducible Science</h3>
+<div id="listing-open-science" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727965782461" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<a href="../open-reproducible-science/session6-summary.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Session 6: Open Science and Reproducible Research in R
+</h5>
+<div class="card-text listing-description">
+In this session, an overview of the what, why, and how of Open Science and Reproducible Research will be discussed to provide the learners with foundational understanding…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727965782461" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
+<a href="../open-reproducible-science/session7-summary.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Session 7: Git and GitHub for use with R
+</h5>
+<div class="card-text listing-description">
+In this session, an overview of git and GitHub will be discussed along with their integration with R using RStudio. This will then be followed by a practical session to…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727965782461" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<a href="../open-reproducible-science/session8-summary.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Session 8: Reproducible scientific workflows in R - Part 1
+</h5>
+<div class="card-text listing-description">
+In this session, a discussion of best practices on reproducible scientific workflows and an introduction to using the <code>{targets}</code> to implemenet these workflows. The final part…<strong></strong>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1727965782461" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<a href="../open-reproducible-science/session9-summary.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Session 9: Reproducible scientific workflows in R - Part 2
+</h5>
+<div class="card-text listing-description">
+In this session, the students will create their own targets-based workflows as part of the second day of <strong>Hackathon 2024</strong>.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1727965782461" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
+<a href="../open-reproducible-science/session10-summary.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Session 10: Making your R-based research project portable
+</h5>
+<div class="card-text listing-description">
+In this session, a discussion of R code portability, the factors that impact how the R code/script we develop can be used and run successfully by someone else, and the…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="https://oxford-ihtm.io/oxcgrt/"><img src="../images/oxcgrt.png" class="img-fluid"></a></p>
-</div></div><p><a href="https://www.repostatus.org/#active"><img src="https://www.repostatus.org/badges/latest/active.svg" class="img-fluid" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed."></a> <a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" class="img-fluid" alt="Lifecycle: experimental"></a> <a href="https://CRAN.R-project.org/package=oxcgrt"><img src="https://www.r-pkg.org/badges/version/oxcgrt.png" class="img-fluid" alt="CRAN status"></a> <a href="https://CRAN.R-project.org/package=oxcgrt"><img src="https://img.shields.io/cran/l/oxcgrt.svg" class="img-fluid" alt="CRAN"></a> <a href="https://CRAN.R-project.org/package=oxcgrt"><img src="http://cranlogs.r-pkg.org/badges/oxcgrt.png" class="img-fluid" alt="CRAN"></a> <a href="https://CRAN.R-project.org/package=oxcgrt"><img src="http://cranlogs.r-pkg.org/badges/grand-total/oxcgrt.png" class="img-fluid" alt="CRAN"></a> <a href="https://github.com/OxfordIHTM/oxcgrt/actions/workflows/R-CMD-check.yaml"><img src="https://github.com/OxfordIHTM/oxcgrt/actions/workflows/R-CMD-check.yaml/badge.svg" class="img-fluid" alt="R-CMD-check"></a> <img src="https://github.com/OxfordIHTM/oxcgrt/workflows/test-coverage/badge.svg" class="img-fluid" alt="test-coverage"> <a href="https://codecov.io/gh/OxfordIHTM/oxcgrt"><img src="https://codecov.io/gh/OxfordIHTM/oxcgrt/graph/badge.svg?token=uUS5l7zPBs" class="img-fluid" alt="codecov"></a> <a href="https://www.codefactor.io/repository/github/oxfordihtm/oxcgrt"><img src="https://www.codefactor.io/repository/github/oxfordihtm/oxcgrt/badge.png" class="img-fluid" alt="CodeFactor"></a></p>
-<p>The Oxford COVID-19 Government Response Tracker (OxCGRT) tracks and compares worldwide government responses to the COVID-19 pandemic rigorously and consistently. OxCGRT makes available systematic information in a consistent way, aiding those who require information have access to it efficiently for their purposes. This package facilitates access to the OxCGRT data via its <a href="https://covidtracker.bsg.ox.ac.uk">API</a> and includes functions to calculate the various OxCGRT indices in R.</p>
-<p>For more information on the <code>{oxcgrt}</code> package, you can visit the <a href="https://oxford-ihtm.io/oxcgrt/">project website</a>. To learn about the underlying code for this software development project, see the <a href="https://github.com/OxfordIHTM/oxcgrt">GitHub code repository</a>.</p>
-<p>If you are interested in contributing to this project, please be aware of its <a href="https://oxford-ihtm.io/oxcgrt/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our <a href="https://github.com/OxfordIHTM/oxcgrt/issues">GitHub issues</a> page. If you find something that you can help with, follow these <a href="https://oxford-ihtm.io/oxcgrt/CONTRIBUTING.html">steps on how to contribute</a>.</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -625,7 +965,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/software/oxcgrt.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/open-reproducible-science/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

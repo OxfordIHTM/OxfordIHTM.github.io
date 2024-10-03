@@ -12,8 +12,19 @@
     ]
   },
   {
-    "listing": "/stories.html",
-    "items": []
+    "listing": "/open-reproducible-science/index.html",
+    "items": [
+      "/open-reproducible-science/session1-summary.html",
+      "/open-reproducible-science/session2-summary.html",
+      "/open-reproducible-science/session3-summary.html",
+      "/open-reproducible-science/session4-summary.html",
+      "/open-reproducible-science/session5-summary.html",
+      "/open-reproducible-science/session6-summary.html",
+      "/open-reproducible-science/session7-summary.html",
+      "/open-reproducible-science/session8-summary.html",
+      "/open-reproducible-science/session9-summary.html",
+      "/open-reproducible-science/session10-summary.html"
+    ]
   },
   {
     "listing": "/index.html",
@@ -26,5 +37,9 @@
       "/software/oxthema.html",
       "/software/pactr.html"
     ]
+  },
+  {
+    "listing": "/stories.html",
+    "items": []
   }
 ]

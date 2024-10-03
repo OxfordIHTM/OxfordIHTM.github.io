@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Open and Reproducible Science in R</title>
+<title>Session 9: Reproducible scientific workflows in R - Part 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,20 +95,37 @@ cookieconsent.run({
 });
 </script> 
   
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #7F055F;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #7F055F;
+background: #E4F0EF;
+      }
+</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/ihealth_base_inline.png" alt="Oxford iHealth" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/ihealth_base_inline.png" alt="Oxford iHealth" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -118,11 +135,11 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./stories.html"> 
+    <a class="nav-link" href="../stories.html"> 
 <span class="menu-text">Stories</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -131,17 +148,17 @@ cookieconsent.run({
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
         <li>
-    <a class="dropdown-item" href="./open-reproducible-science.html">
- <span class="dropdown-text">Open Science and Reproducible Research in R</span></a>
+    <a class="dropdown-item" href="../open-reproducible-science/index.html">
+ <span class="dropdown-text">Open and Reproducible Science in R</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./teaching/resources.html">
+    <a class="dropdown-item" href="../teaching/learning-resources.html">
  <span class="dropdown-text">Learning Resources</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -158,7 +175,23 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Session 9: Reproducible scientific workflows in R - Part 2</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -166,79 +199,33 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-features-of-the-module" id="toc-key-features-of-the-module" class="nav-link active" data-scroll-target="#key-features-of-the-module">Key Features of the Module</a>
-  <ul class="collapse">
-  <li><a href="#introduction-to-open-science" id="toc-introduction-to-open-science" class="nav-link" data-scroll-target="#introduction-to-open-science">Introduction to Open Science</a></li>
-  <li><a href="#reproducibility-in-research" id="toc-reproducibility-in-research" class="nav-link" data-scroll-target="#reproducibility-in-research">Reproducibility in Research</a></li>
-  <li><a href="#data-management-and-documentation" id="toc-data-management-and-documentation" class="nav-link" data-scroll-target="#data-management-and-documentation">Data Management and Documentation</a></li>
-  <li><a href="#introduction-to-r" id="toc-introduction-to-r" class="nav-link" data-scroll-target="#introduction-to-r">Introduction to R</a></li>
-  <li><a href="#reproducible-workflows-in-r" id="toc-reproducible-workflows-in-r" class="nav-link" data-scroll-target="#reproducible-workflows-in-r">Reproducible Workflows in R</a></li>
-  <li><a href="#collaboration-and-sharing" id="toc-collaboration-and-sharing" class="nav-link" data-scroll-target="#collaboration-and-sharing">Collaboration and Sharing</a></li>
-  <li><a href="#ethical-considerations" id="toc-ethical-considerations" class="nav-link" data-scroll-target="#ethical-considerations">Ethical Considerations</a></li>
-  <li><a href="#application-to-global-health-and-tropical-medicine" id="toc-application-to-global-health-and-tropical-medicine" class="nav-link" data-scroll-target="#application-to-global-health-and-tropical-medicine">Application to Global Health and Tropical Medicine</a></li>
-  </ul></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link active" data-scroll-target="#further-reading">Further Reading</a></li>
+  <li><a href="#teaching-material" id="toc-teaching-material" class="nav-link" data-scroll-target="#teaching-material">Teaching Material</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/open-reproducible-science.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/open-reproducible-science/session9-summary.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Open and Reproducible Science in R</h1>
-</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<p>The <strong>Open and Reproducible Science· in R</strong> module of the <a href="https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm" target="_blank">MSc in International Health and Tropical Medicine</a> is designed to equip students with the skills and knowledge necessary to conduct research that is transparent, <a href="https://book.the-turing-way.org/" target="_blank">reproducible</a>, and in line with the principles of <a href="https://www.unesco.org/en/open-science" target="_blank">open science</a>.</p>
-<section id="key-features-of-the-module" class="level2">
-<h2 class="anchored" data-anchor-id="key-features-of-the-module">Key Features of the Module</h2>
-<section id="introduction-to-open-science" class="level3">
-<h3 class="anchored" data-anchor-id="introduction-to-open-science">Introduction to Open Science</h3>
-<p>The module begins by introducing the concepts and principles of open science, including the importance of transparency, accessibility, and collaboration in research. Students learn about the benefits of open science practices, such as increased credibility, easier collaboration, and enhanced reproducibility of research findings.</p>
+<p>In this session, the students will create their own targets-based workflows as part of the second day of <strong>Hackathon 2024</strong>.</p>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<ul>
+<li><p>Dynamic Function-Oriented Make-Like Declarative Workflows - https://docs.ropensci.org/targets/</p></li>
+<li><p>The targets R Package User Manual - https://books.ropensci.org/targets/</p></li>
+</ul>
 </section>
-<section id="reproducibility-in-research" class="level3">
-<h3 class="anchored" data-anchor-id="reproducibility-in-research">Reproducibility in Research</h3>
-<p>A significant focus of the module is on reproducibility, which refers to the ability of researchers to replicate the results of a study using the same data and methods. Students are taught the principles of reproducible research and the best practices on how to ensure their findings can be reproduced by others.</p>
-</section>
-<section id="data-management-and-documentation" class="level3">
-<h3 class="anchored" data-anchor-id="data-management-and-documentation">Data Management and Documentation</h3>
-<p>Proper data management is crucial for reproducible research. The module covers best practices for organizing, documenting, and sharing research data. Students learn about version control systems (e.g., Git) and how to use them to track changes in their data and code.</p>
-</section>
-<section id="introduction-to-r" class="level3">
-<h3 class="anchored" data-anchor-id="introduction-to-r">Introduction to R</h3>
-<p>The module introduces students to the <a href="https://www.r-project.org/">R</a>, a programming language widely used for statistical analysis and data visualisation Through hands-on exercises, students learn how to use R for data wrangling, analysis, and visualisation..</p>
-</section>
-<section id="reproducible-workflows-in-r" class="level3">
-<h3 class="anchored" data-anchor-id="reproducible-workflows-in-r">Reproducible Workflows in R</h3>
-<p>Students learn how to create reproducible workflows in R using tools like RMarkdown, which allows them to integrate text, code, and output into a single document. The module emphasizes the importance of automating analyses to reduce errors and ensure that research can be easily updated or reproduced.</p>
-</section>
-<section id="collaboration-and-sharing" class="level3">
-<h3 class="anchored" data-anchor-id="collaboration-and-sharing">Collaboration and Sharing</h3>
-<p>The module also covers tools and platforms that facilitate collaboration and sharing in open science, such as <a href="https://github.com">GitHub</a>, <a href="https://osf.io/">Open Science Framework (OSF)</a>, <a href="https://zenodo.org/">Zenodo</a>, <a href="https://figshare.com/">Figshare</a>, and other repositories. Students are encouraged to share their code, data, and research outputs openly to contribute to the global scientific community.</p>
-</section>
-<section id="ethical-considerations" class="level3">
-<h3 class="anchored" data-anchor-id="ethical-considerations">Ethical Considerations</h3>
-<p>Ethical aspects of open science and reproducible research are discussed, including issues related to data privacy, intellectual property, and the responsible conduct of research.</p>
-</section>
-<section id="application-to-global-health-and-tropical-medicine" class="level3">
-<h3 class="anchored" data-anchor-id="application-to-global-health-and-tropical-medicine">Application to Global Health and Tropical Medicine</h3>
-<p>Throughout the module, there is an emphasis on applying open science and reproducible research practices to the field of global health and tropical medicine. Students learn how these practices can enhance the quality and impact of research in these areas, particularly in low-resource settings.</p>
+<section id="teaching-material" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-material">Teaching Material</h2>
+<p>Slides can be viewed <a href="https://oxfordihtm.github.io/open-reproducible-science/session9.html">here</a>.</p>
+<p>PDF version of slides can be downloaded <a href="https://oxfordihtm.github.io/open-reproducible-science/pdf/session9-reproducible-scientific-workflows.pdf">here</a>.</p>
+<p>R scripts for slides available <a href="https://github.com/OxfordIHTM/open-reproducible-science/blob/main/session9.Rmd">here</a>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -670,7 +657,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine</p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/open-reproducible-science.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/open-reproducible-science/session9-summary.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
