@@ -1,6 +1,7 @@
 ---
 title: "Session 9: Reproducible scientific workflows in R - Part 2"
 subttitle: "Creating {targets}-based scientific workflows"
+description: This session will be the second day of Hackathon 2025.
 ---
 
 In this session, the students will create their own targets-based workflows as part of the second day of **Hackathon 2024**.

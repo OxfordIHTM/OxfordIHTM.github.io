@@ -1,6 +1,7 @@
 ---
 title: "Session 4: Learning the basics of R - Part 3"
 subtitle: "Creating your own functions: Introducing functional programming"
+description: This session teaches how to write functions and provides a challenge to write a function given a specific task.
 ---
 
 In this session, the students will be introduced to functions in R and how they can be used to extend the functionalities of R. The students will be introduced to what functions are and how to create their own functions for specific computing and statistical analysis tasks that they require.
