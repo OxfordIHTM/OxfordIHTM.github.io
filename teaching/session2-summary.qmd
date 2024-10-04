@@ -1,6 +1,7 @@
 ---
 title: "Session 2: Learning the basics of R - Part 1"
-subtitle: "R through the user interface of RStudio"
+subtitle: R through the user interface of RStudio
+description: This session focuses on the basics of using R through RStudio for working with data.
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/RStudio_logo_flat.svg/320px-RStudio_logo_flat.svg.png"
 ---
 

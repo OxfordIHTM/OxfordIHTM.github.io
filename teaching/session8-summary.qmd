@@ -1,6 +1,7 @@
 ---
 title: "Session 8: Reproducible scientific workflows in R - Part 1"
 subtitle: "Introduction to the {targets} package"
+description: This session introduces best practices in reproducible scientific workflows and their implementation using the {targets} package.
 ---
 
 In this session, a discussion of best practices on reproducible scientific workflows and an introduction to using the `{targets}` to implemenet these workflows. The final part of the session will be the first day of **Hackathon 2025**.

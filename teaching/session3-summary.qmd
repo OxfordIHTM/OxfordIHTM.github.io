@@ -1,6 +1,7 @@
 ---
 title: "Session 3: Learning the basics of R - Part 2"
-subtitle: "Creating and manipulating objects, and extending R using packages"
+subtitle: Creating and manipulating objects, and extending R using packages
+description: This session introduces the use of R packages to extend functionalities for data handling and analysis.
 ---
 
 In this session, the students will continue to work through using R to work with data and will be introduced to more built-in functions in R for performing data analysis. They will also be introduced to R packages and how they extend the functionalities of R specifically with regard to computing and statistical analysis. Students will be taught how to install and load R packages and be given a background and introduction to object-oriented programming.
