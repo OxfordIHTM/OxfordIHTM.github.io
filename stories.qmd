@@ -1,6 +1,6 @@
 ---
-title: iHealth Stories
-subtitle: News, announcements, guides, and everything else
+title: Stories
+subtitle: Stories, news, announcements, guides, and everything else
 page-layout: full
 listing:
   contents: stories
