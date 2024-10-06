@@ -11,6 +11,11 @@ website:
     logo: images/ihealth_base_inline.png
     logo-alt: Oxford iHealth
     tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/company/oxford-ihealth
+      - icon: mastodon
+        href: https://mastodon.social/@ihealth
+        rel: me
       - icon: github
         href: https://github.com/OxfordIHTM
     left:
