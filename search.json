@@ -28,6 +28,48 @@
     "text": "The World Health Organization’s CoDEdit electronic tool is intended to help producers of cause-of-death statistics in strengthening their capacity to perform routine checks on their data. This package ports the original tool built using Microsoft Access into R. The aim is to leverage the utility and function of the original tool into a usable application program interface (API) that can be used for building more universal tools or for creating programmatic scientific workflows aimed at routine, automated, and large-scale monitoring of cause-of-death data.\nFor more information on the {codeditr} package, you can visit the project website. To learn about the underlying code for this software development project, see the GitHub code repository.\nIf you are interested in contributing to this project, please be aware of its Contributor Code of Conduct. By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our GitHub issues page. If you find something that you can help with, follow these steps on how to contribute."
   },
   {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About Us",
+    "section": "",
+    "text": "Oxford iHealth is an initiative of the MSc in International Health and Tropical Medicine. It serves as a focal point within the course for fostering innovation, research, and education in the field of computational sciences for global health.\nOxford iHealth is designed to provide IHTM students with a learning environment for open and reproducible science and its enabling tools and technologies. Through various data and coding projects and the course’s research placement programme, students are then able to leverage this learning in research, design, and development of possible solutions to complex challenges in global health.\nThis initiative also facilitates interdisciplinary collaboration, enabling participants from different fields to work together on innovative projects that can have a real-world impact on global health.\n\nContact Us\nIf you would like to contact us:\n\nfor any comments suggestions, or question; or,\nfor any ideas for collaboration\n\nplease send us a message through the form below.\n\n \n\nYour name\n  \n\n\nYour e-mail\n\n\n\n\nYour message"
+  },
+  {
+    "objectID": "people/ernest-guevarra.html",
+    "href": "people/ernest-guevarra.html",
+    "title": "Ernest Guevarra",
+    "section": "",
+    "text": "I am an independent public health consultant with more than 20 years of professional experience in community and public health in humanitarian crises and developing country-settings, including as a community health worker, medical doctor, and most recently as the Head of Valid Measures, the specialised metrics, analytics and technology unit of Valid International. I have expertise in spatial epidemiology, geo-statistics, cartography and statistical programming. In my role as head of Valid Measures, I led the design, development and implementation of innovative surveys and assessments on health and nutrition and bespoke analytical approaches that leverage the advantages of Bayesian statistics and resampling techniques. I am a founding member of Katilingban, a collective of public health and nutrition experts and practitioners. I am currently a consulting research data scientist for EcoHealth Alliance to support its computational analytics work in support of pandemic preparedness and One Health research and a Senior Research and Teaching Associate at the Centre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford."
+  },
+  {
+    "objectID": "people/ernest-guevarra.html#education",
+    "href": "people/ernest-guevarra.html#education",
+    "title": "Ernest Guevarra",
+    "section": "Education",
+    "text": "Education\nHarvard School of Public Health, Harvard University | Boston, MA\nMaster of Public Health International Health Concentration | Sept 2004 - June 2005\nHarvard School of Public Health, Harvard University | Boston, MA\nCertificate in Humanitarian Studies | Sept 2004 - June 2005\nUniversity of the Philippines College of Medicine | Manila, Philippines\nDoctor of Medicine | June 1994 - June 2001\nUniversity of the Philippines College of Medicine | Manila, Philippines\nBachelor of Science in Basic Medical Sciences | June 1994 - June 1998"
+  },
+  {
+    "objectID": "people/ernest-guevarra.html#experience",
+    "href": "people/ernest-guevarra.html#experience",
+    "title": "Ernest Guevarra",
+    "section": "Experience",
+    "text": "Experience\nCentre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford\nSenior Research and Teaching Associate | October 2023 - present\nTeaching Fellow | July 2020 - October 2023\nEcoHealth Alliance\nConsulting Research Data Scientist | December 2020 - present\nKatilingban\nFouning Member | July 2020 - present\nValid International\nHead of Measures | January 2017 - March 2020\nSurvey and Assessments Specialist | January 2015 - December 2016\nTechnical Advisor | September 2009 - December 2014"
+  },
+  {
+    "objectID": "people/proochista-ariana.html",
+    "href": "people/proochista-ariana.html",
+    "title": "Proochista Ariana",
+    "section": "",
+    "text": "Proochista Ariana is Associate Professor of International Development and Health and Director of the MSc in International Health and Tropical Medicine, Centre for Tropical Medicine and Global Health, Nuffield Department of Medicine. Her research empirically examines the relationship between processes of development and health in resource limited and transition contexts, appreciating the multidimensionality of both."
+  },
+  {
+    "objectID": "about/contact.html",
+    "href": "about/contact.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "If you would like to contact us for any ideas, comments, suggestions, or questions, please send us your thoughts through the following form.\n\n \n\nYour name\n  \n\n\nYour e-mail\n\n\n\n\nYour message"
+  },
+  {
     "objectID": "software/oxcgrt.html",
     "href": "software/oxcgrt.html",
     "title": "oxcgrt: An Interface to the Oxford COVID-19 Government Response Tracker API",

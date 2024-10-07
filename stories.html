@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -195,8 +195,8 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./about/index.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./stories.html" aria-current="page"> 
@@ -259,7 +259,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="announcement">announcement <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -273,7 +273,75 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-categories="news" data-listing-date-sort="1727913600000" data-listing-file-modified-sort="1728321779187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="./stories/2024-10-03-welcome-class-2025/index.html" class="no-external"></a></p><a href="./stories/2024-10-03-welcome-class-2025/index.html" class="no-external">
+<p><img loading="lazy" src="./stories/2024-10-03-welcome-class-2025/kpop.png" class="thumbnail-image"></p>
+</a><p><a href="./stories/2024-10-03-welcome-class-2025/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./stories/2024-10-03-welcome-class-2025/index.html" class="no-external">Welcome Class 2025: Class K-pop</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./stories/2024-10-03-welcome-class-2025/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+</div>
+<div class="listing-description">
+<a href="./stories/2024-10-03-welcome-class-2025/index.html" class="no-external">Welcome to Class 2025 of the MSc in International Health and Tropical Medicine</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./stories/2024-10-03-welcome-class-2025/index.html" class="no-external">
+<div class="listing-date">
+03 Oct 2024
+</div>
+<div class="listing-author">
+Ernest Guevarra
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="news,announcement" data-listing-date-sort="1727308800000" data-listing-file-modified-sort="1728321779187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<div class="thumbnail">
+<p><a href="./stories/2024-09-26-introducing-ihealth/index.html" class="no-external"></a></p><a href="./stories/2024-09-26-introducing-ihealth/index.html" class="no-external">
+<p><img loading="lazy" src="./stories/2024-09-26-introducing-ihealth/ihealth_base_inline.png" class="thumbnail-image"></p>
+</a><p><a href="./stories/2024-09-26-introducing-ihealth/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./stories/2024-09-26-introducing-ihealth/index.html" class="no-external">Introducing Oxford iHealth</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./stories/2024-09-26-introducing-ihealth/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('announcement'); return false;">
+announcement
+</div>
+</div>
+<div class="listing-description">
+<a href="./stories/2024-09-26-introducing-ihealth/index.html" class="no-external">Fostering innovation, research, and education in the field of computational sciences for global health</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./stories/2024-09-26-introducing-ihealth/index.html" class="no-external">
+<div class="listing-date">
+26 Sep 2024
+</div>
+<div class="listing-author">
+Ernest Guevarra
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items

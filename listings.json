@@ -28,7 +28,10 @@
   },
   {
     "listing": "/stories.html",
-    "items": []
+    "items": [
+      "/stories/2024-10-03-welcome-class-2025/index.html",
+      "/stories/2024-09-26-introducing-ihealth/index.html"
+    ]
   },
   {
     "listing": "/index.html",
