@@ -2,7 +2,7 @@
 title: "Session 2: Learning the basics of R - Part 1"
 subtitle: R through the user interface of RStudio
 description: This session focuses on the basics of using R through RStudio for working with data.
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/RStudio_logo_flat.svg/320px-RStudio_logo_flat.svg.png"
+image: ../images/session2.png
 ---
 
 In this session, a discussion on the current state of "data" in general and how this translates to *global health data* specifically. This discussion will then be linked to how the use of R can facilitate and support researchers in computing and statistical analysis. The final part of the session will be focused on a data exercise using R based on Exercise 1 found in the [Practical R for Epidemiologists](https://practical-r.org).

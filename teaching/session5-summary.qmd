@@ -2,6 +2,7 @@
 title: "Session 5: Creating basic R workflows and literate programming"
 subtitle: Basics of project-oriented workflows
 description: This session demonstrates the basics of project-oriented workflows and introduces literate programming in R.
+image: ../images/session5.png
 ---
 
 In this session, the students will be taught and guided through creating basic R workflows with a focus on using a project-oriented approach in building scientific analysis workflows. The students will then be introduced to literate programming in R and the tools, packages, and techniques used to convert raw code workflows into those that combine content and data analysis code.

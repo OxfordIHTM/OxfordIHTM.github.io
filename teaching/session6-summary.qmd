@@ -2,6 +2,7 @@
 title: "Session 6: Open Science and Reproducible Research in R"
 subtitle: An Overview
 description: This session describes the what, why, and how of Open Science and Reproducible Research in R.
+image: ../images/session6.png
 ---
 
 
