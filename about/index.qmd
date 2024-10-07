@@ -1,0 +1,75 @@
+---
+title: "About Us"
+page-layout: article
+title-block-banner: "#E4F0EF"
+title-block-banner-color: "#7F055F"
+toc: false
+# listing:
+#   - id: team
+#     contents:
+#       - ../people/ernest-guevarra.qmd
+#       - ../people/proochista-ariana.qmd
+#     type: grid
+#     sort: false
+#     image-height: 200px
+#     grid-item-border: false
+#   - id: senior-members
+#     contents:
+#       - ../people/ernest-guevarra.qmd
+#       - ../people/proochista-ariana.qmd
+#     type: grid
+#     sort: false
+#     image-height: 200px
+#     grid-item-border: false
+#   - id: junior-members
+#     contents:
+#       - ../people/ernest-guevarra.qmd
+#       - ../people/proochista-ariana.qmd
+#     type: grid
+#     sort: false
+#     image-height: 200px
+#     grid-item-border: false
+form:
+  id: contact-form
+  submit: "Send"
+  action: "https://formspree.io/f/xrbgzyjd"
+  method: POST
+  fields:
+    - name: Name
+      type: text
+      id: name_id
+      label: "Your name"
+      required: true
+    - name: Email
+      type: email
+      id: email_id
+      label: "Your e-mail"
+      required: true
+    - text: ""
+    - name: Message
+      type: textarea
+      id: message_id
+      label: "Your message"
+      height: 200
+      required: true
+---
+
+**Oxford iHealth** is an initiative of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm){target="_blank"}. It serves as a focal point within the course for fostering innovation, research, and education in the field of computational sciences for global health.
+
+**Oxford iHealth** is designed to provide IHTM students with a learning environment for open and reproducible science and its enabling tools and technologies. Through various data and coding projects and the course's [research placement programme](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm/ihtm-research-placements){target="_blank"}, students are then able to leverage this learning in research, design, and development of possible solutions to complex challenges in global health.
+
+This initiative also facilitates interdisciplinary collaboration, enabling participants from different fields to work together on innovative projects that can have a real-world impact on global health.
+
+# Contact Us
+
+If you would like to contact us:
+
+* for any comments suggestions, or question; or,
+
+* for any ideas for collaboration 
+
+please send us a message through the form below.
+
+{{< form >}}
+
+
