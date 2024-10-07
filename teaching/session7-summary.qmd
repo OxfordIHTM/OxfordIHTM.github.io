@@ -2,6 +2,7 @@
 title: "Session 7: Git and GitHub for use with R"
 subtitle: Tools for versioning and sharing research
 description: This session goes deeper into the use of git and GitHub for code versioning and code sharing.
+image: ../images/session7.png
 ---
 
 In this session, an overview of git and GitHub will be discussed along with their integration with R using RStudio. This will then be followed by a practical session to guide learners on setting up git and GitHub onto their personal machines culminating in the learners accessing their first assignment in GitHub Classroom.

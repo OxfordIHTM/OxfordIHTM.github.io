@@ -2,7 +2,7 @@
 title: "Session 1: Getting the right tools for the job"
 subtitle: Introduction to R, RStudio, git, and GitHub
 description: This session describes the set of tools useful for open and reproducible science.
-image: "https://cran.r-project.org/Rlogo.svg"
+image: ../images/session1.png
 ---
 
 Using the right tools for the job is critical for success in any endeavour. In scientific research, specifically with scientific analysis, R is widely used by researchers from diverse disciplines  and by teachers of statistics and research methods. One of the most powerful characteristics of R is that it is open-source, meaning anyone can access the underlying code used to run the program and add their own code for free. Along with R, other tools facilitate/potentiate the benefits of using R.

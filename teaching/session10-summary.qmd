@@ -2,6 +2,7 @@
 title: "Session 10: Making your R-based research project portable"
 subtitle: Introduction to {renv}
 description: This session introduces R code portability using the {renv} package.
+image: ../images/session10.png
 ---
 
 In this session, a discussion of R code portability, the factors that impact how the R code/script we develop can be used and run successfully by someone else, and the currently available solutions to ensuring portability.
