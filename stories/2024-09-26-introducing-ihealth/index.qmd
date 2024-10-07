@@ -1,10 +1,13 @@
 ---
-title: "Introducing iHealth"
-description: ""
+title: "Introducing Oxford iHealth"
+description: "Fostering innovation, research, and education in the field of computational sciences for global health"
 author: "Ernest Guevarra"
 date: "26 09 2024"
-draft: true
+image: ihealth_base_inline.png
+draft: false
 categories:
   - news
   - announcement
 ---
+
+It's been a few years in the making but we've finally 

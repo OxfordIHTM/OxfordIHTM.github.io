@@ -1,12 +1,15 @@
 ---
 title: "Welcome Class 2025: Class K-pop"
-description: "We welcome Class 2025 of the MSc in International Health and Tropical Medicine to a year of learning and self-discovery"
+description: "Welcome to Class 2025 of the MSc in International Health and Tropical Medicine"
 author: "Ernest Guevarra"
-date: "03 10 2024"
-draft: true
+date: "03 October 2024"
+image: kpop.png
+draft: false
 categories:
   - news
 ---
+
+
 
 
 
