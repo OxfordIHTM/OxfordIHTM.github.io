@@ -1,0 +1,68 @@
+- title: Data Access
+  subtitle: Access data from online sources
+  image: ../images/datadrop.png
+  links:
+  - text: africalaws
+    href: https://oxford-ihtm.io/africalaws
+  - text: codeditr
+    href: https://oxford-ihtm.io/codeditr
+  - text: codigo
+    href: https://oxford-ihtm.io/codigo
+  - text: oxcgrt
+    href: https://oxford-ihtm.io/oxcgrt
+  - text: aurora
+    href: https://oxford-ihtm.io/aurora
+
+- title: Nutriverse
+  subtitle: Tools for nutrition research
+  image: ../images/nutriverse.png
+  links:
+  - text: zscorer
+    href: https://nutriverse.io/zscorer
+  - text: nipnTK
+    href: https://nutriverse.io/nipnTK
+  - text: squeacr
+    href: https://nutriverse.io/squeacr
+  - text: sleacr
+    href: https://nutriverse.io/sleacr
+  - text: micronutr
+    href: https://nutriverse.io/micronutr
+  - text: anthrocheckr
+    href: https://nutriverse.io/anthrocheckr
+  - text: smartr
+    href: https://nutriverse.io/smartr
+
+- title: Panukatan
+  subtitle: Tools for working with Philippines data
+  image: ../images/panukatan.png
+  links:
+  - text: bagyo
+    href: https://panukatan.io/bagyo
+  - text: covidphtext
+    href: https://panukatan.io/covidphtext
+  - text: lindol
+    href: https://panuktana.io/lindol
+  - text: openbangsamoro
+    href: https://panukatan.io/openbangsamoro
+  - text: openmarawi
+    href: https://panukatan.io/openmarawi
+
+- title: RapidSurveys
+  subtitle: Tools for implementing population surveys
+  image: ../images/rapidsurveys.png
+  links:
+  - text: oldr
+    href: https://rapidsurveys.io/oldr
+  - text: odkr
+    href: https://rapidsurveys.io/odkr
+  - text: okapi
+    href: https://rapidsurveys.io/okapi
+  - text: bbw
+    href: https://rapidsurveys.io/bbw
+
+- title: Utilities
+  subtitle: Tools for general purposes and utilities
+  image: ../images/utilities.png
+  links:
+  - text: oxthema
+    href: https://oxford-ihtm.io/oxthema

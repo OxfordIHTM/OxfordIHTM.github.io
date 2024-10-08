@@ -6,7 +6,9 @@ toc: false
 listing:
   - id: featured-projects
     contents:
-      - "software/*.qmd"
+      - packages/codeditr.qmd
+      - packages/codigo.qmd
+      - packages/oxcgrt.qmd
     type: grid
     image-height: 400px
     image-placeholder: images/ihealth_base_pos_tn.png
@@ -25,8 +27,9 @@ listing:
 ### We provide a learning environment for open and reproducible science and collaborate with partners to leverage this learning to contribute to solutions to global health challenges.
 
 ::: {.hero-buttons}
-[Projects](/projects/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
-[Software](/software/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+<!-- [Projects](/projects/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"} -->
+[Our packages](/packages/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"} 
+[Our mission](/about/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
 :::
 
 :::

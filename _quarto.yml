@@ -31,8 +31,10 @@ website:
             text: Open and Reproducible Science in R
           - href: teaching/learning-resources.qmd
             text: Learning Resources
-      - href: projects/index.qmd
-        text: Projects
+      # - href: projects/index.qmd
+      #   text: Projects
+      - text: Packages
+        href: packages/index.qmd
   # sidebar:
   #   logo: images/ihealth_base_pos.png
   #   logo-alt: Oxford iHealth

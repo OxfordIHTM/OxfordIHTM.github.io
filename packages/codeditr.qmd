@@ -1,5 +1,6 @@
 ---
 title: "codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool"
+subtitle: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool
 image: ../images/codeditr.png
 ---
 
