@@ -23,8 +23,8 @@ website:
       #   text: Home
       - text: About
         href: about/index.qmd
-      - text: Stories
-        href: stories.qmd
+      - text: Blog
+        href: blog.qmd
       - text: Teaching
         menu:
           - href: teaching/index.qmd
