@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool</title>
+<title>pactr: An Interface to the Pandemic PACT Data Repository</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,6 +95,23 @@ cookieconsent.run({
 });
 </script> 
   
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #7F055F;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #7F055F;
+background: #E4F0EF;
+      }
+</style>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -103,7 +120,7 @@ cookieconsent.run({
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -141,8 +158,8 @@ cookieconsent.run({
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../packages/index.html"> 
+<span class="menu-text">Packages</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -160,41 +177,41 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">pactr: An Interface to the Pandemic PACT Data Repository</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool</h1>
-</div>
+<main class="content quarto-banner-title-block page-columns page-full column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="https://oxford-ihtm.io/codeditr.png"><img src="../images/codeditr.png" class="img-fluid"></a></p>
-</div></div><p><a href="https://www.repostatus.org/#active"><img src="https://www.repostatus.org/badges/latest/active.svg" class="img-fluid" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed."></a> <a href="https://lifecycle.r-lib.org/articles/stages.html#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" class="img-fluid" alt="Lifecycle: experimental"></a> <a href="https://oxfordihtm.r-universe.dev/codeditr"><img src="https://oxfordihtm.r-universe.dev/badges/codeditr.png" class="img-fluid" alt="codeditr status badge"></a> <a href="https://github.com/OxfordIHTM/codeditr/actions/workflows/R-CMD-check.yaml"><img src="https://github.com/OxfordIHTM/codeditr/actions/workflows/R-CMD-check.yaml/badge.svg" class="img-fluid" alt="R-CMD-check"></a> <a href="https://github.com/OxfordIHTM/codeditr/actions/workflows/test-coverage.yaml"><img src="https://github.com/OxfordIHTM/codeditr/actions/workflows/test-coverage.yaml/badge.svg" class="img-fluid" alt="test-coverage"></a> <a href="https://app.codecov.io/gh/OxfordIHTM/codeditr?branch=main"><img src="https://codecov.io/gh/OxfordIHTM/codeditr/branch/main/graph/badge.svg" class="img-fluid" alt="Codecov test coverage"></a> <a href="https://www.codefactor.io/repository/github/OxfordIHTM/codeditr"><img src="https://www.codefactor.io/repository/github/OxfordIHTM/codeditr/badge.png" class="img-fluid" alt="CodeFactor"></a> <a href="https://zenodo.org/badge/latestdoi/752255505"><img src="https://zenodo.org/badge/752255505.svg" class="img-fluid" alt="DOI"></a></p>
-<p>The <a href="https://www.who.int/">World Health Organization</a>’s <a href="https://www.who.int/standards/classifications/classification-of-diseases/services/codedit-tool">CoDEdit electronic tool</a> is intended to help producers of cause-of-death statistics in strengthening their capacity to perform routine checks on their data. This package ports the original tool built using Microsoft Access into R. The aim is to leverage the utility and function of the original tool into a usable application program interface (API) that can be used for building more universal tools or for creating programmatic scientific workflows aimed at routine, automated, and large-scale monitoring of cause-of-death data.</p>
-<p>For more information on the <code>{codeditr}</code> package, you can visit the <a href="https://oxford-ihtm.io/codeditr/">project website</a>. To learn about the underlying code for this software development project, see the <a href="https://github.com/OxfordIHTM/codeditr">GitHub code repository</a>.</p>
-<p>If you are interested in contributing to this project, please be aware of its <a href="https://oxford-ihtm.io/codeditr/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our <a href="https://github.com/OxfordIHTM/codeditr/issues">GitHub issues</a> page. If you find something that you can help with, follow these <a href="https://oxford-ihtm.io/codeditr/CONTRIBUTING.html">steps on how to contribute</a>.</p>
+<p><a href="https://oxford-ihtm.io/pactr/"><img src="../images/pactr.png" class="img-fluid"></a></p>
+</div></div><p><a href="https://www.repostatus.org/#wip"><img src="https://www.repostatus.org/badges/latest/wip.svg" class="img-fluid" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public."></a> <a href="https://lifecycle.r-lib.org/articles/stages.html#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" class="img-fluid" alt="Lifecycle: experimental"></a> <a href="https://github.com/OxfordIHTM/pactr/actions/workflows/R-CMD-check.yaml"><img src="https://github.com/OxfordIHTM/pactr/actions/workflows/R-CMD-check.yaml/badge.svg" class="img-fluid" alt="R-CMD-check"></a> <a href="https://github.com/OxfordIHTM/pactr/actions/workflows/test-coverage.yaml"><img src="https://github.com/OxfordIHTM/pactr/actions/workflows/test-coverage.yaml/badge.svg" class="img-fluid" alt="test-coverage.yaml"></a> <a href="https://app.codecov.io/gh/OxfordIHTM/pactr?branch=main"><img src="https://codecov.io/gh/OxfordIHTM/pactr/branch/main/graph/badge.svg" class="img-fluid" alt="Codecov test coverage"></a> <a href="https://www.codefactor.io/repository/github/OxfordIHTM/pactr"><img src="https://www.codefactor.io/repository/github/OxfordIHTM/pactr/badge.png" class="img-fluid" alt="CodeFactor"></a> <a href="https://zenodo.org/badge/latestdoi/847474685"><img src="https://zenodo.org/badge/847474685.svg" class="img-fluid" alt="DOI"></a></p>
+<p>The <a href="https://www.pandemicpact.org/">Pandemic PACT</a> monitors and analyses global funding and research evidence related to diseases with pandemic potential, as well as broader research preparedness efforts, and is equipped to pivot in response to outbreaks. It collects, curates, codes, and analyses data in alignment with WHO priority diseases and other selected illnesses, including pandemic influenza, mpox, and plague. Pandemic PACT aims to guide policy and decision-making for research funders, policymakers, researchers, multilateral agencies. The Pandemic PACT data is publicly available for download from its <a href="https://www.pandemicpact.org/">website</a> and from <a href="https://portal.sds.ox.ac.uk/pandemicpact">Figshare</a>. This package provides an application programming interface (API) to the research programme’s <a href="https://portal.sds.ox.ac.uk/pandemicpact">Figshare</a> repository to provide programmatic access to its publicly available tracker data along with it’s other data products.</p>
+<p>For more information on the <code>{pactr}</code> package, you can visit the <a href="https://oxford-ihtm.io/pactr/">project website</a>. To learn about the underlying code for this software development project, see the <a href="https://github.com/OxfordIHTM/pactr">GitHub code repository</a>.</p>
+<p>If you are interested in contributing to this project, please be aware of its <a href="https://oxford-ihtm.io/pactr/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our <a href="https://github.com/OxfordIHTM/pactr/issues">GitHub issues</a> page. If you find something that you can help with, follow these <a href="https://oxford-ihtm.io/pactr/CONTRIBUTING.html">steps on how to contribute</a>.</p>
 
 
 
@@ -627,7 +644,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/software/codeditr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/packages/pactr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

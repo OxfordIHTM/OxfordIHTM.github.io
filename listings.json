@@ -1,17 +1,5 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/software/africalaws.html",
-      "/software/aurora.html",
-      "/software/codeditr.html",
-      "/software/codigo.html",
-      "/software/oxcgrt.html",
-      "/software/oxthema.html",
-      "/software/pactr.html"
-    ]
-  },
-  {
     "listing": "/teaching/index.html",
     "items": [
       "/teaching/session1-summary.html",
@@ -27,6 +15,14 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/packages/codeditr.html",
+      "/packages/codigo.html",
+      "/packages/oxcgrt.html"
+    ]
+  },
+  {
     "listing": "/stories.html",
     "items": [
       "/stories/2024-10-03-welcome-class-2025/index.html",
@@ -34,15 +30,11 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/software/africalaws.html",
-      "/software/aurora.html",
-      "/software/codeditr.html",
-      "/software/codigo.html",
-      "/software/oxcgrt.html",
-      "/software/oxthema.html",
-      "/software/pactr.html"
-    ]
+    "listing": "/packages/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": []
   }
 ]

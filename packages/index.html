@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Our collection of packages">
 
-<title>oxthema: Oxford Colours, Palettes, Fonts, and Themes</title>
+<title>Packages</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -68,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-package-links .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-links',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-image","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-package-links'] = new List('listing-package-links', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PSJXMNM72F"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -95,7 +127,53 @@ cookieconsent.run({
 });
 </script> 
   
+<style>
 
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #7F055F;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #7F055F;
+background: #E4F0EF;
+      }
+</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -103,7 +181,7 @@ cookieconsent.run({
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -141,8 +219,8 @@ cookieconsent.run({
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link active" href="../packages/index.html" aria-current="page"> 
+<span class="menu-text">Packages</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -160,43 +238,144 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Packages</h1>
+            <p class="subtitle lead">Our collection of packages</p>
+                  <div>
+        <div class="description">
+          Our collection of packages
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">oxthema: Oxford Colours, Palettes, Fonts, and Themes</h1>
+
+
+
+
+<div id="listing-package-links" class="column-screen-inset-right quarto-listing quarto-listing-container-custom" style="max-width: 1200px;">
+<div class="link-cards">
+<div class="card">
+<div class="card-image">
+<p><img src="../images/datadrop.png" class="img-fluid" width="200"></p>
+</div>
+<div class="card-body">
+<section id="data-access" class="level4 card-title">
+<h4 class="anchored" data-anchor-id="data-access">Data Access</h4>
+<section id="access-data-from-online-sources" class="level6 card-subtitle text-muted">
+<h6 class="anchored" data-anchor-id="access-data-from-online-sources">Access data from online sources</h6>
+</section>
+</section>
+<ul>
+<li><a href="https://oxford-ihtm.io/africalaws">africalaws</a></li>
+<li><a href="https://oxford-ihtm.io/codeditr">codeditr</a></li>
+<li><a href="https://oxford-ihtm.io/codigo">codigo</a></li>
+<li><a href="https://oxford-ihtm.io/oxcgrt">oxcgrt</a></li>
+<li><a href="https://oxford-ihtm.io/aurora">aurora</a></li>
+</ul>
+</div>
+</div>
+<div class="card">
+<div class="card-image">
+<p><img src="../images/nutriverse.png" class="img-fluid" width="200"></p>
+</div>
+<div class="card-body">
+<section id="nutriverse" class="level4 card-title">
+<h4 class="anchored" data-anchor-id="nutriverse">Nutriverse</h4>
+<section id="tools-for-nutrition-research" class="level6 card-subtitle text-muted">
+<h6 class="anchored" data-anchor-id="tools-for-nutrition-research">Tools for nutrition research</h6>
+</section>
+</section>
+<ul>
+<li><a href="https://nutriverse.io/zscorer">zscorer</a></li>
+<li><a href="https://nutriverse.io/nipnTK">nipnTK</a></li>
+<li><a href="https://nutriverse.io/squeacr">squeacr</a></li>
+<li><a href="https://nutriverse.io/sleacr">sleacr</a></li>
+<li><a href="https://nutriverse.io/micronutr">micronutr</a></li>
+<li><a href="https://nutriverse.io/anthrocheckr">anthrocheckr</a></li>
+<li><a href="https://nutriverse.io/smartr">smartr</a></li>
+</ul>
+</div>
+</div>
+<div class="card">
+<div class="card-image">
+<p><img src="../images/panukatan.png" class="img-fluid" width="200"></p>
+</div>
+<div class="card-body">
+<section id="panukatan" class="level4 card-title">
+<h4 class="anchored" data-anchor-id="panukatan">Panukatan</h4>
+<section id="tools-for-working-with-philippines-data" class="level6 card-subtitle text-muted">
+<h6 class="anchored" data-anchor-id="tools-for-working-with-philippines-data">Tools for working with Philippines data</h6>
+</section>
+</section>
+<ul>
+<li><a href="https://panukatan.io/bagyo">bagyo</a></li>
+<li><a href="https://panukatan.io/covidphtext">covidphtext</a></li>
+<li><a href="https://panuktana.io/lindol">lindol</a></li>
+<li><a href="https://panukatan.io/openbangsamoro">openbangsamoro</a></li>
+<li><a href="https://panukatan.io/openmarawi">openmarawi</a></li>
+</ul>
+</div>
+</div>
+<div class="card">
+<div class="card-image">
+<p><img src="../images/rapidsurveys.png" class="img-fluid" width="200"></p>
+</div>
+<div class="card-body">
+<section id="rapidsurveys" class="level4 card-title">
+<h4 class="anchored" data-anchor-id="rapidsurveys">RapidSurveys</h4>
+<section id="tools-for-implementing-population-surveys" class="level6 card-subtitle text-muted">
+<h6 class="anchored" data-anchor-id="tools-for-implementing-population-surveys">Tools for implementing population surveys</h6>
+</section>
+</section>
+<ul>
+<li><a href="https://rapidsurveys.io/oldr">oldr</a></li>
+<li><a href="https://rapidsurveys.io/odkr">odkr</a></li>
+<li><a href="https://rapidsurveys.io/okapi">okapi</a></li>
+<li><a href="https://rapidsurveys.io/bbw">bbw</a></li>
+</ul>
+</div>
+</div>
+<div class="card">
+<div class="card-image">
+<p><img src="../images/utilities.png" class="img-fluid" width="200"></p>
+</div>
+<div class="card-body">
+<section id="utilities" class="level4 card-title">
+<h4 class="anchored" data-anchor-id="utilities">Utilities</h4>
+<section id="tools-for-general-purposes-and-utilities" class="level6 card-subtitle text-muted">
+<h6 class="anchored" data-anchor-id="tools-for-general-purposes-and-utilities">Tools for general purposes and utilities</h6>
+</section>
+</section>
+<ul>
+<li><a href="https://oxford-ihtm.io/oxthema">oxthema</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="https://oxford-ihtm.io/oxthema/"><img src="../images/oxthema.png" class="img-fluid"></a></p>
-</div></div><p><a href="https://www.repostatus.org/#active"><img src="https://www.repostatus.org/badges/latest/active.svg" class="img-fluid" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed."></a> <a href="https://lifecycle.r-lib.org/articles/stages.html#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" class="img-fluid" alt="Lifecycle: stable"></a> <a href="https://github.com/OxfordIHTM/oxthema/actions/workflows/R-CMD-check.yaml"><img src="https://github.com/OxfordIHTM/oxthema/actions/workflows/R-CMD-check.yaml/badge.svg" class="img-fluid" alt="R-CMD-check"></a> <a href="https://github.com/OxfordIHTM/oxthema/actions/workflows/test-coverage.yaml"><img src="https://github.com/OxfordIHTM/oxthema/actions/workflows/test-coverage.yaml/badge.svg" class="img-fluid" alt="test-coverage"></a> <a href="https://app.codecov.io/gh/OxfordIHTM/oxthema?branch=main"><img src="https://codecov.io/gh/OxfordIHTM/oxthema/branch/main/graph/badge.svg" class="img-fluid" alt="Codecov test coverage"></a> <a href="https://www.codefactor.io/repository/github/oxfordihtm/oxthema"><img src="https://www.codefactor.io/repository/github/oxfordihtm/oxthema/badge.png" class="img-fluid" alt="CodeFactor"></a> <a href="https://zenodo.org/doi/10.5281/zenodo.10721129"><img src="https://zenodo.org/badge/711630340.svg" class="img-fluid" alt="DOI"></a></p>
-<p><code>{oxthema}</code> aims to provide templates, themes, and theme components for colour palettes, typography, and layout compliant with <a href="https://ox.ac.uk">University of Oxford</a>’s visual identity guidelines for use in the <a href="https://r-project.org">R</a> language for statistical computing graphics and publishing ecosystem.</p>
-<p>The package provides colours, palettes, and fonts consistent with the university visual identity guidelines. The package also includes themes for specific packages and functionalities that make use of colours, palettes, and fonts. The package currently has themes for <code>{ggplot2}</code> and for <code>{forestploter}</code> packages.</p>
-<p><code>{oxthema}</code> is currently in pre-release (alpha release) to allow for alpha testing of current functionalities.</p>
-<p>For more information on the <code>{oxthema}</code> package, you can visit the <a href="https://oxford-ihtm.io/oxthema/">project website</a>. To learn about the underlying code for this software development project, see the <a href="https://github.com/OxfordIHTM/oxthema">GitHub code repository</a>.</p>
-<p>If you are interested in contributing to this project, please be aware of its <a href="https://oxford-ihtm.io/oxthema/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By participating in this project you agree to abide by its terms. To see a list of features that we are either actively working on, are considering, or need help on, visit our <a href="https://github.com/OxfordIHTM/oxthema/issues">GitHub issues</a> page. If you find something that you can help with, follow these <a href="https://oxford-ihtm.io/oxthema/CONTRIBUTING.html">steps on how to contribute</a>.</p>
 
 
 
@@ -629,7 +808,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2024, University of Oxford MSc in International Health and Tropical Medicine</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/software/oxthema.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/oxfordihtm.github.io/edit/main/packages/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
