@@ -4,7 +4,7 @@ description: "Fostering innovation, research, and education in the field of comp
 author: "Ernest Guevarra"
 date: "26 09 2024"
 image: ihealth_base_inline.png
-draft: true
+draft: false
 categories:
   - news
   - announcement

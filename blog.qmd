@@ -1,13 +1,13 @@
 ---
-title: Stories
+title: Blog
 subtitle: Stories, news, announcements, guides, and everything else
 page-layout: full
 listing:
-  contents: stories
+  contents: posts
   sort: "date desc"
   type: default
   categories: true
-  date-format: "DD MMM YYYY"
+  date-format: "DD MMMM YYYY"
   image-placeholder: images/ihealth_base_inline.png
 title-block-banner: "#E4F0EF"
 title-block-banner-color: "#7F055F"
