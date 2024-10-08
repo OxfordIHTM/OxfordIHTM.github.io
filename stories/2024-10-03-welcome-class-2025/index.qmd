@@ -4,7 +4,7 @@ description: "Welcome to Class 2025 of the MSc in International Health and Tropi
 author: "Ernest Guevarra"
 date: "03 October 2024"
 image: kpop.png
-draft: false
+draft: true
 categories:
   - news
 ---
