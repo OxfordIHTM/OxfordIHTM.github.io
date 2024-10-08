@@ -196,141 +196,6 @@
   justify-content: center;
 }
 
-.team-banner {
-  position: relative;
-  background-color: #E4F0EF;;
-  display: flex;
-  justify-content: center;
-}
-
-.team-banner h1 {
-  color: #7F055F;
-  font-size: 2.5rem;
-}
-
-.team-banner .hero-image {
-  position: absolute;
-  display: none;
-  height: auto;
-}
-
-.team-banner .content-block {
-  display: flex;
-  flex-direction: row;
-}
-
-.team-banner .content-block .hero-text {
-  width: 65%;
-}
-
-.team-banner .content-block .hero-animation {
-  margin-left: 40px;
-  margin-top: 45px;
-  width: 350px;
-  height: 455px;
-}
-
-.team-banner .content-block .hero-animation video {
-  width: 350px;
-  height: 455px;
-}
-
-@media (min-width: 1000px) {
-  .team-banner .hero-image {
-    display: initial;
-    width: 270px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .team-banner .hero-image {
-    width: 340px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .team-banner .hero-image {
-    width: 300px;
-  }
-}
-
-.team-banner .hero-image p {
-  margin-bottom: 0;
-}
-
-.team-banner .hero-image-left {
-  left: 0;
-  bottom: 0;
-}
-
-.team-banner .hero-image-right {
-  right: 0;
-  bottom: 0;
-}
-
-.team-banner .content-block {
-  z-index: 2;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .team-banner .content-block {
-    max-width: 660px;
-  }
-  .team-banner .content-block .hero-text {
-    width: 100%;
-  }
-  
-  .team-banner .content-block .hero-animation {
-    display: none;
-  }
-}
-
-@media (max-width: 1200px)  {
-  .team-banner .content-block {
-    max-width: 660px;
-  }
-  .team-banner .content-block .hero-text {
-    width: 100%;
-  }
-  
-  .team-banner .content-block .hero-animation {
-    display: none;
-  }
-}
-
-.team-banner a {
-  text-decoration: none;
-}
-
-.team-banner h3 {
-  margin-top: 1.3rem;
-  margin-bottom: 1.3rem;
-}
-
-.team-banner h4 {
-  margin-top: 0;
-}
-
-.team-banner a[role="button"] {
-  margin-right: 17px;
-  margin-top: 0.6rem;
-  margin-bottom: 1.6rem;
-}
-
-.team-banner #btn-guide {
-  background-color: #776885 !important;
-  border: none;
-}
-
-.team-banner ul {
-  padding-inline-start: 21px;
-  font-size: 1.1rem;
-}
-
-.team-banner ul li {
-  padding-bottom: 0.4rem;
-}
-
 @media (max-width: 575px) {
   .link-cards .card {
     margin-bottom: 20px;
@@ -354,6 +219,13 @@
 .link-cards .card {
   border: none;
   padding: 0;
+}
+
+.link-cards .card-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;  
 }
 
 .link-cards .card-title h4 {

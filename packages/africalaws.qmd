@@ -1,5 +1,6 @@
 ---
 title: "africalaws: Interface to the Laws.Africa API"
+subtitle: "Interface to the Laws.Africa API"
 image: ../images/lawsafrica.png
 ---
 

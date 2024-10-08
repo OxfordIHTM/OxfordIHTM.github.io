@@ -1,5 +1,6 @@
 ---
 title: "codigo: Interface to the International Classification of Diseases (ICD) API"
+subtitle: Interface to the International Classification of Diseases (ICD) API
 image: ../images/codigo.png
 ---
 

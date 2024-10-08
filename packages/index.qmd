@@ -1,0 +1,12 @@
+---
+title: Packages
+subtitle: Our collection of packages
+description: Our collection of packages
+listing:
+  - id: package-links
+    template: ../ejs/custom.ejs
+    contents: packages.yml
+---
+
+::: {#package-links .column-screen-inset-right style="max-width: 1200px;"}
+:::

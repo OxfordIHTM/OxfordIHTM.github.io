@@ -1,5 +1,6 @@
 ---
 title: "aurora: Interface to the Oxord University Research Archive (ORA) API"
+subtitle: Interface to the Oxord University Research Archive (ORA) API
 image: ../images/aurora.png
 ---
 
