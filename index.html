@@ -98,34 +98,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-featured-projects .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-featured-projects'] = new List('listing-featured-projects', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PSJXMNM72F"></script>
 
@@ -306,7 +278,7 @@ window.Quarto = {
 <h1>Latest posts</h1>
 <div id="listing-featured-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news" data-listing-date-sort="1728259200000" data-listing-file-modified-sort="1728460714134" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="566">
+<div class="g-col-1" data-index="0" data-categories="news" data-listing-date-sort="1728259200000" data-listing-file-modified-sort="1728471004247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="566">
 <a href="./posts/2024-10-03-welcome-class-2025/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -331,7 +303,7 @@ Oct 7, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news,announcement" data-listing-date-sort="1727308800000" data-listing-file-modified-sort="1728460714134" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
+<div class="g-col-1" data-index="1" data-categories="news,announcement" data-listing-date-sort="1727308800000" data-listing-file-modified-sort="1728471004247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
 <a href="./posts/2024-09-26-introducing-ihealth/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -362,82 +334,45 @@ No matching items
 </div>
 </div>
 </section>
+<!-- ::: {.info-block}
+
+# Featured packages
+
+::: {#featured-packages}
+:::
+
+::: -->
+<div class="theme-banner">
 <section id="featured-packages" class="info-block">
 <h1>Featured packages</h1>
-<div id="listing-featured-projects" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1728460714134" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
-<a href="./packages/codeditr.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./images/codeditr.png" class="thumbnail-image card-img" style="height: 400px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool
-</h5>
-<div class="card-text listing-description">
-       
+<div class="grid">
+<div class="g-col-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://oxford-ihtm.io/codeditr"><img src="images/codeditr.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
+</figure>
 </div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
+<p><strong>codeditr</strong>: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool</p>
 </div>
+<div class="g-col-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://oxford-ihtm.io/codigo"><img src="images/codigo.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
+</figure>
 </div>
+<p><strong>codigo</strong>: Interface to the International Classification of Diseases (ICD) API</p>
 </div>
+<div class="g-col-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://oxford-ihtm.io/africalaws"><img src="images/lawsafrica.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
+</figure>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1728460714134" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
-<a href="./packages/codigo.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./images/codigo.png" class="thumbnail-image card-img" style="height: 400px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-codigo: Interface to the International Classification of Diseases (ICD) API
-</h5>
-<div class="card-text listing-description">
-     
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1728460714134" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
-<a href="./packages/oxcgrt.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./images/oxcgrt.png" class="thumbnail-image card-img" style="height: 400px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-oxcgrt: An Interface to the Oxford COVID-19 Government Response Tracker API
-</h5>
-<div class="card-text listing-description">
-         
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
+<p><strong>africalaws</strong>: Interface to the Laws.Africa API</p>
 </div>
 </div>
 </section>
+</div>
 
 
 
