@@ -73,6 +73,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured-posts .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured-posts'] = new List('listing-featured-posts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-featured-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -274,11 +302,71 @@ window.Quarto = {
 </div>
 </section>
 </div>
+<section id="latest-posts" class="info-block">
+<h1>Latest posts</h1>
+<div id="listing-featured-posts" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="news" data-listing-date-sort="1728255600000" data-listing-file-modified-sort="1728445994772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="558">
+<a href="./posts/2024-10-03-welcome-class-2025/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-10-03-welcome-class-2025/kpop.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Welcome MSc IHTM Class of 2025
+</h5>
+<div class="card-text listing-description">
+It’s the start of another school year and we welcome Class 2025 of the MSc in International Health and Tropical Medicine as they start their journey of self-discovery and…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Ernest Guevarra
+</div>
+<div class="listing-date">
+Oct 7, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="news,announcement" data-listing-date-sort="1727305200000" data-listing-file-modified-sort="1728443349604" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
+<a href="./posts/2024-09-26-introducing-ihealth/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-09-26-introducing-ihealth/ihealth_base_inline.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introducing Oxford iHealth
+</h5>
+<div class="card-text listing-description">
+We provide a learning environment for open and reproducible science and collaborate with partners to leverage this learning to contribute to solutions to global health…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Ernest Guevarra
+</div>
+<div class="listing-date">
+Sep 26, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
 <section id="featured-projects" class="info-block">
 <h1>Featured projects</h1>
 <div id="listing-featured-projects" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1728429397006" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1728333875148" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
 <a href="./packages/codeditr.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -300,7 +388,7 @@ codeditr: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1728429397006" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1728333900484" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
 <a href="./packages/codigo.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -322,7 +410,7 @@ codigo: Interface to the International Classification of Diseases (ICD) API
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1728429397006" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1725262324401" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
 <a href="./packages/oxcgrt.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">

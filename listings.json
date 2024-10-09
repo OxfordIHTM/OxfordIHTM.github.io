@@ -4,6 +4,10 @@
     "items": []
   },
   {
+    "listing": "/packages/index.html",
+    "items": []
+  },
+  {
     "listing": "/teaching/index.html",
     "items": [
       "/teaching/session1-summary.html",
@@ -21,6 +25,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2024-10-03-welcome-class-2025/index.html",
+      "/posts/2024-09-26-introducing-ihealth/index.html",
       "/packages/codeditr.html",
       "/packages/codigo.html",
       "/packages/oxcgrt.html"
@@ -32,9 +38,5 @@
       "/posts/2024-10-03-welcome-class-2025/index.html",
       "/posts/2024-09-26-introducing-ihealth/index.html"
     ]
-  },
-  {
-    "listing": "/packages/index.html",
-    "items": []
   }
 ]
