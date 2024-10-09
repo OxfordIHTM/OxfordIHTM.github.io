@@ -12,13 +12,78 @@ categories:
 
 October is here again and it is time to welcome our new cohort - ***Class 2025*** - of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm). We met all 19 students of the current cohort last week on the 1st and 2nd of October as they went through the now customary laptop setup for the [Open and Reproducible Science in R module](https://oxford-ihtm.io/teaching/). Lots of big smiles and positive vibes from this group of truly global students coming from 17 different countries.
 
-This year is also particularly special as it [marks 10 years of the course](https://www.tropicalmedicine.ox.ac.uk/news/ihtm-10-years-on). This 10th year cohort brings the total of IHTM students to 221 coming from 65 different countries. This level of diversity has always been the hallmark of the course.
+This year is also particularly special as it [marks 10 years of the course](https://www.tropicalmedicine.ox.ac.uk/news/ihtm-10-years-on). This 10th year cohort brings the total of IHTM students to 221 coming from 65 different countries (see @fig-student-country-map). This level of diversity has always been the hallmark of the course.
+
+<br/>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| label: fig-student-country-map
+#| fig-cap: Country locations of IHTM students for the past 10 years
+
+#'
+#' Get and process student country data
+#' 
+map_data <- function() {
+  read.csv(
+    file = "https://raw.githubusercontent.com/OxfordIHTM/infohub/refs/heads/main/data-raw/student_country.csv"
+  ) |>
+    dplyr::mutate(
+      lon = jitter(lon, factor = 1.2),
+      lat = jitter(lat, factor = 1.2)
+    )
+}
+
+leaflet::leaflet() |>
+  mapboxapi::addMapboxTiles(
+    style_id = "cjb38c92p1vsw2slyvdv9t4i7",
+    username = "ernestguevarra"
+  ) |>
+  leaflet::setView(lng = 20, lat = 0, zoom = 2) |>
+  leaflet::addCircleMarkers(
+    data = map_data(),
+    radius = 5,
+    fillColor = oxthema::get_oxford_colour("royal"),
+    weight = 1,
+    opacity = 1,
+    color = oxthema::get_oxford_colour("royal"),
+    fillOpacity = 0.6,
+    clusterOptions = leaflet::markerClusterOptions(),
+    label = ~paste0(
+      "Cohort: ", cohort, "<br/>",
+      "Country: ", country, "<br/>"
+    ) |>
+      lapply(htmltools::HTML),
+    labelOptions = leaflet::labelOptions(
+      style = list(
+        "font-weight" = "bold",
+        "background-color" = oxthema::get_oxford_colour("cool"),
+        padding = "3px 8px"
+      ),
+      textsize = "12px",
+      direction = "auto"
+    )
+  ) |>
+  htmlwidgets::onRender("
+    function(el, x) {
+      this.on('baselayerchange', function(e) {
+        e.layer.bringToBack();
+      })
+    }
+  ")
+```
+
+<br/>
 
 We are excited to be running the [Open and Reproducible Science in R](https://oxford-ihtm.io/teaching/) module again this year for Class 2025. Now on its third year, we are eager to get the ball rolling with our first session this Thursday (11th of October) to start off ten sessions of learning how to use R for data analysis and more importantly learning how to conduct open and reproducible research through R culminating in the 2025 edition of our yearly ***hackathon***.
 
 It has been a yearly tradition that each incoming IHTM class be given a codename as they start the Open and Reproducible Science in R module. Class 2023 was given the moniker ***Class Pokemon*** while Class 2024 had been codenamed ***Class Naruto***.
 
 We are happy to welcome Class 2025, now known also as ***Class K-pop***, to the Open and Reproducible Science in R module!
+
+![](kpop.png){fig-align="center"}
 
 
 

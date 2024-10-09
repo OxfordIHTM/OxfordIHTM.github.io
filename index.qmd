@@ -4,6 +4,12 @@ page-layout: custom
 section-divs: false
 toc: false
 listing:
+  - id: featured-posts
+    contents: posts
+    type: grid
+    sort: "date desc"
+    grid-item-border: false
+    max-items: 3
   - id: featured-projects
     contents:
       - packages/codeditr.qmd
@@ -80,9 +86,20 @@ Discoveries that impact on global health and measures that assess global health 
 
 ::: {.info-block}
 
+# Latest posts
+
+::: {#featured-posts}
+:::
+
+:::
+
+
+::: {.info-block}
+
 # Featured projects
 
 ::: {#featured-projects}
 :::
 
 :::
+
