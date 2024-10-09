@@ -96,7 +96,7 @@ Discoveries that impact on global health and measures that assess global health 
 
 ::: {.info-block}
 
-# Featured projects
+# Featured packages
 
 ::: {#featured-projects}
 :::

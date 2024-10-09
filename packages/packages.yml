@@ -12,6 +12,10 @@
     href: https://oxford-ihtm.io/oxcgrt
   - text: aurora
     href: https://oxford-ihtm.io/aurora
+  - text: ppitables
+    href: https://katilingban.io/ppitables
+  - text: washdata
+    href: https://katilingban.io/washdata
 
 - title: Nutriverse
   subtitle: Tools for nutrition research
@@ -66,3 +70,7 @@
   links:
   - text: oxthema
     href: https://oxford-ihtm.io/oxthema
+  - text: paleta
+    href: https://katilingban.io/paleta
+  - text: pakete
+    href: https://katilingban.io/pakete
