@@ -1,14 +1,13 @@
 on:
-  workflow_dispatch:
-  push:
+  pull_request:
     branches: main
 
-name: Quarto Publish
+name: test-website
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
-    container: rocker/geospatial:4.4.1
+    # container: rocker/geospatial:4.4.1
     permissions:
       contents: write
     env:
@@ -39,10 +38,8 @@ jobs:
         with:
           cache-version: 1
 
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Render
+        uses: quarto-dev/quarto-actions/render@v2
         with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          to: html
           
