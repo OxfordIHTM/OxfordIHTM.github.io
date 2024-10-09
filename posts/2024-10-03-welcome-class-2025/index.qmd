@@ -39,7 +39,8 @@ map_data <- function() {
 leaflet::leaflet() |>
   mapboxapi::addMapboxTiles(
     style_id = "cjb38c92p1vsw2slyvdv9t4i7",
-    username = "ernestguevarra"
+    username = "ernestguevarra",
+    options = leaflet::leafletOptions(minZoom = 2)
   ) |>
   leaflet::setView(lng = 20, lat = 0, zoom = 2) |>
   leaflet::addCircleMarkers(
