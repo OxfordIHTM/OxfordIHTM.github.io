@@ -10,16 +10,16 @@ listing:
     sort: "date desc"
     grid-item-border: false
     max-items: 3
-  - id: featured-projects
-    contents:
-      - packages/codeditr.qmd
-      - packages/codigo.qmd
-      - packages/oxcgrt.qmd
-    type: grid
-    image-height: 400px
-    image-placeholder: images/ihealth_base_pos_tn.png
-    grid-item-border: false
-    max-items: 3
+  # - id: featured-packages
+  #   contents:
+  #     - packages/codeditr.qmd
+  #     - packages/codigo.qmd
+  #     - packages/oxcgrt.qmd
+  #   type: grid
+  #   image-height: 400px
+  #   image-placeholder: images/ihealth_base_pos_tn.png
+  #   grid-item-border: false
+  #   max-items: 3
 ---
 
 ::: {.hero-banner}
@@ -49,6 +49,7 @@ listing:
 :::
 
 :::
+
 
 ::: {.theme-banner}
 
@@ -94,12 +95,44 @@ Discoveries that impact on global health and measures that assess global health 
 :::
 
 
+<!-- ::: {.info-block}
+
+# Featured packages
+
+::: {#featured-packages}
+:::
+
+::: -->
+
+::: {.theme-banner}
+
 ::: {.info-block}
 
 # Featured packages
 
-::: {#featured-projects}
+::: {.grid}
+
+::: {.g-col-4}
+
+[![](images/codeditr.png){fig-align="center"}](https://oxford-ihtm.io/codeditr)
+
+**codeditr**: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool
+:::
+
+::: {.g-col-4}
+[![](images/codigo.png){fig-align="center"}](https://oxford-ihtm.io/codigo)
+
+**codigo**: Interface to the International Classification of Diseases (ICD) API
+:::
+
+::: {.g-col-4}
+[![](images/lawsafrica.png){fig-align="center"}](https://oxford-ihtm.io/africalaws)
+
+**africalaws**: Interface to the Laws.Africa API
 :::
 
 :::
 
+:::
+
+:::
