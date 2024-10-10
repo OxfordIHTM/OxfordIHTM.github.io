@@ -1,11 +1,14 @@
 page-layout: article
 format:
   html:
+    toc: true
     grid:
       sidebar-width: 250px
       body-width: 800px
       margin-width: 300px
       gutter-width: 1.5rem
+    code-block-border-left: "#7F055F"
+    #code-line-numbers: true
 title-block-banner: "#E4F0EF"
 title-block-banner-color: "#7F055F"
 search: false

@@ -1,0 +1,264 @@
+---
+title: "Creating and styling histograms"
+subtitle: "Using base R"
+description: "We demonstrate how to create and style histograms using the `hist()` function in base R"
+author: "iHealth Team"
+date: "28 November 2023"
+#image: "../../images/ihealth_base_inline.png"
+draft: true
+categories:
+  - tutorial
+  - visualisation
+---
+
+A histogram is a graphical representation of the distribution of numerical data. It's useful for:
+
+1. **Visualizing Frequency Distribution**: It shows how data is distributed over a range of values, displaying the frequency of data points within specific intervals (called bins).
+   
+2. **Identifying Patterns**: Histograms help in spotting patterns such as normal distribution, skewness (left or right), or multimodal distributions (having more than one peak).
+
+3. **Comparing Data**: Histograms make it easy to compare the distribution of different datasets, especially when analyzing large volumes of data.
+
+In this tutorial, we demonstrate how to create a histogram using the `hist()` function in base R. We will use a dataset from a nutrition survey of school children 10 years and older from Pakistan. This dataset is available from the [Oxford iHealth](https://oxford-ihtm.io) [teaching datasets repository](https://github.com/OxfordIHTM/teaching_datasets).
+
+## Reading the dataset
+
+The school nutrition dataset is available as a CSV file from the [teaching datasets repository](https://github.com/OxfordIHTM/teaching_datasets). We can either download this CSV file and read it into R. Or we can read the CSV file directly from the repository. This can be done as follows:
+
+```{r read-nut-data}
+## link to CSV from GitHub repository ----
+csv_file_url <- "https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv" # <1>
+
+## Read CSV file ----
+nut_data <- read.csv(file = csv_file_url) # <2>
+```
+
+1. This URL can be retrieved from GitHub by accessing the raw version of the GitHub link to the file
+2. Use `read.csv()` to read the CSV file from the URL
+
+On inspection of the dataset, we see:
+
+```{r inspect-nut-data}
+## Show first 5 rows of data ----
+head(nut_data)
+```
+
+We have a `data.frame` with **`r nrow(nut_data)`** rows and **`r ncol(nut_data)`** columns.
+
+For this tutorial, we will focus on the `weight` variable in the dataset for demonstrating how to create and style histograms in base R. 
+
+## Creating a histogram
+
+A histogram of the weight variable can be created as follows:
+
+```{r plot-nut-data-1}
+#| label: fig-hist-all
+#| fig-cap: Histogram of weight of all children
+
+### Histogram of weight of all children ----
+hist(nut_data$weight)
+```
+
+<br/>
+
+By default, the `hist()` function already creates a *title* and *x* and *y* axis labels to the histogram.
+
+We might be interested in comparing the distribution of the weight variable between male and female in the dataset. We can create two histograms for weight. One for the males in the dataset and one for the females in the dataset.
+
+```{r plot-nut-data-2}
+#| label: fig-hist-male
+#| fig-cap: Histogram of weight for male children
+
+### Histogram of weight of male children ----
+hist(nut_data$weight[nut_data$sex == 1])
+```
+
+```{r plot-nut-data-3}
+#| label: fig-hist-female
+#| fig-cap: Histogram of weight for female children
+
+### Histogram of weight of female children ----
+hist(nut_data$weight[nut_data$sex == 2])
+```
+
+<br/>
+
+We can simplify the above code by using the `with()` and `by()` functions. We can plot the weights of all the children using this:
+
+```{r plot-nut-data-4}
+#| label: fig-hist-all-with
+#| fig.cap: Histogram of weight for all children using with
+
+## Use with to plot weight for all children ----
+with(nut_data, hist(weight))
+```
+
+We notice that using `with()`, the default `title` used is already appropriate and tidier as is the `x` and `y` axis labels.
+
+```{r plot-nut-data-5}
+#| label: fig-hist-sex-with
+#| fig.cap: Histogram of weight for male and female children using with
+
+## Use with to plot weight for male children ----
+with(nut_data, by(weight, sex, hist))
+```
+
+
+
+The two plots above works but they get produced one after the other in separate plots. So, if we want to compare them, it is a bit difficult because we don't see them side-by-side or in the same plot one on top of the other.
+
+I also need to change the title of the plot and the label for the x-axis to make them more informative.
+
+
+```{r}
+## Looking into this more using ?hist, I learn that the hist() function doesn't
+## have a formula method like boxplot() function. This means that grouping
+## the data to subsets to perform a histogram on will need a bit of my earlier
+## learnings such as the by() function.
+##
+## I also notice that by default the hist() function already creates a
+## standard title to the plot and puts x- and y-axis labels
+
+### Histogram - weight by sex of children ----
+hist(nut_data$weight[nut_data$sex == 1])  ## histogram for weight of males
+hist(nut_data$weight[nut_data$sex == 2])  ## histogram for weight of females
+
+## The two plots above works but they get produced one after the other in
+## separate plots. So, if I want to compare them, it is a bit difficult
+## because I don't see them side-by-side like in boxplot or in the same plot
+## one on top of the other.
+##
+## I also need to change the title of the plot and the label for the x-axis to
+## make them more informative.
+
+### Use with() and by() functions to create grouped histogram ----
+with(nut_data, by(weight, sex, hist))
+
+## That was good as I can get both plots in just a single line. However, the
+## histograms for males and females are still on separate plots.
+
+### Use with() and by() functions and using the add parameter in plots ----
+with(
+  nut_data,
+  by(weight,
+     sex,
+     FUN = hist,
+     add = TRUE) ## This adds the the second plot (for females) as a layer on top of the first plot (for males)
+)
+
+## This is good, but it is still not perfect. The plot is not clear in
+## differentiating the plot for males and females. I think this is the best
+## use for colours
+
+### Use with() and by() functions and add parameter and then add colours ----
+with(
+  nut_data,
+  by(weight,
+     sex,
+     FUN = hist,
+     col = c("darkblue", "lightblue"),  ## Add colours: darkblue for males, lightblue for females
+     add = TRUE)
+)
+
+## But this doesn't really look any better than earlier plot. The colour just
+## added more confusion. I think this is because of my use of the by() function
+## which is restricting me in the colour specification I need. Why don't I try
+## to plot one by one and see what happens
+
+### Use with() function and then plot histogram for males and females with the add parameter ----
+with(
+  nut_data,
+  {                                                          ## I used the curly brackets here because I will be using a multi-line code
+    hist(weight[sex == 1], col = "darkblue")
+    hist(weight[sex == 2], col = "lightblue", add = TRUE)    ## I put the add parameter in the second plot
+  }                                                          ## Don't forget to close the curly brackets!
+)
+
+## This looks better. I can see the two histograms layered on each other. But
+## The histogram for females seems truncated on the left tail. Maybe there are
+## some weight values for females that are lower than those for males. We can
+## adjust this by setting the limits of the x-axis
+
+### Set the value limits of the x axis
+with(
+  nut_data,
+  {                                                          
+    hist(weight[sex == 1], col = "darkblue", xlim = c(0, 60))     ## Set the limits of x-axis for first plot
+    hist(weight[sex == 2], col = "lightblue", add = TRUE)         ## No need to set limits of x-axis for second plot
+  }                                                               ## as it will be added on top of first plot
+)
+
+## This looks much better. I can see now the full extent of both male and female
+## histograms. But I can still tidy it up with a legend that tells me the dark 
+## blue is for males and the light blue is for females and I can use more 
+## meaningful axis labels and plot title
+
+### Layered plot with legend and better labels and title ----
+with(
+  nut_data,
+  {                                                         
+    hist(weight[sex == 1], col = "darkblue", xlim = c(0, 60), xlab = "Weight (kgs)", main = NULL)
+    hist(weight[sex == 2], col = "lightblue", add = TRUE)
+    legend(x = "topright",                         ## This is how you add a basic legend.                   
+           legend = c("Males", "Females"),         ## I learned this by looking at the
+           fill = c("darkblue", "lightblue"),      ## help file for the function legend() -
+           bty = "n",                              ## ?legend
+           cex = 0.8,
+           y.intersp = 0.8)
+    title(main = "Distribution of weight by sex")
+  }                                                          
+)
+
+## This is definitely better. But the plot looks very cluttered/muddled.
+## Maybe the better approach is a side-by-side plot.
+## I look at ?par and see that I can create "windows" or panels for plotting
+## using the mfrow or mfcol graphical parameter. Let me try.
+
+### Use mfcol to create two side-by-side plots ----
+par(mfcol = c(1, 2))  ## this changes the default graphical window to 1 row and 2 columns
+with(
+  nut_data,
+  {                                                          
+    hist(weight[sex == 1])
+    hist(weight[sex == 2])    ## I don't need to use the add parameter as the
+  }                           ## second plot is created in its own graphics
+)                             ## window
+
+## This looks much better as the male and female histograms are now side-by-side.
+## However, it is hard to compare the two because the scale of the x and y-axis
+## differ from each other. Whilst this is not that important when comparing
+## histograms because its main purpose is to compare overall distribution, it
+## will look nicer and more professional if the scales are the same.
+
+### Set the same x and y scales for both plots ----
+par(mfcol = c(1, 2))
+with(
+  nut_data,
+  {
+    hist(weight[sex == 1], xlim = c(0, 60), ylim = c(0, 80))
+    hist(weight[sex == 2], xlim = c(0, 60), ylim = c(0, 80))    ## Unlike earlier, we need to specify
+  }                                                             ## x and y limits for each plot because
+)                                                               ## they are being plotted on separate graphics windows
+
+## That looks much better. But we can tidy it up more to make it even more
+## professional. Let us tidy up the axis labels and the titles of each plot
+## to identify them as for males and females
+par(mfcol = c(1, 2))
+with(
+  nut_data,
+  {
+    hist(weight[sex == 1], 
+         xlim = c(0, 60), ylim = c(0, 80), 
+         main = NULL, xlab = "Males")         ## Set main to NULL and set x-axis label to "Males"
+    hist(weight[sex == 2], 
+         xlim = c(0, 60), ylim = c(0, 80), 
+         main = NULL, xlab = "Females")       ## Set main to NULL and set x-axis label to "Females"
+  }
+)
+par(mfcol = c(1, 1))                            ## Reset graphical window to 1 by 1 plot window
+title(main = "Distribution of weight by sex",   ## Set title for 1 by 1 plot window
+      xlab = "Weight (kgs)")                    ## Set label for x-axis for 1 by 1 plot window
+
+## This looks the best! Definitely something that can be put on a thesis or an
+## article!
+```
