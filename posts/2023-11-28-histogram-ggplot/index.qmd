@@ -1,0 +1,217 @@
+---
+title: "Creating and styling histograms"
+subtitle: "Using ggplot"
+description: "We demonstrate how to create and style histograms using ggplot"
+author: "iHealth Team"
+date: "28 November 2023"
+date-modified: last-modified
+image: "histogram_ggplot.png"
+draft: false
+categories:
+  - tutorial
+  - visualisation
+  - ggplot
+---
+
+A histogram is a graphical representation of the distribution of numerical data. It's useful for:
+
+1. **Visualizing Frequency Distribution**: It shows how data is distributed over a range of values, displaying the frequency of data points within specific intervals (called bins).
+   
+2. **Identifying Patterns**: Histograms help in spotting patterns such as normal distribution, skewness (left or right), or multimodal distributions (having more than one peak).
+
+3. **Comparing Data**: Histograms make it easy to compare the distribution of different datasets, especially when analyzing large volumes of data.
+
+In this tutorial, we demonstrate how to create a histogram using the `ggplot`. We will use a dataset from a nutrition survey of school children 10 years and older from Pakistan. This dataset is available from the [Oxford iHealth](https://oxford-ihtm.io) [teaching datasets repository](https://github.com/OxfordIHTM/teaching_datasets).
+
+## Reading the dataset
+
+The school nutrition dataset is available as a CSV file from the [teaching datasets repository](https://github.com/OxfordIHTM/teaching_datasets). We can either download this CSV file and read it into R. Or we can read the CSV file directly from the repository. This can be done as follows:
+
+```{r read-nut-data}
+## link to CSV from GitHub repository ----
+csv_file_url <- "https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv" # <1>
+
+## Read CSV file ----
+nut_data <- read.csv(file = csv_file_url) # <2>
+```
+
+1. This URL can be retrieved from GitHub by accessing the raw version of the GitHub link to the file
+2. Use `read.csv()` to read the CSV file from the URL
+
+On inspection of the dataset, we see:
+
+```{r inspect-nut-data}
+## Show first 5 rows of data ----
+head(nut_data)
+```
+
+We have a `data.frame` with **`r nrow(nut_data)`** rows and **`r ncol(nut_data)`** columns.
+
+For this tutorial, we will focus on the `weight` variable in the dataset for demonstrating how to create and style histograms in base R. 
+
+## Creating a histogram {#sec-create-histogram}
+
+### Create histogram for weight for all children
+
+A histogram of the weight variable for all children in the dataset can be created as follows:
+
+```{r plot-nut-data-1}
+#| message: false
+#| label: fig-hist-all
+#| fig-cap: Histogram of weight of all children
+
+## Load ggplot2 ----
+library(ggplot2)                                                  # <1>
+
+## Histogram of weight of all children ----
+ggplot(data = nut_data, mapping = aes(x = weight)) +              # <2>
+  geom_histogram(                                                 # <3>
+    fill = "gray70",                                              # <4>
+    colour = "gray50"                                             # <4>
+  ) +                                                             
+  labs(                                                           # <5>
+    title = "Histogram of weight",                                # <6>
+    subtitle = "School children 10 years and above in Pakistan",  # <7>
+    x = "Weight (kgs)",                                           # <8>
+    y = "n"                                                       # <9>
+  ) +
+  theme_minimal()                                                 # <10>
+```
+
+1. Load `{ggplot2}`. If not yet installed, run `install.packages("ggplot2")`.
+2. Set `ggplot` aesthetic mappings. For histograms, we just need to set the `x` axis value aesthetic; for more information, run `?ggplot`.
+3. Plot the histogram using `geom_histogram()`; for more information, run `?geom_histogram`.
+4. Change colour of histogram bars from default (dark gray), `fill` sets the colour inside the histogram bar while `colour` sets the colour of the outline of the histogram bar.
+5. Set labels of the plot; for more information, run `?labs`.
+6. Set the `title` of the plot.
+7. Set the `subtitle` of the plot.
+8. Set the `x` axis label of the plot.
+9. Set the `y` axis label of the plot.
+10. Set a plot theme; for more information, run `?themes`.
+
+### Create histogram for weight by sex of children
+
+To create a histogram of the weight by the sex of the child, we can use the following code:
+
+```{r plot-nut-data-2}
+#| message: false
+#| label: fig-hist-sex-1
+#| fig.cap: Histogram of weight by sex
+
+## Histogram of weight by sex ----
+ggplot(
+  data = nut_data, 
+  mapping = aes(x = weight, fill = factor(sex))                    # <1>
+) +
+  geom_histogram() +
+  labs(
+    title = "Histogram of weight by sex",
+    subtitle = "School children 10 years and above in Pakistan",
+    x = "Weight (kgs)",
+    y = "n"
+  ) +
+  theme_minimal()
+```
+
+1. We add an aesthetic mapping for `fill` to the variable `sex` in the dataset so that the histogram for males and females will be given different `fill` values. We converted the `sex` variable to a factor (from integer) to make the `fill` values discrete (as compared to continuous).
+
+<br/>
+
+The plot looks good but we can still improve on the following things:
+
+* The plot is using default colours provided by `ggplot`. We can try to use other colours.
+* The legend label can be made to just say sex.
+* The legend can show Male and Female instead of 1 and 2.
+
+The following code can make these improvements.
+
+```{r plot-nut-data-3}
+#| message: false
+#| label: fig-hist-sex-2
+#| fig.cap: Histogram of weight by sex - updated
+
+## Histogram of weight by sex ----
+ggplot(
+  data = nut_data, 
+  mapping = aes(x = weight, fill = factor(sex))
+) +
+  geom_histogram() +
+  scale_fill_manual(                                              # <1>
+    name = "Sex",                                                 # <2>
+    labels = c("Male", "Female"),                                 # <3>
+    values = c("blue", "lightblue")                               # <4>
+  ) +
+  labs(
+    title = "Histogram of weight by sex",
+    subtitle = "School children 10 years and above in Pakistan",
+    x = "Weight (kgs)",
+    y = "n"
+  ) +
+  theme_minimal()
+```
+
+1. Use `scale_fill_manual()` to change histogram fill colours, legend name, and legend labels. For more information, run `?scale_fill_manual`.
+2. Change the legend label value.
+3. Change the legend values.
+4. Change the histogram fill colours.
+
+<br/>
+
+The alternative presentation of the histogram for weight by sex is using a side-by-side layout. This can be done in `ggplot` using the following code.
+
+```{r plot-nut_data-4}
+#| message: false
+#| label: fig-hist-sex-3
+#| fig.cap: Histogram of weight by sex - faceted
+
+## Histogram of weight by sex ----
+ggplot(data = nut_data, mapping = aes(x = weight)) +
+  geom_histogram() +
+  facet_wrap(. ~ sex, ncol = 2) +                                       # <1>
+  labs(
+    title = "Histogram of weight by sex",
+    subtitle = "School children 10 years and above in Pakistan",
+    x = "Weight (kgs)",
+    y = "n"
+  ) +
+  theme_bw()                                                            # <2>
+```
+
+1. Use `facet_wrap()` to create a faceted plot. For more information, run `?facet_wrap()`.
+2. Use `theme_bw()` instead as this has better formatting for faceted plots. For more information, run `?theme_bw()`.
+
+<br/>
+
+The plot looks good but we can still improve on the following things:
+
+* Lighten the default gray fill colour of the histogram bars.
+* Use more appropriate facet labels (Male or Female).
+
+The following code can make these improvements.
+
+```{r plot-nut_data-5}
+#| message: false
+#| label: fig-hist-sex-4
+#| fig.cap: Histogram of weight by sex - faceted updated
+
+## Convert sex to factor ----
+nut_data$sex <- factor(nut_data$sex, labels = c("Male", "Female"))      # <1>
+
+## Histogram of weight by sex ----
+ggplot(data = nut_data, mapping = aes(x = weight)) +
+  geom_histogram(
+    fill = "gray70",                                                    # <2>
+    colour = "gray50"                                                   # <2>
+  ) +
+  facet_wrap(. ~ sex, ncol = 2) +
+  labs(
+    title = "Histogram of weight by sex",
+    subtitle = "School children 10 years and above in Pakistan",
+    x = "Weight (kgs)",
+    y = "n"
+  ) +
+  theme_bw()
+```
+
+1. Convert sex variable to factor using Male and Female as the labels.
+2. Change colour of histogram bars from default (dark gray), `fill` sets the colour inside the histogram bar while `colour` sets the colour of the outline of the histogram bar.

@@ -4,6 +4,7 @@ subtitle: "Class K-pop"
 description: "It's the start of another school year and we welcome Class 2025 of the MSc in International Health and Tropical Medicine as they start their journey of self-discovery and learning at the University of Oxford."
 author: "Ernest Guevarra"
 date: "07 October 2024"
+date-modified: last-modified
 image: kpop.png
 draft: false
 categories:
@@ -21,7 +22,7 @@ This year is also particularly special as it [marks 10 years of the course](http
 #| message: false
 #| warning: false
 #| label: fig-student-country-map
-#| fig-cap: Country locations of IHTM students for the past 10 years
+#| fig-cap: Country locations of IHTM students over the past 10 years
 
 #'
 #' Get and process student country data
