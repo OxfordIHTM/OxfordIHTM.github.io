@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-package-links .list');
+    const listingTargetEl = window.document.querySelector('#listing-package-row1-links .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-package-links'] = new List('listing-package-links', options);
+    window['quarto-listings']['listing-package-row1-links'] = new List('listing-package-row1-links', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-package-row2-links .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-links',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-image","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-package-row2-links'] = new List('listing-package-row2-links', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -260,7 +288,7 @@ window.Quarto = {
 
 </div>
 <div class="g-col-8">
-<div id="listing-package-links" class="quarto-listing quarto-listing-container-custom">
+<div id="listing-package-row1-links" class="quarto-listing quarto-listing-container-custom">
 <div class="link-cards">
 <div class="card">
 <div class="card-image">
@@ -326,6 +354,23 @@ window.Quarto = {
 </ul>
 </div>
 </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<div class="g-col-1">
+
+</div>
+</div>
+<div class="grid">
+<div class="g-col-4">
+
+</div>
+<div class="g-col-7">
+<div id="listing-package-row2-links" class="quarto-listing quarto-listing-container-custom">
+<div class="link-cards">
 <div class="card">
 <div class="card-image">
 <p><img src="../images/rapidsurveys.png" class="img-fluid" width="200"></p>
@@ -352,8 +397,8 @@ window.Quarto = {
 <div class="card-body">
 <section id="utilities" class="level4 card-title">
 <h4 data-anchor-id="utilities">Utilities</h4>
-<section id="tools-for-general-purposes-and-utilities" class="level6 card-subtitle text-muted">
-<h6 data-anchor-id="tools-for-general-purposes-and-utilities">Tools for general purposes and utilities</h6>
+<section id="general-purpose-tools-and-utilities" class="level6 card-subtitle text-muted">
+<h6 data-anchor-id="general-purpose-tools-and-utilities">General purpose tools and utilities</h6>
 </section>
 </section>
 <ul>
