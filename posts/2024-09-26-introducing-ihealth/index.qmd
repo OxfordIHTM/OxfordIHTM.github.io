@@ -4,6 +4,7 @@ subtitle: "Fostering innovation, research, and education in the field of computa
 description: We provide a learning environment for open and reproducible science and collaborate with partners to leverage this learning to contribute to solutions to global health challenges.
 author: "Ernest Guevarra"
 date: "26 09 2024"
+date-modified: last-modified
 image: ihealth_base_inline.png
 draft: false
 categories:

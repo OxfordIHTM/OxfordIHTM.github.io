@@ -4,7 +4,8 @@ subtitle: "Using base R"
 description: "We demonstrate how to create and style histograms using the `hist()` function in base R"
 author: "iHealth Team"
 date: "28 November 2023"
-image: "histogram.png"
+date-modified: last-modified
+image: "histogram_base.png"
 draft: false
 categories:
   - tutorial
@@ -226,6 +227,7 @@ plot(
   xlab = "weight (kgs)",
   ylab = "n"  
 )
+
 plot(
   hist_sex[[2]], 
   add = TRUE # <1>
@@ -248,6 +250,7 @@ plot(
   xlab = "weight (kgs)",
   ylab = "n"  
 )
+
 plot(
   hist_sex[[2]], 
   add = TRUE
