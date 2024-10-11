@@ -1,0 +1,23 @@
+- title: RapidSurveys
+  subtitle: Tools for implementing population surveys
+  image: ../images/rapidsurveys.png
+  links:
+  - text: oldr
+    href: https://rapidsurveys.io/oldr
+  - text: odkr
+    href: https://rapidsurveys.io/odkr
+  - text: okapi
+    href: https://rapidsurveys.io/okapi
+  - text: bbw
+    href: https://rapidsurveys.io/bbw
+
+- title: Utilities
+  subtitle: General purpose tools and utilities
+  image: ../images/utilities.png
+  links:
+  - text: oxthema
+    href: https://oxford-ihtm.io/oxthema
+  - text: paleta
+    href: https://katilingban.io/paleta
+  - text: pakete
+    href: https://katilingban.io/pakete

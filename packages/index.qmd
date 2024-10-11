@@ -3,9 +3,12 @@
 # subtitle: R Tools for Global Health Research and Analysis
 page-layout: custom
 listing:
-  - id: package-links
+  - id: package-row1-links
     template: ../ejs/custom.ejs
-    contents: packages.yml
+    contents: packages_row1.yml
+  - id: package-row2-links
+    template: ../ejs/custom.ejs
+    contents: packages_row2.yml
 ---
 
 ::: {.about-banner}
@@ -30,7 +33,25 @@ Our collection of packages developed and contributed by Oxford iHealth team memb
 
 ::: {.g-col-8}
 
-::: {#package-links}
+::: {#package-row1-links}
+:::
+
+:::
+
+::: {.g-col-1}
+:::
+
+:::
+
+
+::: {.grid}
+
+::: {.g-col-4}
+:::
+
+::: {.g-col-7}
+
+::: {#package-row2-links}
 :::
 
 :::
