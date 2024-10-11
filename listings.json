@@ -19,23 +19,25 @@
     "items": [
       "/posts/2024-10-03-welcome-class-2025/index.html",
       "/posts/2024-09-26-introducing-ihealth/index.html",
+      "/posts/2023-11-28-histogram-ggplot/index.html",
       "/posts/2023-11-28-histogram-base-r/index.html"
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/2024-10-03-welcome-class-2025/index.html",
-      "/posts/2024-09-26-introducing-ihealth/index.html",
-      "/posts/2023-11-28-histogram-base-r/index.html"
-    ]
+    "listing": "/projects/index.html",
+    "items": []
   },
   {
     "listing": "/packages/index.html",
     "items": []
   },
   {
-    "listing": "/projects/index.html",
-    "items": []
+    "listing": "/index.html",
+    "items": [
+      "/posts/2024-10-03-welcome-class-2025/index.html",
+      "/posts/2024-09-26-introducing-ihealth/index.html",
+      "/posts/2023-11-28-histogram-ggplot/index.html",
+      "/posts/2023-11-28-histogram-base-r/index.html"
+    ]
   }
 ]
