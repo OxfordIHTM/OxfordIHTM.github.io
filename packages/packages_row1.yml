@@ -1,0 +1,53 @@
+- title: Data Access
+  subtitle: Access data from online sources
+  image: ../images/datadrop.png
+  links:
+  - text: africalaws
+    href: https://oxford-ihtm.io/africalaws
+  - text: codeditr
+    href: https://oxford-ihtm.io/codeditr
+  - text: codigo
+    href: https://oxford-ihtm.io/codigo
+  - text: oxcgrt
+    href: https://oxford-ihtm.io/oxcgrt
+  - text: aurora
+    href: https://oxford-ihtm.io/aurora
+  - text: ppitables
+    href: https://katilingban.io/ppitables
+  - text: washdata
+    href: https://katilingban.io/washdata
+
+- title: Nutriverse
+  subtitle: Tools for nutrition research
+  image: ../images/nutriverse.png
+  links:
+  - text: zscorer
+    href: https://nutriverse.io/zscorer
+  - text: nipnTK
+    href: https://nutriverse.io/nipnTK
+  - text: squeacr
+    href: https://nutriverse.io/squeacr
+  - text: sleacr
+    href: https://nutriverse.io/sleacr
+  - text: micronutr
+    href: https://nutriverse.io/micronutr
+  - text: anthrocheckr
+    href: https://nutriverse.io/anthrocheckr
+  - text: smartr
+    href: https://nutriverse.io/smartr
+
+- title: Panukatan
+  subtitle: Tools for working with Philippines data
+  image: ../images/panukatan.png
+  links:
+  - text: bagyo
+    href: https://panukatan.io/bagyo
+  - text: covidphtext
+    href: https://github.com/panukatan/covidphtext
+  - text: lindol
+    href: https://panukatan.io/lindol
+  - text: openbangsamoro
+    href: https://panukatan.io/openbangsamoro
+  - text: openmarawi
+    href: https://panukatan.io/openmarawi
+
