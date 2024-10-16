@@ -16,6 +16,24 @@ This initiative also facilitates interdisciplinary collaboration, enabling parti
 
 This repository builds and serves the Oxford iHealth [website](https://oxford-ihtm.io) which is designed and coded using [R](https://r-project.org) language and environment for statistical computing and [Quarto](https://quarto.org), an open source scientific and technical publishing system.
 
+## Reproducibility
+
+This repository uses R version 4.4.1. R packages used in this repository are versioned using [`{renv}`](https://rstudio.github.io/renv/index.html). To reproduce the website's R package environment, please run:
+
+```R
+renv::restore()
+```
+
+on the R console.
+
+To preview the website locally, run the following command on Terminal:
+
+```bash
+quarto preview
+```
+
+The website is rendered via GitHub Actions and published via GitHub Pages automatically every time changes are pushed to the main branch.
+
 
 ## Authors and developers
 
