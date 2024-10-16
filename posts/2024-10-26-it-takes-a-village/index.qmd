@@ -5,7 +5,7 @@ description: "Science is a fundamentally communal activity, shaped by collaborat
 author: "Proochista Ariana"
 date: "16 October 2024"
 date-modified: last-modified
-image: ../../images/champions.png
+image: ../../images/ihealth_champions.png
 draft: false
 categories:
   - stories
