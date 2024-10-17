@@ -1,0 +1,241 @@
+---
+title: "Creating and styling boxplots"
+subtitle: "Using base R"
+description: "We demonstrate how to create and style boxplots using the `boxplot()` function in base R"
+author: "iHealth Team"
+date: "29 November 2023"
+date-modified: last-modified
+image: "boxplot_base.png"
+draft: false
+categories:
+  - tutorial
+  - visualisation
+---
+
+Boxplots (also called *box-and-whisker* plots) are a graphical tool used to summarise and display the distribution of a continuous variable. They are useful for several reasons:
+
+1. **Identifying Outliers**: Boxplots clearly highlight outliers (values that fall significantly outside the range of most of the data). Outliers are shown as individual points beyond the "whiskers" of the plot.
+
+2. **Visualizing the Spread and Central Tendency**: The box itself shows the interquartile range (IQR). The line inside the box represents the median, providing a sense of central tendency.
+
+3. **Displaying the Range of Data**: The boxplot gives a quick overview of the minimum, first quartile (Q1), median (Q2), third quartile (Q3), and maximum values, helping to understand the range and overall distribution.
+
+## Key Components of a Boxplot:
+
+* **Box**: Represents the interquartile range (IQR).
+
+* **Whiskers**: Extend to the smallest and largest data points within 1.5 times the IQR from Q1 and Q3.
+
+* **Median**: The line inside the box, representing the middle value of the dataset.
+
+* **Outliers**: Shown as individual points beyond the whiskers.
+
+Boxplots provide a concise summary, making it easier to understand the distributional properties of a dataset at a glance.
+
+In this tutorial, we demonstrate how to create boxplots using the `boxplot()` function in base R. We will use a dataset from a nutrition survey of school children 10 years and older from Pakistan. This dataset is available from the [Oxford iHealth](https://oxford-ihtm.io) [teaching datasets repository](https://github.com/OxfordIHTM/teaching_datasets).
+
+```{r read-nut-data}
+## link to CSV from GitHub repository ----
+csv_file_url <- "https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv" # <1>
+
+## Read CSV file ----
+nut_data <- read.csv(file = csv_file_url) # <2>
+```
+
+1. This URL can be retrieved from GitHub by accessing the raw version of the GitHub link to the file
+2. Use `read.csv()` to read the CSV file from the URL
+
+On inspection of the dataset, we see:
+
+```{r inspect-nut-data}
+## Show first 5 rows of data ----
+head(nut_data)
+```
+
+We have a `data.frame` with **`r nrow(nut_data)`** rows and **`r ncol(nut_data)`** columns.
+
+For this tutorial, we will focus on the `weight` variable in the dataset for demonstrating how to create and style boxplots in base R.
+
+## Creating a boxplot {#sec-create-boxplot}
+
+```{r plot-nut-data-1}
+#| label: fig-box-all
+#| fig-cap: Boxplot of weight of all children
+
+## Boxplot of weight of all children ----
+boxplot(nut_data$weight)
+```
+
+By default, the `boxplot()` function provides the plot above as output when provided values of a continuous variable. Note the default settings in terms of `fill` for the box and no plot labels.
+
+We might be interested in comparing the distribution of the weight variable between male and female in the dataset. This can be done in different ways using the `boxplot()` function.
+
+### Default method
+
+The default method for creating boxplots for different groupings in a dataset is to supply the different vectors of values for each group either as unnamed arguments or as a single list.
+
+The following code shows one way to provide the different values of weight based on sex as unnamed arguments.
+
+```{r plot-nut-data-2a}
+#| label: fig-box-by-sex-default-1
+#| fig-cap: Boxplot of weight by sex - default method using unnamed arguments
+
+## Default boxplot method using unnamed arguments ----
+boxplot(
+  nut_data$weight[nut_data$sex == 1],   # <1>
+  nut_data$weight[nut_data$sex == 2]    # <2>
+)
+```
+
+1. Indexing the weight variable to get values for males
+2. Indexing the weight variable to get values for females
+
+The following code shows one way to provide a single list of values of weight for males and then females.
+
+```{r plot-nut-data-2b}
+#| label: fig-box-by-sex-default-2
+#| fig-cap: Boxplot of weight by sex - default method using single list
+
+## Default boxplot method using single list ----
+boxplot(split(nut_data$weight, nut_data$sex))  # <1>
+```
+
+1. Use of `split()` function to split the weight values by sex. The `split()` function outputs a single list with weight values grouped by sex.
+
+Both approaches produce the same plot. Each boxplot is labeled according to the values of the grouping variable which in this case is sex with `1` corresponding to males and `2` corresponding to females.
+
+### Formula method
+
+The `boxplot()` function has a formula method for plotting grouping for a variable of interest as shown below:
+
+```{r plot-nut-data-3}
+#| label: fig-box-by-sex-formula
+#| fig-cap: Boxplot of weight by sex - formula method
+
+## Boxplot of weight by sex using formula method ----
+boxplot(
+    weight ~ sex,      # <1>
+    data = nut_data    # <2>
+)
+```
+
+1. This is the standard formula specification for the weight variable being grouped by the sex variable. We use the `~` operator to express the formula.
+2. For formula method, the `data` argument is required and this is where you provide the name of the object containing the dataset that has the variable `weight` and `sex` used in the formula
+
+With the formula method, the output is similar with the previous approach with the only difference being the `x` and `y` labels have been set using the values in the formula. From a syntax perspective, the formula method is more compact without requiring any other processing of the input dataset.
+
+## Styling a boxplot {#sec-style-boxplot}
+
+The boxplots we've created so far are quite basic and would benefit from a little bit more styling. At the minimum, we would like to:
+
+1. Add a title to the plot;
+2. Add more informative labels to each boxplot;
+2. Add x- and y-axis labels (or update them to look more presentable and complete); and,
+3. Modify some plot layout features such as box width and plot frames as appropriate.
+
+### Adding a title
+
+Since the `boxplot()` functions is built on the generic `plot()` base function in R, named graphical parameters/arguments used in `plot()` can also be specified in `boxplot()`. So, to add a title to a boxplot, we do this:
+
+```{r plot-nut-data-4a}
+#| label: fig-box-style-1
+#| fig-cap: Boxplot of weight with title
+
+boxplot(
+  nut_data$weight,
+  main = "Summary of weight values for all children"  # <1>
+)
+```
+
+1. We use the graphical parameter `main` to set the title of the boxplot
+
+To add a title to the the boxplot for weight by sex, we do this:
+
+```{r plot-nut-data-4b}
+#| label: fig-box-by-sex-style-1
+#| fig-cap: Boxplot of weight by sex with title
+
+boxplot(
+  weight ~ sex,
+  data = nut_data,
+  main = "Summary of weight values by sex of children"
+)
+```
+
+### Adding names to each boxplot
+
+For the boxplot of weight by sex, it would be more appropriate for the labels under each boxplot to be more informative of the values they represent. Here, instead of 1 and 2, it would be better to have "Male" and "Female" as labels. We can do this as follows:
+
+```{r plot-nut-data-5}
+#| label: fig-box-by-sex-style-2
+#| fig-cap: Boxplot of weight by sex with title and boxplot labels
+
+boxplot(
+  weight ~ sex,
+  data = nut_data,
+  main = "Summary of weight values by sex of children",
+  names = c("Male", "Female") # <1>
+)
+```
+
+1. The `names` argument in the `boxplot()` function is used to give different labels/values to the different boxplots instead of the values provided by the data.
+
+### Adding x and y axis labels
+
+We can again use generic graphical parameters to set x and y axis labels to a boxplot as follows:
+
+```{r plot-nut-data-6a}
+#| label: fig-box-style-2
+#| fig-cap: Boxplot of weight with title and x and y labels
+
+boxplot(
+  nut_data$weight,
+  main = "Summary of weight values for all children",
+  ylab = "Weight (kgs)"   # <1>
+)
+```
+
+1. We use the `ylab` graphical parameter to specify a label for the y-axis.
+
+For the boxplot for weight values for all children, an x axis label is not really necessary.
+
+We can set the x and y axis labels to the boxplot for weight by sex as follows:
+
+```{r plot-nut-data-6b}
+#| label: fig-box-by-sex-style-3
+#| fig-cap: Boxplot of weight by sex with title and x and y labels
+
+boxplot(
+  weight ~ sex,
+  data = nut_data,
+  main = "Summary of weight values by sex of children",
+  xlab = "Sex",            # <1>
+  ylab = "Weight (kgs)",
+  names = c("Male", "Female")
+)
+```
+
+1. We use the `xlab` graphical parameter to specify a label for the x-axis.
+
+### Modifying other plot layout options
+
+Further modifications can be applied to the boxplot that may enhance their style. The following code adjusts the width of the boxplots and removes the plot frame.
+
+```{r plot-nut-data-7}
+#| label: fig-box-by-sex-style-4
+#| fig-cap: Boxplot of weight by sex with title and labels and with modified layout
+
+boxplot(
+  weight ~ sex,
+  data = nut_data,
+  main = "Summary of weight values by sex of children",
+  xlab = "Sex",
+  ylab = "Weight (kgs)",
+  names = c("Male", "Female"),
+  boxwex = 0.5,        # <1>
+  frame.plot = FALSE   # <2>
+)
+```
+
+1. Set value for `boxwex` parameter to scale the size of the boxes. This is particularly useful when there are only a few groups to create boxplots of.
+2. Set `frame.plot` graphical parameter to FALSE to remove the plot frame.
