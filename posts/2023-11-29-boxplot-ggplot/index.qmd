@@ -1,0 +1,111 @@
+---
+title: "Creating and styling boxplots"
+subtitle: "Using ggplot"
+description: "We demonstrate how to create and style boxplots using ggplot"
+author: "iHealth Team"
+date: "29 November 2023"
+date-modified: last-modified
+image: "boxplot_ggplot.png"
+draft: false
+categories:
+  - tutorial
+  - visualisation
+---
+
+Boxplots (also called *box-and-whisker* plots) are a graphical tool used to summarise and display the distribution of a continuous variable. They are useful for several reasons:
+
+1. **Identifying Outliers**: Boxplots clearly highlight outliers (values that fall significantly outside the range of most of the data). Outliers are shown as individual points beyond the "whiskers" of the plot.
+
+2. **Visualizing the Spread and Central Tendency**: The box itself shows the interquartile range (IQR). The line inside the box represents the median, providing a sense of central tendency.
+
+3. **Displaying the Range of Data**: The boxplot gives a quick overview of the minimum, first quartile (Q1), median (Q2), third quartile (Q3), and maximum values, helping to understand the range and overall distribution.
+
+## Key Components of a Boxplot:
+
+* **Box**: Represents the interquartile range (IQR).
+
+* **Whiskers**: Extend to the smallest and largest data points within 1.5 times the IQR from Q1 and Q3.
+
+* **Median**: The line inside the box, representing the middle value of the dataset.
+
+* **Outliers**: Shown as individual points beyond the whiskers.
+
+Boxplots provide a concise summary, making it easier to understand the distributional properties of a dataset at a glance.
+
+In this tutorial, we demonstrate how to create boxplots using `ggplot`. We will use a dataset from a nutrition survey of school children 10 years and older from Pakistan. This dataset is available from the [Oxford iHealth](https://oxford-ihtm.io) [teaching datasets repository](https://github.com/OxfordIHTM/teaching_datasets)
+
+```{r read-nut-data}
+## link to CSV from GitHub repository ----
+csv_file_url <- "https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv" # <1>
+
+## Read CSV file ----
+nut_data <- read.csv(file = csv_file_url) # <2>
+```
+
+1. This URL can be retrieved from GitHub by accessing the raw version of the GitHub link to the file
+2. Use `read.csv()` to read the CSV file from the URL
+
+On inspection of the dataset, we see:
+
+```{r inspect-nut-data}
+## Show first 5 rows of data ----
+head(nut_data)
+```
+
+We have a `data.frame` with **`r nrow(nut_data)`** rows and **`r ncol(nut_data)`** columns.
+
+For this tutorial, we will focus on the `weight` variable in the dataset for demonstrating how to create and style boxplots in base R.
+
+## Creating a boxplot {#sec-create-boxplot}
+
+A boxplot of the weight variable for all children in the dataset can be created as follows:
+
+```{r plot-nut-data-1}
+#| label: fig-box-all
+#| fig-cap: Boxplot of weight of all children 
+
+## Load ggplot2 ----
+library(ggplot2)                                                  # <1>
+
+## Boxplot of weight of all children ----
+ggplot(data = nut_data, mapping = aes(x = "", y = weight)) +      # <2>
+  geom_boxplot() +                                                # <3> 
+  labs(                                                           # <4>
+    title = "Summary of weight values for all children",          # <5>
+    subtitle = "School children 10 years and above in Pakistan",  # <6>
+    y = "Weight (kgs)"                                            # <7>
+  ) +
+  theme_minimal()                                                 # <8>
+```
+
+1. Load `{ggplot2}`. If not yet installed, run `install.packages("ggplot2")`.
+2. Set `ggplot` aesthetic mappings. For boxplot, we just need to set the `y` axis value aesthetic and provide an empty character `x` axis value aesthetic so that the x-axis will be treated as a character value. For more information, run `?ggplot`.
+3. Plot the boxplot using `geom_boxplot()`. For more information, run `?geom_histogram`.
+4. Set labels of the plot. For more information, run `?labs`.
+5. Set the `title` of the plot.
+6. Set the `subtitle` of the plot.
+7. Set the `y` axis label of the plot.
+8. Set a plot theme. For more information, run `?themes`.
+
+A boxplot for weight by sex is created as follows:
+
+```{r plot-nut-data-2}
+#| label: fig-box-sex-1
+#| fig-cap: Boxplot of weight by sex
+
+## Convert sex to factor ----
+nut_data$sex <- factor(nut_data$sex, labels = c("Male", "Female"))
+
+## Boxplot of weight by sex of children ----
+ggplot(data = nut_data, mapping = aes(x = sex, y = weight)) +      # <1>
+  geom_boxplot() +
+  labs(
+    title = "Summary of weight values by sex",
+    subtitle = "School children 10 years and above in Pakistan",
+    x = "Sex",
+    y = "Weight (kgs)"
+  ) +
+  theme_minimal()
+```
+
+1. Set x-axis variable to `sex`.
