@@ -96,6 +96,65 @@ Discoveries that impact on global health and measures that assess global health 
 :::
 
 
+```{r student-map}
+#| echo: false
+#| message: false
+#| warning: false
+#| eval: false
+
+## Get and process student country data 
+map_data <- function() {
+  read.csv(
+    file = "https://raw.githubusercontent.com/OxfordIHTM/infohub/refs/heads/main/data-raw/student_country.csv"
+  ) |>
+    dplyr::mutate(
+      lon = jitter(lon, factor = 1.2),
+      lat = jitter(lat, factor = 1.2)
+    )
+}
+
+leaflet::leaflet(height = 600) |>
+  mapboxapi::addMapboxTiles(
+    #style_id = "cjb38c92p1vsw2slyvdv9t4i7",
+    #style_id = "cjb38aptl29ar2spywoh20s69",
+    style_id = "cjdlr8pvl0xiv2sqvq1evk1pl",
+    username = "ernestguevarra",
+    options = leaflet::leafletOptions(minZoom = 3)
+  ) |>
+  leaflet::setView(lng = 20, lat = 0, zoom = 3) |>
+  #leaflet::addCircleMarkers(
+  leaflet::addAwesomeMarkers(
+    data = map_data(),
+    # icon = leaflet::awesomeIcons(
+    #   icon = "home", library = "glyphicon",
+    #   #markerColor = "green", iconColor = "white", 
+    #   squareMarker = TRUE
+    # ),
+    clusterOptions = leaflet::markerClusterOptions(),
+    label = ~paste0(
+      cohort, "<br/>",
+      "Country: ", country, "<br/>"
+    ) |>
+      lapply(htmltools::HTML),
+    labelOptions = leaflet::labelOptions(
+      style = list(
+        #"font-weight" = "bold",
+        "background-color" = oxthema::get_oxford_colour("sky"),
+        padding = "3px 8px"
+      ),
+      textsize = "12px",
+      direction = "auto"
+    )
+  ) |>
+  htmlwidgets::onRender("
+    function(el, x) {
+      this.on('baselayerchange', function(e) {
+        e.layer.bringToBack();
+      })
+    }
+  ")
+```
+
 <!-- ::: {.info-block}
 
 # Featured packages

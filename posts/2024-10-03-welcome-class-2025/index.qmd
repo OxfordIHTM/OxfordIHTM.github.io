@@ -39,7 +39,9 @@ map_data <- function() {
 
 leaflet::leaflet() |>
   mapboxapi::addMapboxTiles(
-    style_id = "cjb38c92p1vsw2slyvdv9t4i7",
+    #style_id = "cjb38c92p1vsw2slyvdv9t4i7",
+    #style_id = "cjb38aptl29ar2spywoh20s69",
+    style_id = "cjdlr8pvl0xiv2sqvq1evk1pl",
     username = "ernestguevarra",
     options = leaflet::leafletOptions(minZoom = 2)
   ) |>
@@ -47,21 +49,21 @@ leaflet::leaflet() |>
   leaflet::addCircleMarkers(
     data = map_data(),
     radius = 5,
-    fillColor = oxthema::get_oxford_colour("royal"),
+    fillColor = oxthema::get_oxford_colour("plum"),
     weight = 1,
     opacity = 1,
-    color = oxthema::get_oxford_colour("royal"),
+    color = oxthema::get_oxford_colour("plum"),
     fillOpacity = 0.6,
     clusterOptions = leaflet::markerClusterOptions(),
     label = ~paste0(
-      "Cohort: ", cohort, "<br/>",
+      cohort, "<br/>",
       "Country: ", country, "<br/>"
     ) |>
       lapply(htmltools::HTML),
     labelOptions = leaflet::labelOptions(
       style = list(
-        "font-weight" = "bold",
-        "background-color" = oxthema::get_oxford_colour("cool"),
+        #"font-weight" = "bold",
+        "background-color" = oxthema::get_oxford_colour("sky"),
         padding = "3px 8px"
       ),
       textsize = "12px",
@@ -85,7 +87,7 @@ It has been a yearly tradition that each incoming IHTM class be given a codename
 
 We are happy to welcome Class 2025, now known also as ***Class K-pop***, to the Open and Reproducible Science in R module!
 
-![](kpop.png){fig-align="center"}
+![](kpop.png){fig-align="center" width="450"}
 
 
 
