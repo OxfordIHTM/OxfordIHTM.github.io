@@ -1,5 +1,5 @@
 ---
-title: ""
+#title: ""
 page-layout: custom
 # title-block-banner: "#E4F0EF"
 # title-block-banner-color: "#7F055F"
