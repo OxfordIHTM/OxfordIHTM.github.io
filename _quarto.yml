@@ -7,7 +7,7 @@ website:
   site-url: https://oxford-ihtm.io
   description: "Fostering innovation, research, and education in the field of computational sciences for health"
   navbar:
-    title: ""
+    title: false
     background: info
     logo: images/ihealth_base_inline.png
     logo-alt: Oxford iHealth
