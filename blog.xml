@@ -1,0 +1,2586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Oxford iHealth</title>
+<link>https://oxford-ihtm.io/blog.html</link>
+<atom:link href="https://oxford-ihtm.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Fostering innovation, research, and education in the field of computational sciences for health</description>
+<image>
+<url>https://oxford-ihtm.io/images/ihealth_base_pos_tn.png</url>
+<title>Oxford iHealth</title>
+<link>https://oxford-ihtm.io/blog.html</link>
+<height>289</height>
+<width>144</width>
+</image>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 16 Oct 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>It takes a village…</title>
+  <dc:creator>Proochista Ariana</dc:creator>
+  <link>https://oxford-ihtm.io/posts/2024-10-26-it-takes-a-village/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>After the pilot run of the <a href="https://oxford-ihtm.io/teaching">Open and Reproducible Science in R</a> module for IHTM Class 2021-2022, it was apparent based on student feedback that learning to code in R was something most of our students valued. As with other elements of the course, it is clear that more impactful learning happens when students use whatever they have learned on an actual analytic task. With this in mind, we made some changes to the module starting from IHTM Class 2022-2023.</p>
+<ol type="1">
+<li><p>The sessions were integrated into the core PTGH module. This reflected our belief that the data skills alongside the exposure to the concepts of open science and reproducible research should be part of the knowledge base and toolkit of a modern day global health practitioner.</p></li>
+<li><p>We increased the allocated sessions from 5 to 10 to include cross-cutting and foundational topics on open science and reproducible research in addition to a wider breadth of basic R topics.</p></li>
+</ol>
+<p>These changes allowed for more practical data analysis exercises for the students including a hackathon based on a global health topic and a corresponding real dataset to work on as a team. More importantly, these changes shifted the focus of our learning objectives from just teaching students how to code in R to enabling the practice of open and reproducible science using R and providing the tooling, skills, and mindset to participate in a community of learners and practitioners even beyond the course.</p>
+<section id="from-ihtm-codehub-to-ihealth-champions" class="level2">
+<h2 class="anchored" data-anchor-id="from-ihtm-codehub-to-ihealth-champions">From IHTM CodeHub to iHealth Champions</h2>
+<div class="img-float">
+<p><img src="https://oxford-ihtm.io/images/oxford_codehub.png" class="img-fluid" style="float: left; margin: 10px; width: 200px"></p>
+</div>
+<p>From this was born <strong>IHTM CodeHub</strong>, a community for IHTM students and alumni with the aim of providing a forum for continuous learning in R and support for the practice of open and reproducible science. Every member of the outgoing class since 2022 have been inducted to IHTM CodeHub during the course graduation event.</p>
+<p>Since then, IHTM CodeHub has supported specific challenges faced by some of our members from implementing reproducible data collection and analysis systems for nutrition programme coverage in Liberia to capacity-building on use of R for reproducible workflows on health vital statistics in Seychelles. Over the coming weeks, we will be showcasing these IHTM CodeHub community projects to illustrate how this community can support such efforts.</p>
+<div class="img-float">
+<p><img src="https://oxford-ihtm.io/images/ihealth_champions.png" class="img-fluid" style="float: right; margin: 10px; width: 200px"></p>
+</div>
+<p>This year, based on feedback from current community members, we are rebranding our community to <strong>iHealth Champions</strong>. The main driver of this rebrand is to make the name more aptly represent what the community aims for which is to <em>champion</em> and support its members in their journey towards the practice of open and reproducible science and in turn for our members to become <em>champions</em> and advocates of open and reproducible science in their own contexts. In addition, the new name de-emphasises “code” which some members felt intimidating as it seemed participation in the community meant being able to code well. Instead, we are highlighting a community of practice for open and reproducible science.</p>
+<p>Since this is the tenth year of the <a href="https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm">MSc in International Health and Tropical Medicine</a>, we thought it important that the entire IHTM alumni cohort be given the opportunity to be an iHealth Champion.</p>
+<p>As such, and as a way to formally introduce IHTM alumni cohorts to the iHealth Champions community and discuss how to formally join, we will be holding our first ever virtual Community Day on the 16th of November at 1pm GMT. We will be sending out the formal invite to the IHTM alumni email mailing list with the details of the Community Day and the Zoom link for the event.</p>
+<p>We look forward to seeing all of you then! And welcome to the <strong>iHealth Champions</strong> community!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>stories</category>
+  <category>announcement</category>
+  <category>community</category>
+  <category>Champions Programme</category>
+  <guid>https://oxford-ihtm.io/posts/2024-10-26-it-takes-a-village/</guid>
+  <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://oxford-ihtm.io/images/ihealth_champions.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Welcome MSc IHTM Class of 2025</title>
+  <dc:creator>Ernest Guevarra</dc:creator>
+  <link>https://oxford-ihtm.io/posts/2024-10-03-welcome-class-2025/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>October is here again and it is time to welcome our new cohort - <strong><em>Class 2025</em></strong> - of the <a href="https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm">MSc in International Health and Tropical Medicine</a>. We met all 19 students of the current cohort last week on the 1st and 2nd of October as they went through the now customary laptop setup for the <a href="https://oxford-ihtm.io/teaching/">Open and Reproducible Science in R module</a>. Lots of big smiles and positive vibes from this group of truly global students coming from 17 different countries.</p>
+<p>This year is also particularly special as it <a href="https://www.tropicalmedicine.ox.ac.uk/news/ihtm-10-years-on">marks 10 years of the course</a>. This 10th year cohort brings the total of IHTM students to 221 coming from 65 different countries (see Figure&nbsp;1). This level of diversity has always been the hallmark of the course.</p>
+<p><br></p>
+<div class="cell">
+<div id="fig-student-country-map" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-student-country-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-cae101d47f2115289064" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-cae101d47f2115289064">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://api.mapbox.com/styles/v1/ernestguevarra/cjdlr8pvl0xiv2sqvq1evk1pl/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZXJuZXN0Z3VldmFycmEiLCJhIjoiejRRLXlZdyJ9.sqS1zi0rDH5CIzvcn9SXSg",null,null,{"minZoom":2,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"attribution":"&copy; <a href=\"https://www.mapbox.com/about/maps/\">Mapbox<\/a> &copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap<\/a> <strong><a href=\"https://www.mapbox.com/map-feedback/\" target=\"_blank\">Improve this map<\/a><\/strong>"}]},{"method":"addCircleMarkers","args":[[-24.97762862222642,-30.57088764801621,50.82077313021868,24.1393553008303,9.98743876823783,6.018817067932337,37.98104630528018,30.56404697755289,34.99408542749659,9.982350913964211,0.01051659003272649,1.009821740306914,28.02292378466576,-30.56876369199157,30.56381753606287,1.008960395440459,1.003475397061557,-5.943661658149212,8.020696303240955,10.01331899627671,-24.97863984066248,0.9845567685477437,-30.5561042638421,-6.023626047547906,6.508982560243457,-6.011508834354579,-20.13333001286569,-21.99742420904711,30.55905577281428,-30.55358168000355,32.0087692768611,5.983106369677931,34.99213428077847,21.0171958383657,23.97622846069559,10.00735701633245,-25.00290728248283,-10.00989293397963,37.98368442947417,53.97776207460836,6.492757995080203,34.98206631367281,-6.012305354285985,-30.5620441933237,-13.47852645461261,6.013683565087616,28.00429663339257,59.9767262659818,27.0065334203057,-30.55967954227701,-24.98626305183396,6.502872712451965,10.02120641836897,41.49659720828011,35.01971874590218,-25.01452861931175,0.9843212805762888,6.014622468139976,-30.5573841936104,-1.252546034682542,-13.49788919244334,16.17137080853489,2.512467793412506,10.00061330514029,-8.601828109733015,23.99366911878437,-33.9989708307907,-18.00873268904909,16.00855421005562,10.00781431641802,-33.99770139134303,-30.55629247877374,1.00459196991846,38.02074124118313,13.02159888395295,8.478609279684722,21.0230478406772,32.00836255994066,-34.00453228164837,9.981983103122563,-25.01033754176274,8.50780572077632,7.989531341075898,-5.971226151656359,14.99189588273317,3.181869081959129,23.99002547762543,37.99460748752951,-20.13348490803349,23.98852740560844,15.48426620752737,2.523537169255316,-30.57722074056789,9.986441153496504,29.98283325602487,10.00738328878209,-4.646456246718764,6.00068025997281,-18.2298598424606,-13.51531178375333,35.986996160198,28.00319740365446,10.02186421611533,0.9914111817590893,54.00083560093492,38.00550688512623,-20.10958133901316,13.00617055207118,10.01338585633784,60.01758324810863,-30.56686166846752,8.509157983686775,8.499806453216822,23.97747679080069,8.505233964379876,16.14942191843373,-6.007732438210398,2.489109353076667,9.982531819272786,7.989955955773592,54.01378982031718,19.99691284253448,24.01555864384398,-14.328500633059,53.98506059803069,-20.13875034356522,17.2531549609825,15.01070185371861,8.019953866813331,-0.009572199180722203,10.00203183565661,-18.26449805333838,10.00312585236505,10.00940700666606,1.017728292204439,5.991040986925364,-2.012583130568266,6.023482619617134,16.00301403329522,13.91556644290686,-0.01374251377210016,-30.56237994195521,41.51815996867791,16.14449824234155,5.998810189191252,-30.5552552902624,2.522322790082544,3.411976302348077,19.99064161515608,19.9777430125624,27.9774451508373,21.01073725882173,28.01058798926324,10.00289009219408,19.97832202675566,15.97630891515315,13.01272724347934,-3.491300376016647,15.97618926626816,-30.56627402514964,20.00175234926492,-41.02315861807764,0.9954002171754838,8.008468318738043,15.99898844229802,-13.48058711200208,-13.5175755475089,1.005924849677831,1.242715984869748,24.0132072783038,9.990550829432905,21.0014650606513,0.009015780285000771,20.01335870832578,16.15910471288171,8.000393173117191,-17.98351250720769,15.01485360819474,9.978603381898255,8.013244453139603,19.98379175100476,0.01159180846810337,-20.13493513837117,9.992267097767442,7.980572116050869,15.98230922654644,19.97860053298995,-30.55879409235343,40.2325654600747,9.980873220030219,9.99278351805359,12.98820751900226,1.02213829683885,1.242646363843232,-30.53628501772508,1.247793736960739,-13.51696171540394,8.481563979979605,-34.0123650107719,0.02929459374649675,-33.97932588354498,35.01012699898332,24.16248289836719,-9.98762557226047,2.507773851148784,9.996225325174629,32.02312367634103,6.520161046326161,7.976772273242474,-29.52193503312767,27.02161159517616,-0.007486492104828331,8.478750562228262,-20.1348092373352,-18.24024238532036,36.00846139005571,16.02237593177334,16.17338780283612,0.9913915171660483,0.008989479884505238,6.98688625061512,7.983168094616383,7.989268190387636,34.98731084103882],[135.0321087442003,23.13863134730235,4.007400838620961,120.6537628609777,8.043626067534088,12.01679938041419,-96.97480934705585,-105.8583729086548,37.9726987595968,7.952053747791798,119.9814190948494,37.92872704121843,84.05595847180858,23.1013626566045,-105.7534255400218,38.04095933040604,38.00468482062966,143.484956123881,-0.9727002083249393,8.057784565437585,135.0470372681357,38.05031991679594,23.06523326449469,34.95607411440462,-9.53703753222525,34.97282644904033,30.7855302018778,23.98047628372908,-105.8345769430093,23.05679232372344,53.00472070576996,11.9656974985376,105.0302267681546,96.06070474124327,89.96504433142394,7.953295686069876,134.9452093848288,-55.01012908738479,-97.0410239407979,-2.016690998282284,-9.442325669731945,105.0301340386234,34.97232883392275,23.15056580908969,33.98835826266929,11.94946526572108,84.04859543342516,-95.99341351098195,29.9516805466041,23.10798119724914,135.0409026216678,-9.546185589525848,8.027109419208021,74.97246389038861,37.94196445583925,135.0625919387452,37.96219922572002,12.00221006770805,23.14612798826024,-78.22416812090204,33.9862112551704,107.7827132134097,112.5700281228125,8.024698874883354,125.9886234571673,90.00654644876718,-63.97328315208852,178.0415759305619,30.05819941372052,7.998263687048107,-64.066055374261,23.11496369877085,38.02854995575175,-96.9932973988913,105.0250941951089,-11.53992834900692,95.94042798040063,-6.05738432020694,-63.9861203513518,7.959772184669972,135.0546502013616,-11.56234510252625,-0.9401975775733595,143.4809716402628,38.97961783126742,73.06344445557892,90.06177052098512,-97.02261277260631,30.71409676180348,89.9824843727164,100.9868732419573,112.5118190658465,23.11607983417064,7.981030279684812,70.02229908936843,8.045999101970345,55.52911778676882,12.03144744902104,34.98262171372026,34.04817948677763,137.9628209893964,84.00922658597678,7.98804896293208,38.05731832851097,-2.056285034008324,-97.071025648918,30.71875339204759,122.0371942508817,8.044555735729634,100.002780669488,23.09640506980196,-11.45656692628935,-11.57164668222889,89.95814766934141,-11.5599465514645,107.8904529010685,35.05676454636082,112.4316976931803,8.051169160161168,-0.990920407190919,-1.928850466184319,77.05280679960549,90.00978679570555,28.55005858715996,-2.061415402781217,30.76806450585961,-88.79467496615648,39.06632135142758,-1.03722661069408,119.9785884688161,7.993515496011823,34.98317255171016,8.011083986148238,8.002927332509309,37.99122782254219,12.02164279764891,30.04836143583432,11.98129605940729,30.06281780086085,-60.96107239480689,120.0105640448257,23.07142176284641,74.96913092633709,107.8625336828263,12.02195858682319,23.16491983020678,112.4968865799196,-74.75331451141163,76.99847503734007,77.05957194644213,83.95836042165756,96.04612461869046,84.04475007843598,8.061822031367569,77.06583710685372,30.03484636450186,121.9389078784063,30.04937301691621,29.96712043107301,23.16994088219851,76.94367604563013,173.977958163444,37.94518402668834,30.0597235629335,30.01270404438302,34.06767610227689,33.98465880298615,38.03971348736808,32.4676615966484,89.95838096922263,8.065396611891686,96.05012268256769,120.0203561095968,77.0014815178141,107.819956044461,-1.038595052544027,177.9703449599855,38.96670176080987,7.940884780075401,30.03424728533998,77.05693875483051,120.0625748571306,30.71364749155879,8.071032037537544,-0.9976168230585754,30.00736448563636,77.0588933074288,23.15047922765091,44.99247625169903,8.039757000207901,8.025325904473663,121.9693390432596,37.94973662427068,32.52094201052934,23.10060271011293,32.46899025402963,33.93829331716523,-11.56822418409586,-63.96421526705474,25.05501335073635,-64.05474353019893,37.99258070955798,120.7464584722534,-75.20053067390994,112.4653496117704,7.970322185516357,35.31369193984568,-9.54236790524423,-1.040606776595115,28.26177109980211,30.02304230930284,119.9657901627906,-11.52598426008597,30.73526356904149,35.01030764341354,137.946273519069,29.93487689339742,107.8159066291557,38.05861999267712,120.0118234494813,81.00983917569368,-0.963815867390484,30.00348081267625,105.0428884676322],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"#7F055F","weight":1,"opacity":1,"fill":true,"fillColor":"#7F055F","fillOpacity":0.6},{"showCoverageOnHover":true,"zoomToBoundsOnClick":true,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false},null,null,null,["Class 2015-2016<br/>Country: Australia<br/>","Class 2015-2016<br/>Country: South Africa<br/>","Class 2015-2016<br/>Country: Belgium<br/>","Class 2015-2016<br/>Country: Taiwan<br/>","Class 2015-2016<br/>Country: Nigeria<br/>","Class 2015-2016<br/>Country: Cameroon<br/>","Class 2015-2016<br/>Country: United States of America<br/>","Class 2015-2016<br/>Country: Mexico<br/>","Class 2015-2016<br/>Country: Syria<br/>","Class 2015-2016<br/>Country: Nigeria<br/>","Class 2015-2016<br/>Country: Indonesia<br/>","Class 2015-2016<br/>Country: Kenya<br/>","Class 2015-2016<br/>Country: Nepal<br/>","Class 2015-2016<br/>Country: South Africa<br/>","Class 2015-2016<br/>Country: Mexico<br/>","Class 2015-2016<br/>Country: Kenya<br/>","Class 2015-2016<br/>Country: Kenya<br/>","Class 2015-2016<br/>Country: Papua New Guinea<br/>","Class 2016-2017<br/>Country: Ghana<br/>","Class 2016-2017<br/>Country: Nigeria<br/>","Class 2016-2017<br/>Country: Australia<br/>","Class 2016-2017<br/>Country: Kenya<br/>","Class 2016-2017<br/>Country: South Africa<br/>","Class 2016-2017<br/>Country: Tanzania<br/>","Class 2016-2017<br/>Country: Liberia<br/>","Class 2016-2017<br/>Country: Tanzania<br/>","Class 2016-2017<br/>Country: Zimbabwe<br/>","Class 2016-2017<br/>Country: Botswana<br/>","Class 2016-2017<br/>Country: Mexico<br/>","Class 2016-2017<br/>Country: South Africa<br/>","Class 2016-2017<br/>Country: Iran<br/>","Class 2016-2017<br/>Country: Cameroon<br/>","Class 2016-2017<br/>Country: China<br/>","Class 2016-2017<br/>Country: Myanmar<br/>","Class 2017-2018<br/>Country: Bangladesh<br/>","Class 2017-2018<br/>Country: Nigeria<br/>","Class 2017-2018<br/>Country: Australia<br/>","Class 2017-2018<br/>Country: Brazil<br/>","Class 2017-2018<br/>Country: United States of America<br/>","Class 2017-2018<br/>Country: United Kingdom<br/>","Class 2017-2018<br/>Country: Liberia<br/>","Class 2017-2018<br/>Country: China<br/>","Class 2017-2018<br/>Country: Tanzania<br/>","Class 2017-2018<br/>Country: South Africa<br/>","Class 2017-2018<br/>Country: Malawi<br/>","Class 2017-2018<br/>Country: Cameroon<br/>","Class 2017-2018<br/>Country: Nepal<br/>","Class 2017-2018<br/>Country: Canada<br/>","Class 2017-2018<br/>Country: Egypt<br/>","Class 2017-2018<br/>Country: South Africa<br/>","Class 2017-2018<br/>Country: Australia<br/>","Class 2017-2018<br/>Country: Liberia<br/>","Class 2018-2019<br/>Country: Nigeria<br/>","Class 2018-2019<br/>Country: Kyrgyzstan<br/>","Class 2018-2019<br/>Country: Syria<br/>","Class 2018-2019<br/>Country: Australia<br/>","Class 2018-2019<br/>Country: Kenya<br/>","Class 2018-2019<br/>Country: Cameroon<br/>","Class 2018-2019<br/>Country: South Africa<br/>","Class 2018-2019<br/>Country: Ecuador<br/>","Class 2018-2019<br/>Country: Malawi<br/>","Class 2018-2019<br/>Country: Vietnam<br/>","Class 2018-2019<br/>Country: Malaysia<br/>","Class 2018-2019<br/>Country: Nigeria<br/>","Class 2018-2019<br/>Country: Timor-Leste<br/>","Class 2018-2019<br/>Country: Bangladesh<br/>","Class 2018-2019<br/>Country: Argentina<br/>","Class 2018-2019<br/>Country: Fiji<br/>","Class 2018-2019<br/>Country: Sudan<br/>","Class 2018-2019<br/>Country: Nigeria<br/>","Class 2018-2019<br/>Country: Argentina<br/>","Class 2018-2019<br/>Country: South Africa<br/>","Class 2018-2019<br/>Country: Kenya<br/>","Class 2018-2019<br/>Country: United States of America<br/>","Class 2018-2019<br/>Country: Cambodia<br/>","Class 2018-2019<br/>Country: Sierra Leone<br/>","Class 2018-2019<br/>Country: Myanmar<br/>","Class 2018-2019<br/>Country: Morocco<br/>","Class 2019-2020<br/>Country: Argentina<br/>","Class 2019-2020<br/>Country: Nigeria<br/>","Class 2019-2020<br/>Country: Australia<br/>","Class 2019-2020<br/>Country: Sierra Leone<br/>","Class 2019-2020<br/>Country: Ghana<br/>","Class 2019-2020<br/>Country: Papua New Guinea<br/>","Class 2019-2020<br/>Country: Eritrea<br/>","Class 2019-2020<br/>Country: Maldives<br/>","Class 2019-2020<br/>Country: Bangladesh<br/>","Class 2019-2020<br/>Country: United States of America<br/>","Class 2019-2020<br/>Country: Zimbabwe<br/>","Class 2019-2020<br/>Country: Bangladesh<br/>","Class 2019-2020<br/>Country: Thailand<br/>","Class 2019-2020<br/>Country: Malaysia<br/>","Class 2019-2020<br/>Country: South Africa<br/>","Class 2019-2020<br/>Country: Nigeria<br/>","Class 2019-2020<br/>Country: Pakistan<br/>","Class 2019-2020<br/>Country: Nigeria<br/>","Class 2019-2020<br/>Country: Seychelles<br/>","Class 2019-2020<br/>Country: Cameroon<br/>","Class 2019-2020<br/>Country: Mozambique<br/>","Class 2019-2020<br/>Country: Malawi<br/>","Class 2019-2020<br/>Country: Japan<br/>","Class 2020-2021<br/>Country: Nepal<br/>","Class 2020-2021<br/>Country: Nigeria<br/>","Class 2020-2021<br/>Country: Kenya<br/>","Class 2020-2021<br/>Country: United Kingdom<br/>","Class 2020-2021<br/>Country: United States of America<br/>","Class 2020-2021<br/>Country: Zimbabwe<br/>","Class 2020-2021<br/>Country: Philippines<br/>","Class 2020-2021<br/>Country: Nigeria<br/>","Class 2020-2021<br/>Country: Russia<br/>","Class 2020-2021<br/>Country: South Africa<br/>","Class 2020-2021<br/>Country: Sierra Leone<br/>","Class 2020-2021<br/>Country: Sierra Leone<br/>","Class 2020-2021<br/>Country: Bangladesh<br/>","Class 2020-2021<br/>Country: Sierra Leone<br/>","Class 2020-2021<br/>Country: Vietnam<br/>","Class 2020-2021<br/>Country: Tanzania<br/>","Class 2020-2021<br/>Country: Malaysia<br/>","Class 2020-2021<br/>Country: Nigeria<br/>","Class 2020-2021<br/>Country: Ghana<br/>","Class 2020-2021<br/>Country: United Kingdom<br/>","Class 2020-2021<br/>Country: India<br/>","Class 2020-2021<br/>Country: Bangladesh<br/>","Class 2020-2021<br/>Country: Zambia<br/>","Class 2020-2021<br/>Country: United Kingdom<br/>","Class 2020-2021<br/>Country: Zimbabwe<br/>","Class 2020-2021<br/>Country: Belize<br/>","Class 2020-2021<br/>Country: Eritrea<br/>","Class 2021-2022<br/>Country: Ghana<br/>","Class 2021-2022<br/>Country: Indonesia<br/>","Class 2021-2022<br/>Country: Nigeria<br/>","Class 2021-2022<br/>Country: Mozambique<br/>","Class 2021-2022<br/>Country: Nigeria<br/>","Class 2021-2022<br/>Country: Nigeria<br/>","Class 2021-2022<br/>Country: Kenya<br/>","Class 2021-2022<br/>Country: Cameroon<br/>","Class 2021-2022<br/>Country: Rwanda<br/>","Class 2021-2022<br/>Country: Cameroon<br/>","Class 2021-2022<br/>Country: Sudan<br/>","Class 2021-2022<br/>Country: Saint Lucia<br/>","Class 2021-2022<br/>Country: Indonesia<br/>","Class 2021-2022<br/>Country: South Africa<br/>","Class 2021-2022<br/>Country: Kyrgyzstan<br/>","Class 2021-2022<br/>Country: Vietnam<br/>","Class 2021-2022<br/>Country: Cameroon<br/>","Class 2021-2022<br/>Country: South Africa<br/>","Class 2021-2022<br/>Country: Malaysia<br/>","Class 2021-2022<br/>Country: Colombia<br/>","Class 2021-2022<br/>Country: India<br/>","Class 2021-2022<br/>Country: India<br/>","Class 2021-2022<br/>Country: Nepal<br/>","Class 2021-2022<br/>Country: Myanmar<br/>","Class 2021-2022<br/>Country: Nepal<br/>","Class 2022-2023<br/>Country: Nigeria<br/>","Class 2022-2023<br/>Country: India<br/>","Class 2022-2023<br/>Country: Sudan<br/>","Class 2022-2023<br/>Country: Philippines<br/>","Class 2022-2023<br/>Country: Burundi<br/>","Class 2022-2023<br/>Country: Sudan<br/>","Class 2022-2023<br/>Country: South Africa<br/>","Class 2022-2023<br/>Country: India<br/>","Class 2022-2023<br/>Country: New Zealand<br/>","Class 2022-2023<br/>Country: Kenya<br/>","Class 2022-2023<br/>Country: South Sudan<br/>","Class 2022-2023<br/>Country: Sudan<br/>","Class 2022-2023<br/>Country: Malawi<br/>","Class 2022-2023<br/>Country: Malawi<br/>","Class 2022-2023<br/>Country: Kenya<br/>","Class 2022-2023<br/>Country: Uganda<br/>","Class 2022-2023<br/>Country: Bangladesh<br/>","Class 2022-2023<br/>Country: Nigeria<br/>","Class 2022-2023<br/>Country: Myanmar<br/>","Class 2022-2023<br/>Country: Indonesia<br/>","Class 2022-2023<br/>Country: India<br/>","Class 2022-2023<br/>Country: Vietnam<br/>","Class 2022-2023<br/>Country: Ghana<br/>","Class 2023-2024<br/>Country: Fiji<br/>","Class 2023-2024<br/>Country: Eritrea<br/>","Class 2023-2024<br/>Country: Nigeria<br/>","Class 2023-2024<br/>Country: South Sudan<br/>","Class 2023-2024<br/>Country: India<br/>","Class 2023-2024<br/>Country: Indonesia<br/>","Class 2023-2024<br/>Country: Zimbabwe<br/>","Class 2023-2024<br/>Country: Nigeria<br/>","Class 2023-2024<br/>Country: Ghana<br/>","Class 2023-2024<br/>Country: Sudan<br/>","Class 2023-2024<br/>Country: India<br/>","Class 2023-2024<br/>Country: South Africa<br/>","Class 2023-2024<br/>Country: Armenia<br/>","Class 2023-2024<br/>Country: Nigeria<br/>","Class 2023-2024<br/>Country: Nigeria<br/>","Class 2023-2024<br/>Country: Philippines<br/>","Class 2023-2024<br/>Country: Kenya<br/>","Class 2023-2024<br/>Country: Uganda<br/>","Class 2023-2024<br/>Country: South Africa<br/>","Class 2023-2024<br/>Country: Uganda<br/>","Class 2023-2024<br/>Country: Malawi<br/>","Class 2023-2024<br/>Country: Sierra Leone<br/>","Class 2023-2024<br/>Country: Argentina<br/>","Class 2023-2024<br/>Country: Democratic Republic of Congo<br/>","Class 2023-2024<br/>Country: Argentina<br/>","Class 2023-2024<br/>Country: Syria<br/>","Class 2023-2024<br/>Country: Taiwan<br/>","Class 2023-2024<br/>Country: Peru<br/>","Class 2023-2024<br/>Country: Malaysia<br/>","Class 2024-2025<br/>Country: Nigeria<br/>","Class 2024-2025<br/>Country: Palestine<br/>","Class 2024-2025<br/>Country: Liberia<br/>","Class 2024-2025<br/>Country: Ghana<br/>","Class 2024-2025<br/>Country: Lesotho<br/>","Class 2024-2025<br/>Country: Egypt<br/>","Class 2024-2025<br/>Country: Indonesia<br/>","Class 2024-2025<br/>Country: Sierra Leone<br/>","Class 2024-2025<br/>Country: Zimbabwe<br/>","Class 2024-2025<br/>Country: Mozambique<br/>","Class 2024-2025<br/>Country: Japan<br/>","Class 2024-2025<br/>Country: Sudan<br/>","Class 2024-2025<br/>Country: Vietnam<br/>","Class 2024-2025<br/>Country: Kenya<br/>","Class 2024-2025<br/>Country: Indonesia<br/>","Class 2024-2025<br/>Country: Sri Lanka<br/>","Class 2024-2025<br/>Country: Ghana<br/>","Class 2024-2025<br/>Country: South Sudan<br/>","Class 2024-2025<br/>Country: China<br/>"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"12px","textOnly":false,"style":{"background-color":"#B9D6F2","padding":"3px 8px"},"className":"","sticky":true},null]}],"setView":[[0,20],2,[]],"limits":{"lat":[-41.02315861807764,60.01758324810863],"lng":[-105.8583729086548,178.0415759305619]}},"evals":[],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\n    function(el, x) {\n      this.on('baselayerchange', function(e) {\n        e.layer.bringToBack();\n      })\n    }\n  ).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-student-country-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Country locations of IHTM students over the past 10 years
+</figcaption>
+</figure>
+</div>
+</div>
+<p><br></p>
+<p>We are excited to be running the <a href="https://oxford-ihtm.io/teaching/">Open and Reproducible Science in R</a> module again this year for Class 2025. Now on its third year, we are eager to get the ball rolling with our first session this Thursday (11th of October) to start off ten sessions of learning how to use R for data analysis and more importantly learning how to conduct open and reproducible research through R culminating in the 2025 edition of our yearly <strong><em>hackathon</em></strong>.</p>
+<p>It has been a yearly tradition that each incoming IHTM class be given a codename as they start the Open and Reproducible Science in R module. Class 2023 was given the moniker <strong><em>Class Pokemon</em></strong> while Class 2024 had been codenamed <strong><em>Class Naruto</em></strong>.</p>
+<p>We are happy to welcome Class 2025, now known also as <strong><em>Class K-pop</em></strong>, to the Open and Reproducible Science in R module!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://oxford-ihtm.io/posts/2024-10-03-welcome-class-2025/kpop.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="450"></p>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://oxford-ihtm.io/posts/2024-10-03-welcome-class-2025/</guid>
+  <pubDate>Mon, 07 Oct 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://oxford-ihtm.io/posts/2024-10-03-welcome-class-2025/kpop.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Introducing Oxford iHealth</title>
+  <dc:creator>Ernest Guevarra</dc:creator>
+  <link>https://oxford-ihtm.io/posts/2024-09-26-introducing-ihealth/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://oxford-ihtm.io/images/ihealth_base_inline.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>It’s been a few years in the making. With ongoing collaborations with IHTM alumni on projects in Liberia and Seychelles and having initiated the <a href="https://oxford-ihtm.io/teacahing">Open and Reproducible Science in R</a> module 4 years ago, we’ve finally been able to formalise our vision of global health partnerships and collaboration.</p>
+<p>Introducing <strong>Oxford iHealth</strong>, an initiative within the <a href="https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm">MSc in International Health and Tropical Medicine</a> to foster innovation, research, and education in the field of computational sciences for global health.</p>
+<section id="our-approach" class="level2">
+<h2 class="anchored" data-anchor-id="our-approach">Our Approach</h2>
+<section id="rooted-science" class="level3">
+<h3 class="anchored" data-anchor-id="rooted-science">Rooted science</h3>
+<p>Our work is anchored on <em>empowering</em>, <em>enriching</em>, and <em>liberating</em> collaboration with our partners. We do not have a research agenda per se. Rather, our partners put forward their own learning needs, research priorities, and operational requirements in relation to global health challenges that they face. Together we identify existing skills and capacity, available material resources, and funds at hand upon which we jointly develop a capacity building, research implementation, and fundraising agenda that builds on existing strengths and addresses current limitations. It is, then, based on this common holistic agenda that we iterate and collaborate. This recognises what our partners often say <strong><em>“No science and research about us and for us without us”</em></strong>.</p>
+</section>
+<section id="open-and-reproducible" class="level3">
+<h3 class="anchored" data-anchor-id="open-and-reproducible">Open and reproducible</h3>
+<p>We believe that science and research is a community undertaking rather than an individual effort. Open and reproducible science and research practices are essential community building blocks. We achieve this through:</p>
+<ul>
+<li><p>Creating <strong>technical framework</strong> for global health science and research through robust and performant R software developed by our team and our collaborators that lower the workload/threshold between data collection, processing, and data analysis towards insight and discovery.</p></li>
+<li><p>Ensuring that relevant global health <strong>data</strong> are easily accessible, <strong>tools</strong> to work with such data are more available and usable, and <strong>guidance</strong> on best practices for using such tools are widely shared.</p></li>
+<li><p>Building <strong>capacity</strong> of partners and collaborators in the usage of our tools and in the practice of open and reproducible science.</p></li>
+</ul>
+</section>
+<section id="action-oriented" class="level3">
+<h3 class="anchored" data-anchor-id="action-oriented">Action-oriented</h3>
+<p>We work together with partners and collaborators to devise <strong>strategies</strong> and <strong>solutions</strong> to global health challenges they face. We collectively engage in research to understand the identified problem and to find ways to bring about <strong>change</strong>.</p>
+</section>
+</section>
+<section id="oxford-ihealth-is-about" class="level2">
+<h2 class="anchored" data-anchor-id="oxford-ihealth-is-about">Oxford iHealth is about</h2>
+<div class="grid">
+<div class="g-col-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://oxford-ihtm.io/images/insight.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global health</p>
+</div>
+<div class="g-col-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://oxford-ihtm.io/images/innovation.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>State-of-the-science analytic and computational workflows that are open and reproducible</p>
+</div>
+<div class="g-col-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://oxford-ihtm.io/images/impact.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Discoveries that impact on global health and measures that assess global health impact</p>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <category>announcement</category>
+  <guid>https://oxford-ihtm.io/posts/2024-09-26-introducing-ihealth/</guid>
+  <pubDate>Thu, 26 Sep 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://oxford-ihtm.io/posts/2024-09-26-introducing-ihealth/ihealth_base_inline.png" medium="image" type="image/png" height="24" width="144"/>
+</item>
+<item>
+  <title>Creating and styling boxplots</title>
+  <dc:creator>iHealth Team</dc:creator>
+  <link>https://oxford-ihtm.io/posts/2023-11-29-boxplot-ggplot/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Boxplots (also called <em>box-and-whisker</em> plots) are a graphical tool used to summarise and display the distribution of a continuous variable. They are useful for several reasons:</p>
+<ol type="1">
+<li><p><strong>Identifying Outliers</strong>: Boxplots clearly highlight outliers (values that fall significantly outside the range of most of the data). Outliers are shown as individual points beyond the “whiskers” of the plot.</p></li>
+<li><p><strong>Visualizing the Spread and Central Tendency</strong>: The box itself shows the interquartile range (IQR). The line inside the box represents the median, providing a sense of central tendency.</p></li>
+<li><p><strong>Displaying the Range of Data</strong>: The boxplot gives a quick overview of the minimum, first quartile (Q1), median (Q2), third quartile (Q3), and maximum values, helping to understand the range and overall distribution.</p></li>
+</ol>
+<section id="key-components-of-a-boxplot" class="level2">
+<h2 class="anchored" data-anchor-id="key-components-of-a-boxplot">Key Components of a Boxplot:</h2>
+<ul>
+<li><p><strong>Box</strong>: Represents the interquartile range (IQR).</p></li>
+<li><p><strong>Whiskers</strong>: Extend to the smallest and largest data points within 1.5 times the IQR from Q1 and Q3.</p></li>
+<li><p><strong>Median</strong>: The line inside the box, representing the middle value of the dataset.</p></li>
+<li><p><strong>Outliers</strong>: Shown as individual points beyond the whiskers.</p></li>
+</ul>
+<p>Boxplots provide a concise summary, making it easier to understand the distributional properties of a dataset at a glance.</p>
+<p>In this tutorial, we demonstrate how to create boxplots using <code>ggplot</code>. We will use a dataset from a nutrition survey of school children 10 years and older from Pakistan. This dataset is available from the <a href="https://oxford-ihtm.io">Oxford iHealth</a> <a href="https://github.com/OxfordIHTM/teaching_datasets">teaching datasets repository</a></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-1" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-1-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## link to CSV from GitHub repository ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-1-2" class="code-annotation-target">csv_file_url <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv"</span></span>
+<span id="annotated-cell-1-3"></span>
+<span id="annotated-cell-1-4"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Read CSV file ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-1-5" class="code-annotation-target">nut_data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">file =</span> csv_file_url)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="2" data-code-annotation="1">This URL can be retrieved from GitHub by accessing the raw version of the GitHub link to the file</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="5" data-code-annotation="2">Use <code>read.csv()</code> to read the CSV file from the URL</span>
+</dd>
+</dl>
+</div>
+</div>
+<p>On inspection of the dataset, we see:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Show first 5 rows of data ----</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>(nut_data)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  region school age_months sex weight height
+1      1      1        121   2   20.6  124.6
+2      1      1        121   1   27.9  130.7
+3      1      1        129   2   25.7  131.4
+4      1      1        133   1   27.0  135.7
+5      1      1        145   2   28.5  130.5
+6      1      1        148   2   35.1  142.1</code></pre>
+</div>
+</div>
+<p>We have a <code>data.frame</code> with <strong>267</strong> rows and <strong>6</strong> columns.</p>
+<p>For this tutorial, we will focus on the <code>weight</code> variable in the dataset for demonstrating how to create and style boxplots in base R.</p>
+</section>
+<section id="sec-create-boxplot" class="level2">
+<h2 class="anchored" data-anchor-id="sec-create-boxplot">Creating a boxplot</h2>
+<p>A boxplot of the weight variable for all children in the dataset can be created as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-3" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-3-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Load ggplot2 ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-3-2" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="annotated-cell-3-3"></span>
+<span id="annotated-cell-3-4"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Boxplot of weight of all children ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-3-5" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> weight)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-3-6" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_boxplot</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="4" onclick="event.preventDefault();">4</a><span id="annotated-cell-3-7" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="5" onclick="event.preventDefault();">5</a><span id="annotated-cell-3-8" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Summary of weight values for all children"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="6" onclick="event.preventDefault();">6</a><span id="annotated-cell-3-9" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"School children 10 years and above in Pakistan"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="7" onclick="event.preventDefault();">7</a><span id="annotated-cell-3-10" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight (kgs)"</span></span>
+<span id="annotated-cell-3-11">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="8" onclick="event.preventDefault();">8</a><span id="annotated-cell-3-12" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-3" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="2" data-code-annotation="1">Load <code>{ggplot2}</code>. If not yet installed, run <code>install.packages("ggplot2")</code>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="5" data-code-annotation="2">Set <code>ggplot</code> aesthetic mappings. For boxplot, we just need to set the <code>y</code> axis value aesthetic and provide an empty character <code>x</code> axis value aesthetic so that the x-axis will be treated as a character value. For more information, run <code>?ggplot</code>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="6" data-code-annotation="3">Plot the boxplot using <code>geom_boxplot()</code>. For more information, run <code>?geom_histogram</code>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="4">4</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="7" data-code-annotation="4">Set labels of the plot. For more information, run <code>?labs</code>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="5">5</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="8" data-code-annotation="5">Set the <code>title</code> of the plot.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="6">6</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="9" data-code-annotation="6">Set the <code>subtitle</code> of the plot.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="7">7</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="10" data-code-annotation="7">Set the <code>y</code> axis label of the plot.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="8">8</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="12" data-code-annotation="8">Set a plot theme. For more information, run <code>?themes</code>.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-box-all" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-all-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-ggplot/index_files/figure-html/fig-box-all-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-all-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Boxplot of weight of all children
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>A boxplot for weight by sex is created as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-4" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-4-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Convert sex to factor ----</span></span>
+<span id="annotated-cell-4-2">nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>sex <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>sex, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">labels =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Male"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Female"</span>))</span>
+<span id="annotated-cell-4-3"></span>
+<span id="annotated-cell-4-4"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Boxplot of weight by sex of children ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-4-5" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> sex, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> weight)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-4-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_boxplot</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-4-7">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(</span>
+<span id="annotated-cell-4-8">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Summary of weight values by sex"</span>,</span>
+<span id="annotated-cell-4-9">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"School children 10 years and above in Pakistan"</span>,</span>
+<span id="annotated-cell-4-10">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Sex"</span>,</span>
+<span id="annotated-cell-4-11">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight (kgs)"</span></span>
+<span id="annotated-cell-4-12">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-4-13">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-4" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="5" data-code-annotation="1">Set x-axis variable to <code>sex</code>.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-box-sex-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-sex-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-ggplot/index_files/figure-html/fig-box-sex-1-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-sex-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Boxplot of weight by sex
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>tutorial</category>
+  <category>visualisation</category>
+  <guid>https://oxford-ihtm.io/posts/2023-11-29-boxplot-ggplot/</guid>
+  <pubDate>Wed, 29 Nov 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://oxford-ihtm.io/posts/2023-11-29-boxplot-ggplot/boxplot_ggplot.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Creating and styling boxplots</title>
+  <dc:creator>iHealth Team</dc:creator>
+  <link>https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Boxplots (also called <em>box-and-whisker</em> plots) are a graphical tool used to summarise and display the distribution of a continuous variable. They are useful for several reasons:</p>
+<ol type="1">
+<li><p><strong>Identifying Outliers</strong>: Boxplots clearly highlight outliers (values that fall significantly outside the range of most of the data). Outliers are shown as individual points beyond the “whiskers” of the plot.</p></li>
+<li><p><strong>Visualizing the Spread and Central Tendency</strong>: The box itself shows the interquartile range (IQR). The line inside the box represents the median, providing a sense of central tendency.</p></li>
+<li><p><strong>Displaying the Range of Data</strong>: The boxplot gives a quick overview of the minimum, first quartile (Q1), median (Q2), third quartile (Q3), and maximum values, helping to understand the range and overall distribution.</p></li>
+</ol>
+<section id="key-components-of-a-boxplot" class="level2">
+<h2 class="anchored" data-anchor-id="key-components-of-a-boxplot">Key Components of a Boxplot:</h2>
+<ul>
+<li><p><strong>Box</strong>: Represents the interquartile range (IQR).</p></li>
+<li><p><strong>Whiskers</strong>: Extend to the smallest and largest data points within 1.5 times the IQR from Q1 and Q3.</p></li>
+<li><p><strong>Median</strong>: The line inside the box, representing the middle value of the dataset.</p></li>
+<li><p><strong>Outliers</strong>: Shown as individual points beyond the whiskers.</p></li>
+</ul>
+<p>Boxplots provide a concise summary, making it easier to understand the distributional properties of a dataset at a glance.</p>
+<p>In this tutorial, we demonstrate how to create boxplots using the <code>boxplot()</code> function in base R. We will use a dataset from a nutrition survey of school children 10 years and older from Pakistan. This dataset is available from the <a href="https://oxford-ihtm.io">Oxford iHealth</a> <a href="https://github.com/OxfordIHTM/teaching_datasets">teaching datasets repository</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-1" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-1-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## link to CSV from GitHub repository ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-1-2" class="code-annotation-target">csv_file_url <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv"</span></span>
+<span id="annotated-cell-1-3"></span>
+<span id="annotated-cell-1-4"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Read CSV file ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-1-5" class="code-annotation-target">nut_data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">file =</span> csv_file_url)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="2" data-code-annotation="1">This URL can be retrieved from GitHub by accessing the raw version of the GitHub link to the file</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="5" data-code-annotation="2">Use <code>read.csv()</code> to read the CSV file from the URL</span>
+</dd>
+</dl>
+</div>
+</div>
+<p>On inspection of the dataset, we see:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Show first 5 rows of data ----</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>(nut_data)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  region school age_months sex weight height
+1      1      1        121   2   20.6  124.6
+2      1      1        121   1   27.9  130.7
+3      1      1        129   2   25.7  131.4
+4      1      1        133   1   27.0  135.7
+5      1      1        145   2   28.5  130.5
+6      1      1        148   2   35.1  142.1</code></pre>
+</div>
+</div>
+<p>We have a <code>data.frame</code> with <strong>267</strong> rows and <strong>6</strong> columns.</p>
+<p>For this tutorial, we will focus on the <code>weight</code> variable in the dataset for demonstrating how to create and style boxplots in base R.</p>
+</section>
+<section id="sec-create-boxplot" class="level2">
+<h2 class="anchored" data-anchor-id="sec-create-boxplot">Creating a boxplot</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Boxplot of weight of all children ----</span></span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">boxplot</span>(nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>weight)</span></code></pre></div>
+<div class="cell-output-display">
+<div id="fig-box-all" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-all-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/index_files/figure-html/fig-box-all-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-all-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Boxplot of weight of all children
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>By default, the <code>boxplot()</code> function provides the plot above as output when provided values of a continuous variable. Note the default settings in terms of <code>fill</code> for the box and no plot labels.</p>
+<p>We might be interested in comparing the distribution of the weight variable between male and female in the dataset. This can be done in different ways using the <code>boxplot()</code> function.</p>
+<section id="default-method" class="level3">
+<h3 class="anchored" data-anchor-id="default-method">Default method</h3>
+<p>The default method for creating boxplots for different groupings in a dataset is to supply the different vectors of values for each group either as unnamed arguments or as a single list.</p>
+<p>The following code shows one way to provide the different values of weight based on sex as unnamed arguments.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-4" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-4-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Default boxplot method using unnamed arguments ----</span></span>
+<span id="annotated-cell-4-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">boxplot</span>(</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-4-3" class="code-annotation-target">  nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>weight[nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>sex <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-4-4" class="code-annotation-target">  nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>weight[nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>sex <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>]</span>
+<span id="annotated-cell-4-5">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-4" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="3" data-code-annotation="1">Indexing the weight variable to get values for males</span>
+</dd>
+<dt data-target-cell="annotated-cell-4" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="4" data-code-annotation="2">Indexing the weight variable to get values for females</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-box-by-sex-default-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-by-sex-default-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/index_files/figure-html/fig-box-by-sex-default-1-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-by-sex-default-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Boxplot of weight by sex - default method using unnamed arguments
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The following code shows one way to provide a single list of values of weight for males and then females.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-5" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-5-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Default boxplot method using single list ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-5-2" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">boxplot</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">split</span>(nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>weight, nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>sex))</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-5" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="2" data-code-annotation="1">Use of <code>split()</code> function to split the weight values by sex. The <code>split()</code> function outputs a single list with weight values grouped by sex.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-box-by-sex-default-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-by-sex-default-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/index_files/figure-html/fig-box-by-sex-default-2-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-by-sex-default-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Boxplot of weight by sex - default method using single list
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Both approaches produce the same plot. Each boxplot is labeled according to the values of the grouping variable which in this case is sex with <code>1</code> corresponding to males and <code>2</code> corresponding to females.</p>
+</section>
+<section id="formula-method" class="level3">
+<h3 class="anchored" data-anchor-id="formula-method">Formula method</h3>
+<p>The <code>boxplot()</code> function has a formula method for plotting grouping for a variable of interest as shown below:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-6" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-6-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Boxplot of weight by sex using formula method ----</span></span>
+<span id="annotated-cell-6-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">boxplot</span>(</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-6" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-6-3" class="code-annotation-target">    weight <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> sex,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-6" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-6-4" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data</span>
+<span id="annotated-cell-6-5">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-6" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-6" data-code-lines="3" data-code-annotation="1">This is the standard formula specification for the weight variable being grouped by the sex variable. We use the <code>~</code> operator to express the formula.</span>
+</dd>
+<dt data-target-cell="annotated-cell-6" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-6" data-code-lines="4" data-code-annotation="2">For formula method, the <code>data</code> argument is required and this is where you provide the name of the object containing the dataset that has the variable <code>weight</code> and <code>sex</code> used in the formula</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-box-by-sex-formula" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-by-sex-formula-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/index_files/figure-html/fig-box-by-sex-formula-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-by-sex-formula-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Boxplot of weight by sex - formula method
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>With the formula method, the output is similar with the previous approach with the only difference being the <code>x</code> and <code>y</code> labels have been set using the values in the formula. From a syntax perspective, the formula method is more compact without requiring any other processing of the input dataset.</p>
+</section>
+</section>
+<section id="sec-style-boxplot" class="level2">
+<h2 class="anchored" data-anchor-id="sec-style-boxplot">Styling a boxplot</h2>
+<p>The boxplots we’ve created so far are quite basic and would benefit from a little bit more styling. At the minimum, we would like to:</p>
+<ol type="1">
+<li>Add a title to the plot;</li>
+<li>Add more informative labels to each boxplot;</li>
+<li>Add x- and y-axis labels (or update them to look more presentable and complete); and,</li>
+<li>Modify some plot layout features such as box width and plot frames as appropriate.</li>
+</ol>
+<section id="adding-a-title" class="level3">
+<h3 class="anchored" data-anchor-id="adding-a-title">Adding a title</h3>
+<p>Since the <code>boxplot()</code> functions is built on the generic <code>plot()</code> base function in R, named graphical parameters/arguments used in <code>plot()</code> can also be specified in <code>boxplot()</code>. So, to add a title to a boxplot, we do this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-7" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-7-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">boxplot</span>(</span>
+<span id="annotated-cell-7-2">  nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>weight,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-7" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-7-3" class="code-annotation-target">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Summary of weight values for all children"</span></span>
+<span id="annotated-cell-7-4">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-7" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-7" data-code-lines="3" data-code-annotation="1">We use the graphical parameter <code>main</code> to set the title of the boxplot</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-box-style-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-style-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/index_files/figure-html/fig-box-style-1-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-style-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Boxplot of weight with title
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>To add a title to the the boxplot for weight by sex, we do this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">boxplot</span>(</span>
+<span id="cb4-2">  weight <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> sex,</span>
+<span id="cb4-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data,</span>
+<span id="cb4-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Summary of weight values by sex of children"</span></span>
+<span id="cb4-5">)</span></code></pre></div>
+<div class="cell-output-display">
+<div id="fig-box-by-sex-style-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-by-sex-style-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/index_files/figure-html/fig-box-by-sex-style-1-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-by-sex-style-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Boxplot of weight by sex with title
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="adding-names-to-each-boxplot" class="level3">
+<h3 class="anchored" data-anchor-id="adding-names-to-each-boxplot">Adding names to each boxplot</h3>
+<p>For the boxplot of weight by sex, it would be more appropriate for the labels under each boxplot to be more informative of the values they represent. Here, instead of 1 and 2, it would be better to have “Male” and “Female” as labels. We can do this as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-9" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-9-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">boxplot</span>(</span>
+<span id="annotated-cell-9-2">  weight <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> sex,</span>
+<span id="annotated-cell-9-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data,</span>
+<span id="annotated-cell-9-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Summary of weight values by sex of children"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-9" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-9-5" class="code-annotation-target">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">names =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Male"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Female"</span>)</span>
+<span id="annotated-cell-9-6">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-9" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-9" data-code-lines="5" data-code-annotation="1">The <code>names</code> argument in the <code>boxplot()</code> function is used to give different labels/values to the different boxplots instead of the values provided by the data.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-box-by-sex-style-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-by-sex-style-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/index_files/figure-html/fig-box-by-sex-style-2-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-by-sex-style-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: Boxplot of weight by sex with title and boxplot labels
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="adding-x-and-y-axis-labels" class="level3">
+<h3 class="anchored" data-anchor-id="adding-x-and-y-axis-labels">Adding x and y axis labels</h3>
+<p>We can again use generic graphical parameters to set x and y axis labels to a boxplot as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-10" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-10-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">boxplot</span>(</span>
+<span id="annotated-cell-10-2">  nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>weight,</span>
+<span id="annotated-cell-10-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Summary of weight values for all children"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-10" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-10-4" class="code-annotation-target">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight (kgs)"</span></span>
+<span id="annotated-cell-10-5">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-10" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-10" data-code-lines="4" data-code-annotation="1">We use the <code>ylab</code> graphical parameter to specify a label for the y-axis.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-box-style-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-style-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/index_files/figure-html/fig-box-style-2-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-style-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: Boxplot of weight with title and x and y labels
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>For the boxplot for weight values for all children, an x axis label is not really necessary.</p>
+<p>We can set the x and y axis labels to the boxplot for weight by sex as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-11" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-11-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">boxplot</span>(</span>
+<span id="annotated-cell-11-2">  weight <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> sex,</span>
+<span id="annotated-cell-11-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data,</span>
+<span id="annotated-cell-11-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Summary of weight values by sex of children"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-11" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-11-5" class="code-annotation-target">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Sex"</span>,</span>
+<span id="annotated-cell-11-6">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight (kgs)"</span>,</span>
+<span id="annotated-cell-11-7">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">names =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Male"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Female"</span>)</span>
+<span id="annotated-cell-11-8">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-11" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-11" data-code-lines="5" data-code-annotation="1">We use the <code>xlab</code> graphical parameter to specify a label for the x-axis.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-box-by-sex-style-3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-by-sex-style-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/index_files/figure-html/fig-box-by-sex-style-3-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-by-sex-style-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9: Boxplot of weight by sex with title and x and y labels
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="modifying-other-plot-layout-options" class="level3">
+<h3 class="anchored" data-anchor-id="modifying-other-plot-layout-options">Modifying other plot layout options</h3>
+<p>Further modifications can be applied to the boxplot that may enhance their style. The following code adjusts the width of the boxplots and removes the plot frame.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-12" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-12-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">boxplot</span>(</span>
+<span id="annotated-cell-12-2">  weight <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> sex,</span>
+<span id="annotated-cell-12-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data,</span>
+<span id="annotated-cell-12-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Summary of weight values by sex of children"</span>,</span>
+<span id="annotated-cell-12-5">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Sex"</span>,</span>
+<span id="annotated-cell-12-6">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight (kgs)"</span>,</span>
+<span id="annotated-cell-12-7">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">names =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Male"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Female"</span>),</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-12" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-12-8" class="code-annotation-target">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">boxwex =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-12" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-12-9" class="code-annotation-target">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">frame.plot =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span></span>
+<span id="annotated-cell-12-10">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-12" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-12" data-code-lines="8" data-code-annotation="1">Set value for <code>boxwex</code> parameter to scale the size of the boxes. This is particularly useful when there are only a few groups to create boxplots of.</span>
+</dd>
+<dt data-target-cell="annotated-cell-12" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-12" data-code-lines="9" data-code-annotation="2">Set <code>frame.plot</code> graphical parameter to FALSE to remove the plot frame.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-box-by-sex-style-4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-box-by-sex-style-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/index_files/figure-html/fig-box-by-sex-style-4-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-box-by-sex-style-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: Boxplot of weight by sex with title and labels and with modified layout
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>tutorial</category>
+  <category>visualisation</category>
+  <guid>https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/</guid>
+  <pubDate>Wed, 29 Nov 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://oxford-ihtm.io/posts/2023-11-29-boxplot-base-r/boxplot_base.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Creating and styling histograms</title>
+  <dc:creator>iHealth Team</dc:creator>
+  <link>https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A histogram is a graphical representation of the distribution of numerical data. It’s useful for:</p>
+<ol type="1">
+<li><p><strong>Visualizing Frequency Distribution</strong>: It shows how data is distributed over a range of values, displaying the frequency of data points within specific intervals (called bins).</p></li>
+<li><p><strong>Identifying Patterns</strong>: Histograms help in spotting patterns such as normal distribution, skewness (left or right), or multimodal distributions (having more than one peak).</p></li>
+<li><p><strong>Comparing Data</strong>: Histograms make it easy to compare the distribution of different datasets, especially when analyzing large volumes of data.</p></li>
+</ol>
+<p>In this tutorial, we demonstrate how to create a histogram using the <code>hist()</code> function in base R. We will use a dataset from a nutrition survey of school children 10 years and older from Pakistan. This dataset is available from the <a href="https://oxford-ihtm.io">Oxford iHealth</a> <a href="https://github.com/OxfordIHTM/teaching_datasets">teaching datasets repository</a>.</p>
+<section id="reading-the-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="reading-the-dataset">Reading the dataset</h2>
+<p>The school nutrition dataset is available as a CSV file from the <a href="https://github.com/OxfordIHTM/teaching_datasets">teaching datasets repository</a>. We can either download this CSV file and read it into R. Or we can read the CSV file directly from the repository. This can be done as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-1" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-1-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## link to CSV from GitHub repository ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-1-2" class="code-annotation-target">csv_file_url <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv"</span></span>
+<span id="annotated-cell-1-3"></span>
+<span id="annotated-cell-1-4"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Read CSV file ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-1-5" class="code-annotation-target">nut_data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">file =</span> csv_file_url)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="2" data-code-annotation="1">This URL can be retrieved from GitHub by accessing the raw version of the GitHub link to the file</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="5" data-code-annotation="2">Use <code>read.csv()</code> to read the CSV file from the URL</span>
+</dd>
+</dl>
+</div>
+</div>
+<p>On inspection of the dataset, we see:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Show first 5 rows of data ----</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>(nut_data)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  region school age_months sex weight height
+1      1      1        121   2   20.6  124.6
+2      1      1        121   1   27.9  130.7
+3      1      1        129   2   25.7  131.4
+4      1      1        133   1   27.0  135.7
+5      1      1        145   2   28.5  130.5
+6      1      1        148   2   35.1  142.1</code></pre>
+</div>
+</div>
+<p>We have a <code>data.frame</code> with <strong>267</strong> rows and <strong>6</strong> columns.</p>
+<p>For this tutorial, we will focus on the <code>weight</code> variable in the dataset for demonstrating how to create and style histograms in base R.</p>
+</section>
+<section id="sec-create-histogram" class="level2">
+<h2 class="anchored" data-anchor-id="sec-create-histogram">Creating a histogram</h2>
+<p>A histogram of the weight variable can be created as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Histogram of weight of all children ----</span></span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hist</span>(nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>weight)</span></code></pre></div>
+<div class="cell-output-display">
+<div id="fig-hist-all" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-all-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-all-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-all-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Histogram of weight of all children
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>By default, the <code>hist()</code> function already creates a <em>title</em> and <em>x</em> and <em>y</em> axis labels to the histogram.</p>
+<p>We might be interested in comparing the distribution of the weight variable between male and female in the dataset. We can create two histograms for weight. One for the males in the dataset and one for the females in the dataset.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Histogram of weight of male children ----</span></span>
+<span id="cb4-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hist</span>(nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>weight[nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>sex <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>])</span></code></pre></div>
+<div class="cell-output-display">
+<div id="fig-hist-male" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-male-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-male-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-male-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Histogram of weight for male children
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Histogram of weight of female children ----</span></span>
+<span id="cb5-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hist</span>(nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>weight[nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>sex <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>])</span></code></pre></div>
+<div class="cell-output-display">
+<div id="fig-hist-female" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-female-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-female-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-female-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Histogram of weight for female children
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>We can simplify the above code by using the <code>with()</code> and <code>by()</code> functions. We can plot the weights of all the children using this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Use with to plot weight for all children ----</span></span>
+<span id="cb6-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">with</span>(nut_data, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hist</span>(weight))</span></code></pre></div>
+<div class="cell-output-display">
+<div id="fig-hist-all-with" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-all-with-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-all-with-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-all-with-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Histogram of weight for all children using with
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>We notice that using <code>with()</code>, the default <code>title</code> used is tidier as is the <code>x</code> and <code>y</code> axis labels.</p>
+<p>We can use <code>with()</code> and <code>by()</code> to plot the histogram of weight values for males and females as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Use with to plot weight for male children ----</span></span>
+<span id="cb7-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">with</span>(nut_data, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">by</span>(weight, sex, hist))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>sex: 1
+$breaks
+[1] 15 20 25 30 35 40 45 50 55
+
+$counts
+[1]  3 31 78 35 16  5  4  2
+
+$density
+[1] 0.003448276 0.035632184 0.089655172 0.040229885 0.018390805 0.005747126
+[7] 0.004597701 0.002298851
+
+$mids
+[1] 17.5 22.5 27.5 32.5 37.5 42.5 47.5 52.5
+
+$xname
+[1] "dd[x, ]"
+
+$equidist
+[1] TRUE
+
+attr(,"class")
+[1] "histogram"
+------------------------------------------------------------ 
+sex: 2
+$breaks
+[1] 10 15 20 25 30 35 40 45 50
+
+$counts
+[1]  1  2 22 28 28 10  1  1
+
+$density
+[1] 0.002150538 0.004301075 0.047311828 0.060215054 0.060215054 0.021505376
+[7] 0.002150538 0.002150538
+
+$mids
+[1] 12.5 17.5 22.5 27.5 32.5 37.5 42.5 47.5
+
+$xname
+[1] "dd[x, ]"
+
+$equidist
+[1] TRUE
+
+attr(,"class")
+[1] "histogram"</code></pre>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-sex-with-1" class="quarto-float quarto-figure quarto-figure-center anchored" width="672">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-sex-with-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-sex-with-1.png" id="fig-hist-sex-with-1" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-hist-sex-with-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-sex-with-2" class="quarto-float quarto-figure quarto-figure-center anchored" width="672">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-sex-with-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-sex-with-2.png" id="fig-hist-sex-with-2" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-hist-sex-with-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>This gives us two plots, one for males first and then the second for females, with just one line of code. However, we notice also that this produces a side-effect output which is a list of class “histogram” with values for <code>breaks</code>, <code>counts</code>, <code>density</code>, <code>mids</code>, <code>xname</code>, and <code>equidist</code>. This is good to note as this indicates to us that other than the histogram plot output that is visibly produced, there is an invisibly produced output of values that can be used for further analytical purposes laster on.</p>
+</section>
+<section id="sec-style-histogram" class="level2">
+<h2 class="anchored" data-anchor-id="sec-style-histogram">Styling a histogram</h2>
+<p>The above plots for histograms of weight for all children and weight for male and female children are a good start. But, for them to be usable in a report or a publication, we need to add some appropriate styling.</p>
+<section id="sec-label-histogram" class="level3">
+<h3 class="anchored" data-anchor-id="sec-label-histogram">Labels</h3>
+<p>As noted above, the plot created using the <code>with()</code> function is already labeled appropriately (<em>title</em>, <em>x</em> and <em>y</em> axis labels). However, if we wanted to further customise the labels, we can do this as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-8" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-8-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Customise labels of histogram ----</span></span>
+<span id="annotated-cell-8-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">with</span>(</span>
+<span id="annotated-cell-8-3">  nut_data,</span>
+<span id="annotated-cell-8-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hist</span>(</span>
+<span id="annotated-cell-8-5">    weight, </span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-8" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-8-6" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-8" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-8-7" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"weight (kgs)"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-8" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-8-8" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span></span>
+<span id="annotated-cell-8-9">  )</span>
+<span id="annotated-cell-8-10">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-8" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-8" data-code-lines="6" data-code-annotation="1"><code>main</code> is the argument to set the plot title</span>
+</dd>
+<dt data-target-cell="annotated-cell-8" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-8" data-code-lines="7" data-code-annotation="2"><code>xlab</code> is the argument to set the x-axis label</span>
+</dd>
+<dt data-target-cell="annotated-cell-8" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-8" data-code-lines="8" data-code-annotation="3"><code>ylab</code> si the argument to set the y-axis label</span>
+</dd>
+</dl>
+</div>
+</div>
+<p>The <code>hist()</code> function allows for specifying graphical parameters arguments such as <code>main</code>, <code>xlab</code>, and <code>ylab</code> used for labeling plots to produce this histogram:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-hist-all-label-b" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-all-label-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-all-label-b-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-all-label-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: Histogram of weight with customised labels
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>For the histograms of weight of male and female children, we first produce histograms for male and female children and store the list output into an object whilst the plot output is suppressed.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-9" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-9-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Customise labels of histogram ----</span></span>
+<span id="annotated-cell-9-2"></span>
+<span id="annotated-cell-9-3"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Create plot for each sex and assign to object ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-9" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-9-4" class="code-annotation-target">hist_sex <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">with</span>(</span>
+<span id="annotated-cell-9-5">  nut_data,                                   </span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-9" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-9-6" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">by</span>(weight, sex, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">FUN =</span> hist, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">plot =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span>)</span>
+<span id="annotated-cell-9-7">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-9" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-9" data-code-lines="4" data-code-annotation="1">We use the side effect output of <code>hist</code> function and assign it to <code>hist_sex</code> so we can use it in the next steps for plotting.</span>
+</dd>
+<dt data-target-cell="annotated-cell-9" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-9" data-code-lines="6" data-code-annotation="2">Set <code>plot = FALSE</code> so that only side effect output is produced.</span>
+</dd>
+</dl>
+</div>
+</div>
+<p>Then, we plot the histograms for males and females separately by accessing the values that can create these plots from the object <code>hist_sex</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-10" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-10-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Plot histogram for male children ----</span></span>
+<span id="annotated-cell-10-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-10" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-10-3" class="code-annotation-target">  hist_sex[[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]],</span>
+<span id="annotated-cell-10-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight - males"</span>,</span>
+<span id="annotated-cell-10-5">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"weight (kgs)"</span>,</span>
+<span id="annotated-cell-10-6">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span></span>
+<span id="annotated-cell-10-7">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-10" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-10" data-code-lines="3" data-code-annotation="1">Access the first set of values from <code>hist_sex</code> using indexing of a list to plot the histogram for male children</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-male-label" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-male-label-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-male-label-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-male-label-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: Histogram of weight for male children with customised labels
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-11" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-11-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Plot histogram for female children ----</span></span>
+<span id="annotated-cell-11-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-11" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-11-3" class="code-annotation-target">  hist_sex[[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>]],</span>
+<span id="annotated-cell-11-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight - females"</span>,</span>
+<span id="annotated-cell-11-5">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"weight (kgs)"</span>,</span>
+<span id="annotated-cell-11-6">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span></span>
+<span id="annotated-cell-11-7">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-11" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-11" data-code-lines="3" data-code-annotation="2">Access the second set of values from <code>hist_sex</code> using indexing of a list to plot the histogram for female children</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-female-label" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-female-label-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-female-label-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-female-label-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9: Histogram of weight for female children with customised labels
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="sec-layout-histogram" class="level3">
+<h3 class="anchored" data-anchor-id="sec-layout-histogram">Layout</h3>
+<p>The layout of the plot for all children looks quite good already so we don’t do anything else with regard to layout.</p>
+<p>For the histogram for weight of male and female children, the two plots get produced one after the other in separate plots. So, if we want to compare them, it is a bit difficult because we don’t see them side-by-side or in the same plot one on top of the other. Tt would be good if we can find a layout that will allow us to make comparisons between the two.</p>
+<section id="layered" class="level4">
+<h4 class="anchored" data-anchor-id="layered">Layered</h4>
+<p>We can try a layered layout in that one plot is on top of the other plot to aid comparison.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-12" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-12-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Plot female weight histogram on top of male weight histogram ----</span></span>
+<span id="annotated-cell-12-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(</span>
+<span id="annotated-cell-12-3">  hist_sex[[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]],</span>
+<span id="annotated-cell-12-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight by sex"</span>,</span>
+<span id="annotated-cell-12-5">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"weight (kgs)"</span>,</span>
+<span id="annotated-cell-12-6">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span>  </span>
+<span id="annotated-cell-12-7">)</span>
+<span id="annotated-cell-12-8"></span>
+<span id="annotated-cell-12-9"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(</span>
+<span id="annotated-cell-12-10">  hist_sex[[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>]], </span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-12" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-12-11" class="code-annotation-target">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">add =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span></span>
+<span id="annotated-cell-12-12">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-12" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-12" data-code-lines="11" data-code-annotation="1">This adds the the second plot (for females) as a layer on top of the first plot (for males)</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-sex-layered-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-sex-layered-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-sex-layered-1-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-sex-layered-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: Histogram of weight by sex with layered layout
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The resulting plot is still not quite right. On the x-axis, it seems one of the plots has the lower bins cut off. We can make the following improvements to see the full spread of values on the x-axis:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-13" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-13-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Plot female weight histogram on top of male weight histogram ----</span></span>
+<span id="annotated-cell-13-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(</span>
+<span id="annotated-cell-13-3">  hist_sex[[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]],</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-13" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-13-4" class="code-annotation-target">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlim =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>),</span>
+<span id="annotated-cell-13-5">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight by sex"</span>,</span>
+<span id="annotated-cell-13-6">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"weight (kgs)"</span>,</span>
+<span id="annotated-cell-13-7">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span>  </span>
+<span id="annotated-cell-13-8">)</span>
+<span id="annotated-cell-13-9"></span>
+<span id="annotated-cell-13-10"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(</span>
+<span id="annotated-cell-13-11">  hist_sex[[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>]], </span>
+<span id="annotated-cell-13-12">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">add =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span></span>
+<span id="annotated-cell-13-13">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-13" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-13" data-code-lines="4" data-code-annotation="1">Specifying the limits of the x-axis will allow the lowest values and highest values for both male and female weights to be show on the joint plot.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-sex-layered-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-sex-layered-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-sex-layered-2-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-sex-layered-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11: Histogram of weight by sex with layered layout
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>The resulting plot is still not quite right. The plot is not clear in differentiating the plot for males and females. Use of colour might work here (see Section&nbsp;3.3).</p>
+</section>
+<section id="side-by-side" class="level4">
+<h4 class="anchored" data-anchor-id="side-by-side">Side-by-side</h4>
+<p>We can try a side-by-side layout to aid comparison.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-14" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-14-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Plot male and female weight histogram side-by-side ----</span></span>
+<span id="annotated-cell-14-2"></span>
+<span id="annotated-cell-14-3"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Setup plotting window ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-14" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-14-4" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">par</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mfcol =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>))</span>
+<span id="annotated-cell-14-5"></span>
+<span id="annotated-cell-14-6"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Plot male weight histogram ----</span></span>
+<span id="annotated-cell-14-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(</span>
+<span id="annotated-cell-14-8">  hist_sex[[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]],</span>
+<span id="annotated-cell-14-9">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlim =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>),</span>
+<span id="annotated-cell-14-10">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylim =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">80</span>),</span>
+<span id="annotated-cell-14-11">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NULL</span>,</span>
+<span id="annotated-cell-14-12">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Male"</span>,</span>
+<span id="annotated-cell-14-13">)</span>
+<span id="annotated-cell-14-14"></span>
+<span id="annotated-cell-14-15"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Plot female weight histogram ----</span></span>
+<span id="annotated-cell-14-16"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(</span>
+<span id="annotated-cell-14-17">  hist_sex[[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>]],</span>
+<span id="annotated-cell-14-18">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlim =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>),</span>
+<span id="annotated-cell-14-19">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylim =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">80</span>),</span>
+<span id="annotated-cell-14-20">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NULL</span>,</span>
+<span id="annotated-cell-14-21">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Female"</span></span>
+<span id="annotated-cell-14-22">)</span>
+<span id="annotated-cell-14-23"></span>
+<span id="annotated-cell-14-24"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Return plotting window to original ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-14" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-14-25" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">par</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mfcol =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>))</span>
+<span id="annotated-cell-14-26"></span>
+<span id="annotated-cell-14-27"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Add title ----</span></span>
+<span id="annotated-cell-14-28"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">title</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight by sex"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"weight (kgs)"</span>)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-14" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-14" data-code-lines="4" data-code-annotation="1">This changes the default graphical window to 1 row and 2 columns.</span>
+</dd>
+<dt data-target-cell="annotated-cell-14" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-14" data-code-lines="25" data-code-annotation="2">Return graphical window to original.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-sex-layout-side-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-sex-layout-side-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-sex-layout-side-1-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-sex-layout-side-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12: Histogram of weight by sex with side-by-side layout
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="sec-colour-histogram" class="level3">
+<h3 class="anchored" data-anchor-id="sec-colour-histogram">Colour</h3>
+<p>We can utilise colour to distinguish two histograms that we are comparing. Using the example above of the layered histogram, we can distinguish the male and female weight histogram by using colour as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-15" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-15-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">### Plot female weight histogram on top of male weight histogram ----</span></span>
+<span id="annotated-cell-15-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(</span>
+<span id="annotated-cell-15-3">  hist_sex[[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]],</span>
+<span id="annotated-cell-15-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"blue"</span>,</span>
+<span id="annotated-cell-15-5">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlim =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>),</span>
+<span id="annotated-cell-15-6">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight by sex"</span>,</span>
+<span id="annotated-cell-15-7">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"weight (kgs)"</span>,</span>
+<span id="annotated-cell-15-8">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span></span>
+<span id="annotated-cell-15-9">)</span>
+<span id="annotated-cell-15-10"></span>
+<span id="annotated-cell-15-11"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(</span>
+<span id="annotated-cell-15-12">  hist_sex[[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>]],</span>
+<span id="annotated-cell-15-13">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"lightblue"</span>,</span>
+<span id="annotated-cell-15-14">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">add =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span></span>
+<span id="annotated-cell-15-15">)</span>
+<span id="annotated-cell-15-16"></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-15" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-15-17" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">legend</span>(</span>
+<span id="annotated-cell-15-18">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"topright"</span>,                                          </span>
+<span id="annotated-cell-15-19">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">legend =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Male"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Female"</span>),</span>
+<span id="annotated-cell-15-20">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"blue"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"lightblue"</span>),</span>
+<span id="annotated-cell-15-21">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">bty =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span>,                        </span>
+<span id="annotated-cell-15-22">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">cex =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.8</span>,</span>
+<span id="annotated-cell-15-23">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y.intersp =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.8</span></span>
+<span id="annotated-cell-15-24">)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-15" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-15" data-code-lines="17" data-code-annotation="1">This is how you add a basic legend.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-sex-layout-layered-colour" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-sex-layout-layered-colour-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/index_files/figure-html/fig-hist-sex-layout-layered-colour-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-sex-layout-layered-colour-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13: Histogram of weight by sex with layered layout using colour
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>tutorial</category>
+  <category>visualisation</category>
+  <guid>https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/</guid>
+  <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://oxford-ihtm.io/posts/2023-11-28-histogram-base-r/histogram_base.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>Creating and styling histograms</title>
+  <dc:creator>iHealth Team</dc:creator>
+  <link>https://oxford-ihtm.io/posts/2023-11-28-histogram-ggplot/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A histogram is a graphical representation of the distribution of numerical data. It’s useful for:</p>
+<ol type="1">
+<li><p><strong>Visualizing Frequency Distribution</strong>: It shows how data is distributed over a range of values, displaying the frequency of data points within specific intervals (called bins).</p></li>
+<li><p><strong>Identifying Patterns</strong>: Histograms help in spotting patterns such as normal distribution, skewness (left or right), or multimodal distributions (having more than one peak).</p></li>
+<li><p><strong>Comparing Data</strong>: Histograms make it easy to compare the distribution of different datasets, especially when analyzing large volumes of data.</p></li>
+</ol>
+<p>In this tutorial, we demonstrate how to create a histogram using the <code>ggplot</code>. We will use a dataset from a nutrition survey of school children 10 years and older from Pakistan. This dataset is available from the <a href="https://oxford-ihtm.io">Oxford iHealth</a> <a href="https://github.com/OxfordIHTM/teaching_datasets">teaching datasets repository</a>.</p>
+<section id="reading-the-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="reading-the-dataset">Reading the dataset</h2>
+<p>The school nutrition dataset is available as a CSV file from the <a href="https://github.com/OxfordIHTM/teaching_datasets">teaching datasets repository</a>. We can either download this CSV file and read it into R. Or we can read the CSV file directly from the repository. This can be done as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-1" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-1-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## link to CSV from GitHub repository ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-1-2" class="code-annotation-target">csv_file_url <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv"</span></span>
+<span id="annotated-cell-1-3"></span>
+<span id="annotated-cell-1-4"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Read CSV file ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-1-5" class="code-annotation-target">nut_data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">file =</span> csv_file_url)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="2" data-code-annotation="1">This URL can be retrieved from GitHub by accessing the raw version of the GitHub link to the file</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="5" data-code-annotation="2">Use <code>read.csv()</code> to read the CSV file from the URL</span>
+</dd>
+</dl>
+</div>
+</div>
+<p>On inspection of the dataset, we see:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Show first 5 rows of data ----</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>(nut_data)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  region school age_months sex weight height
+1      1      1        121   2   20.6  124.6
+2      1      1        121   1   27.9  130.7
+3      1      1        129   2   25.7  131.4
+4      1      1        133   1   27.0  135.7
+5      1      1        145   2   28.5  130.5
+6      1      1        148   2   35.1  142.1</code></pre>
+</div>
+</div>
+<p>We have a <code>data.frame</code> with <strong>267</strong> rows and <strong>6</strong> columns.</p>
+<p>For this tutorial, we will focus on the <code>weight</code> variable in the dataset for demonstrating how to create and style histograms in base R.</p>
+</section>
+<section id="sec-create-histogram" class="level2">
+<h2 class="anchored" data-anchor-id="sec-create-histogram">Creating a histogram</h2>
+<section id="create-histogram-for-weight-for-all-children" class="level3">
+<h3 class="anchored" data-anchor-id="create-histogram-for-weight-for-all-children">Create histogram for weight for all children</h3>
+<p>A histogram of the weight variable for all children in the dataset can be created as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-3" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-3-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Load ggplot2 ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-3-2" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="annotated-cell-3-3"></span>
+<span id="annotated-cell-3-4"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Histogram of weight of all children ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-3-5" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> weight)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-3-6" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_histogram</span>(</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="4" onclick="event.preventDefault();">4</a><span id="annotated-cell-3-7" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"gray70"</span>,</span>
+<span id="annotated-cell-3-8">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"gray50"</span></span>
+<span id="annotated-cell-3-9">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>                                                             </span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="5" onclick="event.preventDefault();">5</a><span id="annotated-cell-3-10" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="6" onclick="event.preventDefault();">6</a><span id="annotated-cell-3-11" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="7" onclick="event.preventDefault();">7</a><span id="annotated-cell-3-12" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"School children 10 years and above in Pakistan"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="8" onclick="event.preventDefault();">8</a><span id="annotated-cell-3-13" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight (kgs)"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="9" onclick="event.preventDefault();">9</a><span id="annotated-cell-3-14" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span></span>
+<span id="annotated-cell-3-15">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="10" onclick="event.preventDefault();">10</a><span id="annotated-cell-3-16" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-3" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="2" data-code-annotation="1">Load <code>{ggplot2}</code>. If not yet installed, run <code>install.packages("ggplot2")</code>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="5" data-code-annotation="2">Set <code>ggplot</code> aesthetic mappings. For histograms, we just need to set the <code>x</code> axis value aesthetic; for more information, run <code>?ggplot</code>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="6" data-code-annotation="3">Plot the histogram using <code>geom_histogram()</code>; for more information, run <code>?geom_histogram</code>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="4">4</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="7,8" data-code-annotation="4">Change colour of histogram bars from default (dark gray), <code>fill</code> sets the colour inside the histogram bar while <code>colour</code> sets the colour of the outline of the histogram bar.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="5">5</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="10" data-code-annotation="5">Set labels of the plot; for more information, run <code>?labs</code>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="6">6</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="11" data-code-annotation="6">Set the <code>title</code> of the plot.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="7">7</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="12" data-code-annotation="7">Set the <code>subtitle</code> of the plot.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="8">8</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="13" data-code-annotation="8">Set the <code>x</code> axis label of the plot.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="9">9</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="14" data-code-annotation="9">Set the <code>y</code> axis label of the plot.</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="10">10</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="16" data-code-annotation="10">Set a plot theme; for more information, run <code>?themes</code>.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-all" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-all-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-ggplot/index_files/figure-html/fig-hist-all-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-all-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Histogram of weight of all children
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="create-histogram-for-weight-by-sex-of-children" class="level3">
+<h3 class="anchored" data-anchor-id="create-histogram-for-weight-by-sex-of-children">Create histogram for weight by sex of children</h3>
+<p>To create a histogram of the weight by the sex of the child, we can use the following code:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-4" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-4-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Histogram of weight by sex ----</span></span>
+<span id="annotated-cell-4-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(</span>
+<span id="annotated-cell-4-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data, </span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-4-4" class="code-annotation-target">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> weight, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(sex))</span>
+<span id="annotated-cell-4-5">) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-4-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_histogram</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-4-7">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(</span>
+<span id="annotated-cell-4-8">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight by sex"</span>,</span>
+<span id="annotated-cell-4-9">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"School children 10 years and above in Pakistan"</span>,</span>
+<span id="annotated-cell-4-10">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight (kgs)"</span>,</span>
+<span id="annotated-cell-4-11">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span></span>
+<span id="annotated-cell-4-12">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-4-13">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-4" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="4" data-code-annotation="1">We add an aesthetic mapping for <code>fill</code> to the variable <code>sex</code> in the dataset so that the histogram for males and females will be given different <code>fill</code> values. We converted the <code>sex</code> variable to a factor (from integer) to make the <code>fill</code> values discrete (as compared to continuous).</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-sex-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-sex-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-ggplot/index_files/figure-html/fig-hist-sex-1-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-sex-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Histogram of weight by sex
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>The plot looks good but we can still improve on the following things:</p>
+<ul>
+<li>The plot is using default colours provided by <code>ggplot</code>. We can try to use other colours.</li>
+<li>The legend label can be made to just say sex.</li>
+<li>The legend can show Male and Female instead of 1 and 2.</li>
+</ul>
+<p>The following code can make these improvements.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-5" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-5-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Histogram of weight by sex ----</span></span>
+<span id="annotated-cell-5-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(</span>
+<span id="annotated-cell-5-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data, </span>
+<span id="annotated-cell-5-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> weight, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(sex))</span>
+<span id="annotated-cell-5-5">) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-5-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_histogram</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-5-7" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_fill_manual</span>(</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-5-8" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">name =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Sex"</span>,</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-5-9" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">labels =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Male"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Female"</span>),</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="4" onclick="event.preventDefault();">4</a><span id="annotated-cell-5-10" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">values =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"blue"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"lightblue"</span>)</span>
+<span id="annotated-cell-5-11">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-5-12">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(</span>
+<span id="annotated-cell-5-13">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight by sex"</span>,</span>
+<span id="annotated-cell-5-14">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"School children 10 years and above in Pakistan"</span>,</span>
+<span id="annotated-cell-5-15">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight (kgs)"</span>,</span>
+<span id="annotated-cell-5-16">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span></span>
+<span id="annotated-cell-5-17">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-5-18">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-5" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="7" data-code-annotation="1">Use <code>scale_fill_manual()</code> to change histogram fill colours, legend name, and legend labels. For more information, run <code>?scale_fill_manual</code>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-5" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="8" data-code-annotation="2">Change the legend label value.</span>
+</dd>
+<dt data-target-cell="annotated-cell-5" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="9" data-code-annotation="3">Change the legend values.</span>
+</dd>
+<dt data-target-cell="annotated-cell-5" data-target-annotation="4">4</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="10" data-code-annotation="4">Change the histogram fill colours.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-sex-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-sex-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-ggplot/index_files/figure-html/fig-hist-sex-2-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-sex-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Histogram of weight by sex - updated
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>The alternative presentation of the histogram for weight by sex is using a side-by-side layout. This can be done in <code>ggplot</code> using the following code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-6" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-6-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Histogram of weight by sex ----</span></span>
+<span id="annotated-cell-6-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> weight)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-6-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_histogram</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-6" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-6-4" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">facet_wrap</span>(. <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> sex, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ncol =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-6-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(</span>
+<span id="annotated-cell-6-6">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight by sex"</span>,</span>
+<span id="annotated-cell-6-7">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"School children 10 years and above in Pakistan"</span>,</span>
+<span id="annotated-cell-6-8">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight (kgs)"</span>,</span>
+<span id="annotated-cell-6-9">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span></span>
+<span id="annotated-cell-6-10">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-6" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-6-11" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_bw</span>()</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-6" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-6" data-code-lines="4" data-code-annotation="1">Use <code>facet_wrap()</code> to create a faceted plot. For more information, run <code>?facet_wrap()</code>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-6" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-6" data-code-lines="11" data-code-annotation="2">Use <code>theme_bw()</code> instead as this has better formatting for faceted plots. For more information, run <code>?theme_bw()</code>.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-sex-3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-sex-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-ggplot/index_files/figure-html/fig-hist-sex-3-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-sex-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Histogram of weight by sex - faceted
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>The plot looks good but we can still improve on the following things:</p>
+<ul>
+<li>Lighten the default gray fill colour of the histogram bars.</li>
+<li>Use more appropriate facet labels (Male or Female).</li>
+</ul>
+<p>The following code can make these improvements.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-7" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-7-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Convert sex to factor ----</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-7" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-7-2" class="code-annotation-target">nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>sex <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(nut_data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>sex, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">labels =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Male"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Female"</span>))</span>
+<span id="annotated-cell-7-3"></span>
+<span id="annotated-cell-7-4"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Histogram of weight by sex ----</span></span>
+<span id="annotated-cell-7-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> nut_data, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> weight)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-7-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_histogram</span>(</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-7" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-7-7" class="code-annotation-target">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"gray70"</span>,</span>
+<span id="annotated-cell-7-8">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"gray50"</span></span>
+<span id="annotated-cell-7-9">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-7-10">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">facet_wrap</span>(. <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> sex, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ncol =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-7-11">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(</span>
+<span id="annotated-cell-7-12">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Histogram of weight by sex"</span>,</span>
+<span id="annotated-cell-7-13">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"School children 10 years and above in Pakistan"</span>,</span>
+<span id="annotated-cell-7-14">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight (kgs)"</span>,</span>
+<span id="annotated-cell-7-15">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"n"</span></span>
+<span id="annotated-cell-7-16">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="annotated-cell-7-17">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_bw</span>()</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-7" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-7" data-code-lines="2" data-code-annotation="1">Convert sex variable to factor using Male and Female as the labels.</span>
+</dd>
+<dt data-target-cell="annotated-cell-7" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-7" data-code-lines="7,8" data-code-annotation="2">Change colour of histogram bars from default (dark gray), <code>fill</code> sets the colour inside the histogram bar while <code>colour</code> sets the colour of the outline of the histogram bar.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output-display">
+<div id="fig-hist-sex-4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hist-sex-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://oxford-ihtm.io/posts/2023-11-28-histogram-ggplot/index_files/figure-html/fig-hist-sex-4-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hist-sex-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Histogram of weight by sex - faceted updated
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>tutorial</category>
+  <category>visualisation</category>
+  <category>ggplot</category>
+  <guid>https://oxford-ihtm.io/posts/2023-11-28-histogram-ggplot/</guid>
+  <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://oxford-ihtm.io/posts/2023-11-28-histogram-ggplot/histogram_ggplot.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+</channel>
+</rss>
