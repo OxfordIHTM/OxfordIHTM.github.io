@@ -1,0 +1,31 @@
+---
+title: ""
+page-layout: custom
+toc: false
+---
+
+::: {.about-banner}
+
+::: {.content-block}
+
+::: {.grid}
+
+::: {.g-col-3}
+
+# iHealth Champions
+
+:::
+
+::: {.g-col-9}
+### **Oxford iHealth** is an initiative within the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm){target="_blank"}. 
+
+### We foster innovation, research, and education in the field of computational sciences for global health.
+
+:::
+
+:::
+
+:::
+
+:::
+

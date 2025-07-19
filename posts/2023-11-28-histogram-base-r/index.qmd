@@ -26,7 +26,9 @@ In this tutorial, we demonstrate how to create a histogram using the `hist()` fu
 
 The school nutrition dataset is available as a CSV file from the [teaching datasets repository](https://github.com/OxfordIHTM/teaching_datasets). We can either download this CSV file and read it into R. Or we can read the CSV file directly from the repository. This can be done as follows:
 
-```{r read-nut-data}
+```{r}
+#| label: read-nut-data
+
 ## link to CSV from GitHub repository ----
 csv_file_url <- "https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv" # <1>
 
@@ -39,7 +41,9 @@ nut_data <- read.csv(file = csv_file_url) # <2>
 
 On inspection of the dataset, we see:
 
-```{r inspect-nut-data}
+```{r}
+#| label: inspect-nut-data
+
 ## Show first 5 rows of data ----
 head(nut_data)
 ```
@@ -52,7 +56,7 @@ For this tutorial, we will focus on the `weight` variable in the dataset for dem
 
 A histogram of the weight variable can be created as follows:
 
-```{r plot-nut-data-1}
+```{r}
 #| label: fig-hist-all
 #| fig-cap: Histogram of weight of all children
 
@@ -66,7 +70,7 @@ By default, the `hist()` function already creates a *title* and *x* and *y* axis
 
 We might be interested in comparing the distribution of the weight variable between male and female in the dataset. We can create two histograms for weight. One for the males in the dataset and one for the females in the dataset.
 
-```{r plot-nut-data-2}
+```{r}
 #| label: fig-hist-male
 #| fig-cap: Histogram of weight for male children
 
@@ -74,7 +78,7 @@ We might be interested in comparing the distribution of the weight variable betw
 hist(nut_data$weight[nut_data$sex == 1])
 ```
 
-```{r plot-nut-data-3}
+```{r}
 #| label: fig-hist-female
 #| fig-cap: Histogram of weight for female children
 
@@ -86,7 +90,7 @@ hist(nut_data$weight[nut_data$sex == 2])
 
 We can simplify the above code by using the `with()` and `by()` functions. We can plot the weights of all the children using this:
 
-```{r plot-nut-data-4}
+```{r}
 #| label: fig-hist-all-with
 #| fig.cap: Histogram of weight for all children using with
 
@@ -100,7 +104,7 @@ We notice that using `with()`, the default `title` used is tidier as is the `x` 
 
 We can use `with()` and `by()` to plot the histogram of weight values for males and females as follows:
 
-```{r plot-nut-data-5}
+```{r}
 #| label: fig-hist-sex-with
 
 ## Use with to plot weight for male children ----
@@ -119,7 +123,8 @@ The above plots for histograms of weight for all children and weight for male an
 
 As noted above, the plot created using the `with()` function is already labeled appropriately (*title*, *x* and *y* axis labels). However, if we wanted to further customise the labels, we can do this as follows:
 
-```{r plot-nut-data-6a}
+```{r}
+#| label: fig-hist-all-label-a
 #| eval: false
 
 ## Customise labels of histogram ----
@@ -140,8 +145,8 @@ with(
 
 The `hist()` function allows for specifying graphical parameters arguments such as `main`, `xlab`, and `ylab` used for labeling plots to produce this histogram:
 
-```{r plot-nut-data-6b}
-#| label: fig-hist-all-label
+```{r}
+#| label: fig-hist-all-label-b
 #| fig.cap: Histogram of weight with customised labels
 #| echo: false
 
@@ -161,7 +166,9 @@ with(
 
 For the histograms of weight of male and female children, we first produce histograms for male and female children and store the list output into an object whilst the plot output is suppressed.
 
-```{r plot-nut-data-7a}
+```{r}
+#| label: fig-hist-sex-with-combined
+
 ## Customise labels of histogram ----
 
 ### Create plot for each sex and assign to object ----
@@ -176,7 +183,7 @@ hist_sex <- with(                             # <1>
 
 Then, we plot the histograms for males and females separately by accessing the values that can create these plots from the object `hist_sex`.
 
-```{r plot-nut-data-7b}
+```{r}
 #| label: fig-hist-male-label
 #| fig.cap: Histogram of weight for male children with customised labels
 
@@ -191,7 +198,7 @@ plot(
 
 1. Access the first set of values from `hist_sex` using indexing of a list to plot the histogram for male children 
 
-```{r plot-nut-data-7c}
+```{r}
 #| label: fig-hist-female-label
 #| fig.cap: Histogram of weight for female children with customised labels
 
@@ -216,7 +223,7 @@ For the histogram for weight of male and female children, the two plots get prod
 
 We can try a layered layout in that one plot is on top of the other plot to aid comparison.
 
-```{r plot-nut-data-8a}
+```{r}
 #| label: fig-hist-sex-layered-1
 #| fig.cap: Histogram of weight by sex with layered layout
 
@@ -238,7 +245,7 @@ plot(
 
 The resulting plot is still not quite right. On the x-axis, it seems one of the plots has the lower bins cut off. We can make the following improvements to see the full spread of values on the x-axis:
 
-```{r plot-nut-data-8b}
+```{r}
 #| label: fig-hist-sex-layered-2
 #| fig.cap: Histogram of weight by sex with layered layout
 
@@ -267,7 +274,7 @@ The resulting plot is still not quite right. The plot is not clear in differenti
 
 We can try a side-by-side layout to aid comparison.
 
-```{r plot-nut-data-9}
+```{r}
 #| label: fig-hist-sex-layout-side-1
 #| fig.cap: Histogram of weight by sex with side-by-side layout
 
@@ -308,7 +315,7 @@ title(main = "Histogram of weight by sex", xlab = "weight (kgs)")
 
 We can utilise colour to distinguish two histograms that we are comparing. Using the example above of the layered histogram, we can distinguish the male and female weight histogram by using colour as follows:
 
-```{r plot-nut-data-10}
+```{r}
 #| label: fig-hist-sex-layout-layered-colour
 #| fig.cap: Histogram of weight by sex with layered layout using colour
 

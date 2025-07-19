@@ -9,6 +9,7 @@ listing:
   categories: true
   date-format: "DD MMMM YYYY"
   image-placeholder: images/ihealth_base_inline.png
+  feed: true
 title-block-banner: "#E4F0EF"
 title-block-banner-color: "#7F055F"
 search: false
