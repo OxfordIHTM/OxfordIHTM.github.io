@@ -1,15 +1,6 @@
 ---
 title: Projects
 page-layout: full
-listing:
-  - id: software
-    contents:
-      - ../software/*.qmd
-    type: grid
-  - id: research
-    contents:
-      - ../research/*.qmd
-    type: grid
 ---
 
 ::: {.info-block}

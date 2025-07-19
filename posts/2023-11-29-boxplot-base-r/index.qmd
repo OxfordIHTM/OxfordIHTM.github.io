@@ -34,7 +34,9 @@ Boxplots provide a concise summary, making it easier to understand the distribut
 
 In this tutorial, we demonstrate how to create boxplots using the `boxplot()` function in base R. We will use a dataset from a nutrition survey of school children 10 years and older from Pakistan. This dataset is available from the [Oxford iHealth](https://oxford-ihtm.io) [teaching datasets repository](https://github.com/OxfordIHTM/teaching_datasets).
 
-```{r read-nut-data}
+```{r}
+#| label: read-nut-data
+
 ## link to CSV from GitHub repository ----
 csv_file_url <- "https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv" # <1>
 
@@ -47,7 +49,9 @@ nut_data <- read.csv(file = csv_file_url) # <2>
 
 On inspection of the dataset, we see:
 
-```{r inspect-nut-data}
+```{r}
+#| label: inspect-nut-data
+
 ## Show first 5 rows of data ----
 head(nut_data)
 ```
@@ -58,7 +62,7 @@ For this tutorial, we will focus on the `weight` variable in the dataset for dem
 
 ## Creating a boxplot {#sec-create-boxplot}
 
-```{r plot-nut-data-1}
+```{r}
 #| label: fig-box-all
 #| fig-cap: Boxplot of weight of all children
 
@@ -76,7 +80,7 @@ The default method for creating boxplots for different groupings in a dataset is
 
 The following code shows one way to provide the different values of weight based on sex as unnamed arguments.
 
-```{r plot-nut-data-2a}
+```{r}
 #| label: fig-box-by-sex-default-1
 #| fig-cap: Boxplot of weight by sex - default method using unnamed arguments
 
@@ -92,7 +96,7 @@ boxplot(
 
 The following code shows one way to provide a single list of values of weight for males and then females.
 
-```{r plot-nut-data-2b}
+```{r}
 #| label: fig-box-by-sex-default-2
 #| fig-cap: Boxplot of weight by sex - default method using single list
 
@@ -108,7 +112,7 @@ Both approaches produce the same plot. Each boxplot is labeled according to the 
 
 The `boxplot()` function has a formula method for plotting grouping for a variable of interest as shown below:
 
-```{r plot-nut-data-3}
+```{r}
 #| label: fig-box-by-sex-formula
 #| fig-cap: Boxplot of weight by sex - formula method
 
@@ -137,7 +141,7 @@ The boxplots we've created so far are quite basic and would benefit from a littl
 
 Since the `boxplot()` functions is built on the generic `plot()` base function in R, named graphical parameters/arguments used in `plot()` can also be specified in `boxplot()`. So, to add a title to a boxplot, we do this:
 
-```{r plot-nut-data-4a}
+```{r}
 #| label: fig-box-style-1
 #| fig-cap: Boxplot of weight with title
 
@@ -151,7 +155,7 @@ boxplot(
 
 To add a title to the the boxplot for weight by sex, we do this:
 
-```{r plot-nut-data-4b}
+```{r}
 #| label: fig-box-by-sex-style-1
 #| fig-cap: Boxplot of weight by sex with title
 
@@ -166,7 +170,7 @@ boxplot(
 
 For the boxplot of weight by sex, it would be more appropriate for the labels under each boxplot to be more informative of the values they represent. Here, instead of 1 and 2, it would be better to have "Male" and "Female" as labels. We can do this as follows:
 
-```{r plot-nut-data-5}
+```{r}
 #| label: fig-box-by-sex-style-2
 #| fig-cap: Boxplot of weight by sex with title and boxplot labels
 
@@ -184,7 +188,7 @@ boxplot(
 
 We can again use generic graphical parameters to set x and y axis labels to a boxplot as follows:
 
-```{r plot-nut-data-6a}
+```{r}
 #| label: fig-box-style-2
 #| fig-cap: Boxplot of weight with title and x and y labels
 
@@ -201,7 +205,7 @@ For the boxplot for weight values for all children, an x axis label is not reall
 
 We can set the x and y axis labels to the boxplot for weight by sex as follows:
 
-```{r plot-nut-data-6b}
+```{r}
 #| label: fig-box-by-sex-style-3
 #| fig-cap: Boxplot of weight by sex with title and x and y labels
 
@@ -221,7 +225,7 @@ boxplot(
 
 Further modifications can be applied to the boxplot that may enhance their style. The following code adjusts the width of the boxplots and removes the plot frame.
 
-```{r plot-nut-data-7}
+```{r}
 #| label: fig-box-by-sex-style-4
 #| fig-cap: Boxplot of weight by sex with title and labels and with modified layout
 

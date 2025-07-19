@@ -34,7 +34,9 @@ Boxplots provide a concise summary, making it easier to understand the distribut
 
 In this tutorial, we demonstrate how to create boxplots using `ggplot`. We will use a dataset from a nutrition survey of school children 10 years and older from Pakistan. This dataset is available from the [Oxford iHealth](https://oxford-ihtm.io) [teaching datasets repository](https://github.com/OxfordIHTM/teaching_datasets)
 
-```{r read-nut-data}
+```{r}
+#| label: read-nut-data
+
 ## link to CSV from GitHub repository ----
 csv_file_url <- "https://raw.githubusercontent.com/OxfordIHTM/teaching_datasets/refs/heads/main/school_nutrition.csv" # <1>
 
@@ -47,7 +49,9 @@ nut_data <- read.csv(file = csv_file_url) # <2>
 
 On inspection of the dataset, we see:
 
-```{r inspect-nut-data}
+```{r}
+#| label: inspect-nut-data
+
 ## Show first 5 rows of data ----
 head(nut_data)
 ```
@@ -60,7 +64,7 @@ For this tutorial, we will focus on the `weight` variable in the dataset for dem
 
 A boxplot of the weight variable for all children in the dataset can be created as follows:
 
-```{r plot-nut-data-1}
+```{r}
 #| label: fig-box-all
 #| fig-cap: Boxplot of weight of all children 
 
@@ -89,7 +93,7 @@ ggplot(data = nut_data, mapping = aes(x = "", y = weight)) +      # <2>
 
 A boxplot for weight by sex is created as follows:
 
-```{r plot-nut-data-2}
+```{r}
 #| label: fig-box-sex-1
 #| fig-cap: Boxplot of weight by sex
 
