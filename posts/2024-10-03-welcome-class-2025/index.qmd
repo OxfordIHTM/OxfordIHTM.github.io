@@ -11,6 +11,12 @@ categories:
   - news
 ---
 
+::: {.column-margin}
+
+**Cite:** Guevarra, E. (2024, October 7). Welcome MSc IHTM Class of 2025. Oxford iHealth. [https://doi.org/10.59350/6ppvb-6d503](https://doi.org/10.59350/6ppvb-6d503)
+
+:::
+
 October is here again and it is time to welcome our new cohort - ***Class 2025*** - of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm). We met all 19 students of the current cohort last week on the 1st and 2nd of October as they went through the now customary laptop setup for the [Open and Reproducible Science in R module](https://oxford-ihtm.io/teaching/). Lots of big smiles and positive vibes from this group of truly global students coming from 17 different countries.
 
 This year is also particularly special as it [marks 10 years of the course](https://www.tropicalmedicine.ox.ac.uk/news/ihtm-10-years-on). This 10th year cohort brings the total of IHTM students to 221 coming from 65 different countries (see @fig-student-country-map). This level of diversity has always been the hallmark of the course.

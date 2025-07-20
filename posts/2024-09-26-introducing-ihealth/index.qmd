@@ -12,6 +12,12 @@ categories:
   - announcement
 ---
 
+::: {.column-margin}
+
+**Cite:** Guevarra, E. (2024, September 26). Introducing Oxford iHealth. Oxford iHealth. [https://doi.org/10.59350/kk1vc-6wq36](https://doi.org/10.59350/kk1vc-6wq36)
+
+:::
+
 ![](../../images/ihealth_base_inline.png){fig-align="center"}
 
 It's been a few years in the making. With ongoing collaborations with IHTM alumni on projects in Liberia and Seychelles and having initiated the [Open and Reproducible Science in R](https://oxford-ihtm.io/teacahing) module 4 years ago, we've finally been able to formalise our vision of global health partnerships and collaboration.

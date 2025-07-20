@@ -12,6 +12,13 @@ categories:
   - visualisation
 ---
 
+::: {.column-margin}
+
+**Cite:** iHealth Team. (2023, November 29). Creating and styling boxplots. Oxford iHealth. [https://doi.org/10.59350/4w25p-87d53](https://doi.org/10.59350/4w25p-87d53)
+
+:::
+
+
 Boxplots (also called *box-and-whisker* plots) are a graphical tool used to summarise and display the distribution of a continuous variable. They are useful for several reasons:
 
 1. **Identifying Outliers**: Boxplots clearly highlight outliers (values that fall significantly outside the range of most of the data). Outliers are shown as individual points beyond the "whiskers" of the plot.

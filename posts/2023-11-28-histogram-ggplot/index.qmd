@@ -13,6 +13,12 @@ categories:
   - ggplot
 ---
 
+::: {.column-margin}
+
+**Cite:** iHealth Team. (2023, November 28). Creating and styling histograms. Oxford iHealth. [https://doi.org/10.59350/4v8hj-zyv85](https://doi.org/10.59350/4v8hj-zyv85)
+
+:::
+
 A histogram is a graphical representation of the distribution of numerical data. It's useful for:
 
 1. **Visualizing Frequency Distribution**: It shows how data is distributed over a range of values, displaying the frequency of data points within specific intervals (called bins).
