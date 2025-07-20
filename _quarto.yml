@@ -62,3 +62,6 @@ format:
     theme: journal
     css: styles.css
     toc: true
+    highlight-style: breeze
+    code-block-bg: true
+    
