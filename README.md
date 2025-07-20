@@ -3,6 +3,8 @@
 <!-- badges: start -->
 ![License for code](https://img.shields.io/badge/license_for_code-GPL3.0-blue)
 ![License for writing](https://img.shields.io/badge/license_for_writing-CC_BY_4.0-blue)
+[![test-website](https://github.com/OxfordIHTM/OxfordIHTM.github.io/actions/workflows/test-website.yml/badge.svg)](https://github.com/OxfordIHTM/OxfordIHTM.github.io/actions/workflows/test-website.yml)
+[![Quarto Publish](https://github.com/OxfordIHTM/OxfordIHTM.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/OxfordIHTM/OxfordIHTM.github.io/actions/workflows/publish.yml)
 <!-- badges: end -->
 
 
@@ -18,7 +20,14 @@ This repository builds and serves the Oxford iHealth [website](https://oxford-ih
 
 ## Reproducibility
 
-This repository uses R version 4.4.1. R packages used in this repository are versioned using [`{renv}`](https://rstudio.github.io/renv/index.html). To reproduce the website's R package environment, please run:
+
+### R version
+
+This repository uses R version 4.5.1. To manage R versions, it is recommended to use [rig](https://github.com/r-lib/rig) - an R installation manager - to be able to install multiple versions of R and switch between them as needed.
+
+### R package dependencies
+
+R packages used in this repository are versioned using [`{renv}`](https://rstudio.github.io/renv/index.html). To reproduce the website's R package environment, please run:
 
 ```R
 renv::restore()
@@ -31,6 +40,8 @@ To preview the website locally, run the following command on Terminal:
 ```bash
 quarto preview
 ```
+
+## Deployment
 
 The website is rendered via GitHub Actions and published via GitHub Pages automatically every time changes are pushed to the main branch.
 
