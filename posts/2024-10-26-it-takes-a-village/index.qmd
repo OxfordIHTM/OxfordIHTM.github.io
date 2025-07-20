@@ -14,6 +14,13 @@ categories:
   - "Champions Programme"
 ---
 
+::: {.column-margin}
+
+**Cite:**
+Ariana, P. (2024, October 16). It takes a village…. Oxford iHealth. [https://doi.org/10.59350/x8apg-7kb31](https://doi.org/10.59350/x8apg-7kb31)
+
+:::
+
 After the pilot run of the [Open and Reproducible Science in R](https://oxford-ihtm.io/teaching) module for IHTM Class 2021-2022, it was apparent based on student feedback that learning to code in R was something most of our students valued. As with other elements of the course, it is clear that more impactful learning happens when students use whatever they have learned on an actual analytic task. With this in mind, we made some changes to the module starting from IHTM Class 2022-2023.
 
 1. The sessions were integrated into the core PTGH module. This reflected our belief that the data skills alongside the exposure to the concepts of open science and reproducible research should be part of the knowledge base and toolkit of a modern day global health practitioner.
