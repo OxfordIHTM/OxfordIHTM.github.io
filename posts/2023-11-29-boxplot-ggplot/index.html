@@ -156,7 +156,7 @@ background: #E4F0EF;
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed slimcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -216,7 +216,7 @@ background: #E4F0EF;
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Creating and styling boxplots</h1>
@@ -262,9 +262,8 @@ background: #E4F0EF;
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -272,15 +271,22 @@ background: #E4F0EF;
   <li><a href="#sec-create-boxplot" id="toc-sec-create-boxplot" class="nav-link" data-scroll-target="#sec-create-boxplot">Creating a boxplot</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/edit/main/posts/2023-11-29-boxplot-ggplot/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
 
-<p>Boxplots (also called <em>box-and-whisker</em> plots) are a graphical tool used to summarise and display the distribution of a continuous variable. They are useful for several reasons:</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>Cite:</strong> iHealth Team. (2023, November 29). Creating and styling boxplots. Oxford iHealth. <a href="https://doi.org/10.59350/4w25p-87d53">https://doi.org/10.59350/4w25p-87d53</a></p>
+</div></div><p>Boxplots (also called <em>box-and-whisker</em> plots) are a graphical tool used to summarise and display the distribution of a continuous variable. They are useful for several reasons:</p>
 <ol type="1">
 <li><p><strong>Identifying Outliers</strong>: Boxplots clearly highlight outliers (values that fall significantly outside the range of most of the data). Outliers are shown as individual points beyond the “whiskers” of the plot.</p></li>
 <li><p><strong>Visualizing the Spread and Central Tendency</strong>: The box itself shows the interquartile range (IQR). The line inside the box represents the median, providing a sense of central tendency.</p></li>
