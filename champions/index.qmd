@@ -1,31 +1,69 @@
 ---
-title: ""
-page-layout: custom
-toc: false
+title: "Champions Programme"
+description: |
+  We aim to champion and support our community members in their journey towards the practice of open and reproducible science. In turn, our members become *champions* - advocates of open and reproducible science in their own contexts.
 ---
 
-::: {.about-banner}
+Science is a fundamentally communal activity, shaped by collaboration, shared knowledge, collective resources, and mutual accountability. Its strength lies in the diverse contributions of individuals and institutions working together toward common goals. The more open, inclusive, and cooperative the scientific process becomes, the more it benefits society as a whole. The **Champions Programme** is one of the projects in which Oxford iHealth is ensuring and engendering this inclusivity and cooperation in science.
 
-::: {.content-block}
+::: {.img-float}
 
-::: {.grid}
-
-::: {.g-col-3}
-
-# iHealth Champions
+![Champions Badge](../images/champion_alt_badge.png){style="float: left; margin: 10px; width: 150px"}
 
 :::
 
-::: {.g-col-9}
-### **Oxford iHealth** is an initiative within the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm){target="_blank"}. 
+The Oxford iHealth Champions Programme is for alumni of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm) at the [University of Oxford](https://www.ox.ac.uk). Specifically it is aimed for those who have taken the module on [Open and Reproducible Science in R](https://oxford-ihtm.io/teaching/).
 
-### We foster innovation, research, and education in the field of computational sciences for global health.
+The programme is designed as a platform to support our alumni's continuing learning journey on open and reproducible science - from **knowledge acquisition**, to **real-word action**, and then **impact**.
 
-:::
+::: {.img-float}
 
-:::
-
-:::
+![Knowledge Badge](../images/knowledge_badge.png){style="float: right; margin: 10px; width: 150px"}
 
 :::
 
+## Knowledge
+
+Upon their completion of the [Open and Reproducible Science in R](https://oxford-ihtm.io/teaching/) module and their MSc, the knowledge acquisition stage is completed and our alumni are inducted into the Champions Programme, awarded with the **Oxford iHealth Champion badge** and the **Knowledge badge**.
+
+## Action
+
+::: {.img-float}
+
+![Action Badge](../images/action_badge.png){style="float: left; margin: 10px; width: 150px"}
+
+:::
+
+Based on their own personal and professional aspirations, our Champions have the option to declare their intent and commitment to taking purposeful action in applying what they have learned to their personal and/or professional context. This can be through a **documented discussion** with mentors or a **written plan of action** detailing their ideas and the kind of support they would require to be able to realise them. This earns them the **Oxford iHealth Action badge**.
+
+At this stage, our Champions can expect:
+
+- continued mentorship and technical support as they endeavour through your Champion's journey towards realising their plans;
+
+- continued membership to [Oxford iHealth's GitHub](https://github.com/OxfordIHTM) organisational account which affords them access to some educational account benefits such as some compute time credits for GitHub Actions, continuous integration/continuous development, and workflow automation;
+
+- access to IHTM's compute server which is aimed as a shared computing resource for IHTM alumni/iHealth Champions for projects/action plans that are computationally-intensive and/or requiring use of large language models (LLMs) for inference and some model training; and,
+
+- inclusion to Oxford iHealth's community chat via Zulip from which they can keep up-to-date to community activities, seminars, and learning resources.
+
+::: {.img-float}
+
+![Impact Badge](../images/impact_badge.png){style="float: right; margin: 10px; width: 150px"}
+
+:::
+
+## Impact
+
+Finally, our Champions report back to evidence the impact of their actions. This demonstration of their impact can take many forms including, but not limited to, a publication or a report, a speaking engagement, and/or a public event in which our Champions present outcomes that were contributed to by their personal action plans. Accomplishing this earns our Champions the **Oxford iHealth Impact badge**.
+
+::: {.img-float}
+
+![Legend Badge](../images/legend_badge.png){style="float: right; margin: 10px; width: 150px"}
+
+:::
+
+Once our Champions have earned their **Knowledge**, **Action**, and **Impact** badges, they are then inducted as an **Oxford iHealth Legend**.
+
+## Lifelong journey
+
+Their entire learning journey is self-directed by our Champions based on their personal and professional contexts. There is no expectation from anyone to want or need to continue with the next stages. And at the same time our Champions can decide much later on that they do want to pursue this process.
