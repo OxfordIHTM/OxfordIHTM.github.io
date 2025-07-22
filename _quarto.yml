@@ -26,21 +26,18 @@ website:
         href: about/index.qmd
       - text: Blog
         href: blog.qmd
-      # - text: Champions Programme
-      #   href: champions/index.qmd
       - text: Teaching
         menu:
-          - href: teaching/index.qmd
-            text: Open and Reproducible Science in R
-          - href: teaching/learning-resources.qmd
-            text: Learning Resources
-      # - href: projects/index.qmd
-      #   text: Projects
+          - text: Open and Reproducible Science in R
+            href: teaching/index.qmd
+          - text: Learning Resources
+            href: teaching/learning-resources.qmd
+      - text: Projects
+        menu:
+          - text: Champions Programme
+            href: champions/index.qmd
       - text: Packages
         href: packages/index.qmd
-  # sidebar:
-  #   logo: images/ihealth_base_pos.png
-  #   logo-alt: Oxford iHealth
   page-footer: 
     center: "Copyright 2025, University of Oxford MSc in International Health and Tropical Medicine" 
     background: light
