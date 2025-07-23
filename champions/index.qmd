@@ -68,6 +68,10 @@ Once our Champions have earned their **Knowledge**, **Action**, and **Impact** b
 
 The entire learning journey is self-directed by our Champions based on their personal and professional contexts. There is no expectation of anyone to want or need to continue with the next stages. Our Champions decide if and when they want to pursue this process.
 
+## Onboarding
+
+New Champions are inducted into the programme usually around the end of July to early August coinciding with the end of the current school year. They will receive their **Knowledge Badge** and **Champions Badge** via email along with an invitation to attend an online onboarding session where the mechanics of the programme will be discussed along with the kind of resources, support, and mentorship available.
+
 ## Recognition
 
 To track, document, and recognise our Champions' efforts and achievements, we issue digital badges as described above. We use [Open Badge Factory](https://openbadgefactory.com/en/) to create, issue, and manage the digital Open Badges we issue for our Champions. Once our Champions have achieved and/or submitted all the requirements for a badge and then verified by the iHealth team, they will receive an email confirming this achievement and issuing the respective badge/s they have earned. Our Champions can then manage their Open Badges using the [Open Badge Passport](https://openbadgepassport.com/) via its [web-based portal](https://openbadgepassport.com/) or through its mobile applications.
