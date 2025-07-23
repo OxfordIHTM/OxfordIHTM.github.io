@@ -1,0 +1,41 @@
+---
+title: "Welcome iHealth Champions 2025"
+subtitle: "Class K-pop is inducted as our newest batch of iHealth Champions"
+description: "We are happy to announce the induction of our latest batch of iHealth Champions. After their satisfactory completion of the Open and Reproducible Science in R module and for the first batch to have had the option to undertake specific sessions on data concepts and applications, our newest champions have finally earned their badges."
+author: "Ernest Guevarra"
+date: "23 July 2025"
+date-modified: last-modified
+image: ../../images/champion_alt_badge.png
+draft: false
+categories:
+  - stories
+  - announcement
+  - community
+  - "Champions Programme"
+---
+
+<!---
+::: {.column-margin}
+
+**Cite:**
+Ariana, P. (2024, October 16). It takes a village…. Oxford iHealth. [https://doi.org/10.59350/x8apg-7kb31](https://doi.org/10.59350/x8apg-7kb31)
+
+:::
+--->
+
+In mid-October 2024, Proochista Ariana [announced the Oxford iHealth Champions programme](https://oxford-ihtm.io/posts/2024-10-26-it-takes-a-village/) - a re-brand of earlier efforts to encourage and support community-building among our Oxford IHTM alumni towards continued learning, collaboration, and impactful action along the lines of open and reproducible science.
+
+Nine months on, we are happy to welcome our latest batch of [iHealth Champions](https://oxford-ihtm.io/champions/) from [Oxford IHTM Class of 2025](https://oxford-ihtm.io/posts/2024-10-03-welcome-class-2025/). Today, each one received their **Knowledge Badge** and their **Champions Badge** after satisfactory completion of the [Open and Reproducible Science in R](https://oxford-ihtm.io/teaching/) module and the optional data concepts and applications sessions.
+
+::: {layout-ncol="2"}
+
+![Knowledge badge](../../images/knowledge_badge.png)
+
+![Champions badge](../../images/champion_alt_badge.png)
+
+:::
+
+Congratulations to our newest Champions! We hope that some, if not all, of you will endeavour to continue the champion's journey to **purposeful action** leading to **real-world impact**!
+
+
+
