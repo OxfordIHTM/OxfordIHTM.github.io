@@ -1,0 +1,46 @@
+---
+title: "Waiting for orchid"
+subtitle: "The right tool for the job"
+description: "A compute workstation capable of highly-efficient running of large language models for artificial intelligence workflows and development is on its way."
+author: "Ernest Guevarra"
+date: "21 July 2025"
+date-modified: last-modified
+image: ../../images/orchid_machine.jpeg
+draft: false
+categories:
+  - announcement
+  - news
+---
+
+<!---
+::: {.column-margin}
+
+**Cite:**
+Ariana, P. (2024, October 16). It takes a village…. Oxford iHealth. [https://doi.org/10.59350/x8apg-7kb31](https://doi.org/10.59350/x8apg-7kb31)
+
+:::
+--->
+
+By the end of July 2025, we are expecting delivery of a compute server/workstation capable of running large language models (LLMs) efficiently. This machine will allow for local LLM deployment to support development and use of artificial intelligence workflows in-house. 
+
+This is part of Oxford IHTM’s efforts to support its current students and its alumni in learning and applying modern tools for global health projects. Specifically, this machine will provide support for and teaching on application of computational sciences to existing global health challenges. This machine will serve the following purposes: 
+
+* Reinforce the teaching and the practice of computational reproducibility for our students and alumni; 
+
+* Provide compute resources for any alumni or group of alumni (i.e., the [iHealth Champions programme](https://oxford-ihtm.io/champions)) who are currently implementing a global health project that will benefit from and be enhanced by the use of modern computational techniques including natural language processing, machine learning, and large language models; and, 
+
+* Teach and exemplify best practices in ethical use of large language models and artificial intelligence. 
+
+We plan to name this machine **"orchid"** and use flower names for any future compute workstations that we will add to our planned high-performance computing cluster.
+
+This compute machine is resourced in such a way that it will perform very well for big data machine learning applications. Also, it has the capacity to host large language models locally thus ensuring that data protection and data privacy is observed in relation to use of LLMs and AI. Finally, this compute server will be setup such that all alumni can remotely via secure shell (SSH). 
+
+The current line-up of use cases planned and allocated for once the compute server is available and operational are the following: 
+
+* Use of computer vision and machine learning to digitise historical death certificate records that are in digital document format (scanned paper records in PDF)
+
+* Use of machine learning and natural language processing to recode historical records of causes of death into International Classification of Death 10 (ICD-10) standards
+
+* Use of machine learning, natural language processing, and large language models for country-level to global-level health policy reviews. 
+
+We anticipate that the whole setup and scheme for alumni use will be up and running by the middle of August 2025. By then, we will be holding a community call to present and discuss the capabilities of the machine, how our alumni can use it for their projects, and support and training that we plan to provide to help alumni use this resource.

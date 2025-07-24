@@ -44,7 +44,7 @@ At this stage, our Champions can expect:
 
 - access to IHTM's compute server which is aimed as a shared computing resource for IHTM alumni/iHealth Champions for projects/action plans that are computationally-intensive and/or requiring use of large language models (LLMs) for inference and some model training; and,
 
-- inclusion to Oxford iHealth's community chat via Zulip from which they can keep up-to-date to community activities, seminars, and learning resources.
+- inclusion to Oxford iHealth's community chat/forum via Zulip from which they can keep up-to-date with community activities, seminars, and learning resources. This forum is also a good platform to engage and collaborate with fellow alumni/champions.
 
 ::: {.img-float}
 
