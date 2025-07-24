@@ -4,9 +4,10 @@
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
       "/posts/2025-07-23-champions-2025/index.html",
+      "/posts/2025-07-21-waiting-for-orchid/index.html",
       "/posts/2024-10-26-it-takes-a-village/index.html",
       "/posts/2024-10-03-welcome-class-2025/index.html",
       "/posts/2024-09-26-introducing-ihealth/index.html",
@@ -32,9 +33,10 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
       "/posts/2025-07-23-champions-2025/index.html",
+      "/posts/2025-07-21-waiting-for-orchid/index.html",
       "/posts/2024-10-26-it-takes-a-village/index.html",
       "/posts/2024-10-03-welcome-class-2025/index.html",
       "/posts/2024-09-26-introducing-ihealth/index.html",
