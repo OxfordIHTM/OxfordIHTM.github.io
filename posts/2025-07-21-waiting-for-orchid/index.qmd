@@ -29,7 +29,14 @@ This is part of Oxford IHTM’s efforts to support its current students and its 
 
 * Provide compute resources for any alumni or group of alumni (i.e., the [iHealth Champions programme](https://oxford-ihtm.io/champions)) who are currently implementing a global health project that will benefit from and be enhanced by the use of modern computational techniques including natural language processing, machine learning, and large language models; and, 
 
-* Teach and exemplify best practices in ethical use of large language models and artificial intelligence. 
+* Teach and exemplify best practices in ethical use of large language models 
+and artificial intelligence. 
+
+::: {.img-float}
+
+![](../../images/orchid_machine.jpeg){style="float: left; margin: 10px; width: 200px"}
+
+:::
 
 We plan to name this machine **"orchid"** and use flower names for any future compute workstations that we will add to our planned high-performance computing cluster.
 
