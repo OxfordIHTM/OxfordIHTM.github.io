@@ -1,7 +1,7 @@
 ---
 title: "Welcome iHealth Champions 2025"
-subtitle: "Class K-pop is inducted as our newest batch of iHealth Champions"
-description: "We are happy to announce the induction of our latest batch of iHealth Champions. After their satisfactory completion of the Open and Reproducible Science in R module and for the first batch to have had the option to undertake specific sessions on data concepts and applications, our newest champions have finally earned their badges."
+subtitle: "Class K-pop inducted as our newest batch of iHealth Champions"
+description: "After their satisfactory completion of the Open and Reproducible Science in R module and for the first batch to have had the option to undertake specific sessions on data concepts and applications, we are happy to announce the induction of our latest batch of iHealth Champions."
 author: "Ernest Guevarra"
 date: "23 July 2025"
 date-modified: last-modified
