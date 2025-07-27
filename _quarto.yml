@@ -6,6 +6,7 @@ website:
   title: "Oxford iHealth"
   site-url: https://oxford-ihtm.io
   description: "Fostering innovation, research, and education in the field of computational sciences for health"
+  open-graph: true
   navbar:
     title: false
     background: info
