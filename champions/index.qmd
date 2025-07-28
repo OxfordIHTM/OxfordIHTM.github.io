@@ -2,6 +2,7 @@
 title: "Champions Programme"
 description: |
   We aim to champion and support our community members in their journey towards the practice of open and reproducible science. In turn, our members become *champions* - advocates of open and reproducible science in their own contexts.
+image: ../images/champion_alt_badge.png
 ---
 
 Science is a fundamentally communal activity, shaped by collaboration, shared knowledge, collective resources, and mutual accountability. Its strength lies in the diverse contributions of individuals and institutions working together toward common goals. The more open, inclusive, and cooperative the scientific process becomes, the more it benefits society as a whole. The **Champions Programme** is one of the projects in which Oxford iHealth is ensuring and engendering this inclusivity and cooperation in science.

@@ -39,6 +39,12 @@ website:
             href: champions/index.qmd
       - text: Packages
         href: packages/index.qmd
+      - text: Community
+        menu:
+          - text: Community
+            href: community/index.qmd
+          - text: Events
+            href: events/index.qmd
   page-footer: 
     center: "Copyright 2025, University of Oxford MSc in International Health and Tropical Medicine" 
     background: light
