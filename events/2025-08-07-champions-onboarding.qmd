@@ -12,7 +12,7 @@ image: ../images/champion_alt_badge.png
 
 We will discuss the [Oxford iHealth Champions programme](https://oxford-ihtm.io/champions/), what the *programme is about*, the *Champions journey* and its requirements, and the *accreditation/badging process* for milestones and achievements.
 
-This even is open to all Oxford IHTM alumni. [Registration](https://forms.gle/vWy1qMbjALSHAswY7) is **required** to be able to attend.
+This even is open to all Oxford IHTM alumni. [Registration](https://forms.gle/vWy1qMbjALSHAswY7){.external target="_blank"} is **required** to be able to attend.
 
 This session is planned at a reasonable time for those **who are at or within the West Africa and East Africa time zones** but can be participated in by an alumnus from any time zone or location if the timing is more convenient for them.
 
