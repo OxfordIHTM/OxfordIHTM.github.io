@@ -10,16 +10,6 @@ listing:
     sort: "date desc"
     grid-item-border: false
     max-items: 3
-  # - id: featured-packages
-  #   contents:
-  #     - packages/codeditr.qmd
-  #     - packages/codigo.qmd
-  #     - packages/oxcgrt.qmd
-  #   type: grid
-  #   image-height: 400px
-  #   image-placeholder: images/ihealth_base_pos_tn.png
-  #   grid-item-border: false
-  #   max-items: 3
 ---
 
 ::: {.hero-banner}

@@ -35,11 +35,17 @@ listing:
 
 ::: {.info-block}
 
+::: {.img-float}
+
+![](../images/community_call.png){style="float: left; margin: 10px; width: 250px"}
+
+:::
+
 # Community calls
 
-#### Our planned quarterly community call is when our community gets to come together and connect. We envision a forum by which the community is able to discuss on the relevant topics of the time.
+Our planned quarterly community call is when our community gets to come together and connect. We envision a forum by which the community is able to discuss on the relevant topics of the time.
 
-#### We plan to hold our first community call sometime in October 2025.
+We plan to hold our first community call sometime in October 2025.
 
 :::
 
@@ -52,11 +58,11 @@ listing:
 
 # Featured Events
 
-#### Upcoming events that involve Oxford iHealth and its community members.
+Upcoming events that involve Oxford iHealth and its community members.
 
-#### You can subscribe to Oxford iHealth-led events via [our ICS calendar](https://calendar.google.com/calendar/ical/c_0db826712181c28f2b7e5c0f11b8c08b11f4e844894ab03b77702ccaf7d9c5df%40group.calendar.google.com/public/basic.ics) by copying the link and adding to your calendar service/application.
+You can subscribe to Oxford iHealth-led events by downloading our [our ICS calendar](https://calendar.google.com/calendar/ical/c_0db826712181c28f2b7e5c0f11b8c08b11f4e844894ab03b77702ccaf7d9c5df%40group.calendar.google.com/public/basic.ics) and adding it to your calendar service/application.
 
-#### See a full listing of upcoming events [here](https://oxford-ihtm.io/events/).
+See a full listing and calendar of upcoming events [here](https://oxford-ihtm.io/events/).
 
 ::: {#featured-events}
 :::
