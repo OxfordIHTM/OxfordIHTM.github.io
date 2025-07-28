@@ -1,5 +1,4 @@
 ---
-#title: ""
 page-layout: custom
 section-divs: false
 toc: false
