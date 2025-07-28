@@ -13,7 +13,7 @@ Science is a fundamentally communal activity, shaped by collaboration, shared kn
 
 :::
 
-The Oxford iHealth Champions Programme is for alumni of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm) at the [University of Oxford](https://www.ox.ac.uk). Specifically it is aimed for those who have taken the module on [Open and Reproducible Science in R](https://oxford-ihtm.io/teaching/).
+The Oxford iHealth Champions Programme is for alumni of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm){.external target="blank"} at the [University of Oxford](https://www.ox.ac.uk){.external target="blank"}. Specifically it is aimed for those who have taken the module on [Open and Reproducible Science in R](https://oxford-ihtm.io/teaching/).
 
 The programme is designed as a platform to support our alumni's continuing learning journey on open and reproducible science - from **knowledge acquisition**, to **real-word action**, and then **impact**.
 
@@ -41,7 +41,7 @@ At this stage, our Champions can expect:
 
 - continued mentorship and technical support as they endeavour through your Champion's journey towards realising their plans;
 
-- continued membership to [Oxford iHealth's GitHub](https://github.com/OxfordIHTM) organisational account which affords them access to some educational account benefits such as some compute time credits for GitHub Actions, continuous integration/continuous development, and workflow automation;
+- continued membership to [Oxford iHealth's GitHub](https://github.com/OxfordIHTM){.external target="blank"} organisational account which affords them access to some educational account benefits such as some compute time credits for GitHub Actions, continuous integration/continuous development, and workflow automation;
 
 - access to [Oxford IHTM's compute server](https://oxford-ihtm.io/posts/2025-07-21-waiting-for-orchid/) which is aimed as a shared computing resource for IHTM alumni/iHealth Champions for projects/action plans that are computationally-intensive and/or requiring use of large language models (LLMs) for inference and some model training; and,
 
@@ -75,7 +75,7 @@ New Champions are inducted into the programme usually around the end of July to 
 
 ## Recognition
 
-To track, document, and recognise our Champions' efforts and achievements, we issue digital badges as described above. We use [Open Badge Factory](https://openbadgefactory.com/en/) to create, issue, and manage the digital Open Badges we issue for our Champions. Once our Champions have achieved and/or submitted all the requirements for a badge and then verified by the iHealth team, they will receive an email confirming this achievement and issuing the respective badge/s they have earned. Our Champions can then manage their Open Badges using the [Open Badge Passport](https://openbadgepassport.com/) via its [web-based portal](https://openbadgepassport.com/) or through its mobile applications.
+To track, document, and recognise our Champions' efforts and achievements, we issue digital badges as described above. We use [Open Badge Factory](https://openbadgefactory.com/en/){.external target="blank"} to create, issue, and manage the digital Open Badges we issue for our Champions. Once our Champions have achieved and/or submitted all the requirements for a badge and then verified by the iHealth team, they will receive an email confirming this achievement and issuing the respective badge/s they have earned. Our Champions can then manage their Open Badges using the [Open Badge Passport](https://openbadgepassport.com/){.external target="blank"} via its [web-based portal](https://openbadgepassport.com/){.external target="blank"} or through its mobile applications.
 
 ::: {.img-float}
 
