@@ -193,6 +193,10 @@
   text-align: center;
 }
 
+/* .info-block p {
+  text-align: center;
+} */
+
 .info-block-alt {
   padding-top: 20px;
   padding-bottom: 10px;
@@ -254,6 +258,12 @@
   display: flex;
 }
 
+.community-banner .community-image {
+  position: absolute;
+  display: none;
+  height: auto;
+}
+
 .community-banner h1 {
   color: #7F055F;
   font-size: 1.75rem;
@@ -263,6 +273,12 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 1rem;
+}
+
+.approach-banner {
+  position: relative;
+  background-color: #FFFFFF;
+  display: flex;
 }
 
 .approach-banner h1 {
