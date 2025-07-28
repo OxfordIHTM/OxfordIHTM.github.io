@@ -45,5 +45,23 @@
       "/posts/2023-11-28-histogram-base-r/index.html",
       "/posts/2023-11-28-histogram-ggplot/index.html"
     ]
+  },
+  {
+    "listing": "/community/index.html",
+    "items": [
+      "/events/2025-08-05-champions-onboarding.html",
+      "/events/2025-08-07-champions-onboarding.html",
+      "/events/2025-08-11-champions-onboarding.html",
+      "/events/2025-08-06-champions-onboarding.html"
+    ]
+  },
+  {
+    "listing": "/events/index.html",
+    "items": [
+      "/events/2025-08-05-champions-onboarding.html",
+      "/events/2025-08-07-champions-onboarding.html",
+      "/events/2025-08-11-champions-onboarding.html",
+      "/events/2025-08-06-champions-onboarding.html"
+    ]
   }
 ]

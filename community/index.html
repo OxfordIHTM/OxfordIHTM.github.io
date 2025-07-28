@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ernest Guevarra – Oxford iHealth</title>
+<title>index – Oxford iHealth</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,12 +30,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-f4db45487a441faad5dd7eaa04a2f633.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -68,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured-events .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured-events'] = new List('listing-featured-events', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PSJXMNM72F"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -96,15 +128,42 @@ cookieconsent.run({
 </script> 
   
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Ernest Guevarra – Oxford iHealth">
-<meta property="og:description" content="Fostering innovation, research, and education in the field of computational sciences for health">
-<meta property="og:image" content="https://oxford-ihtm.io/images/ernestguevarra.jpg">
+<meta property="og:title" content="Oxford iHealth">
 <meta property="og:site_name" content="Oxford iHealth">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -190,85 +249,129 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/edit/main/people/ernest-guevarra.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    </div>
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Ernest Guevarra</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="https://ernest.guevarra.io" class="about-link" rel="" target="">
-    <i class="bi bi-globe"></i>
-     <span class="about-link-text">Website</span>
-  </a>
-  <a href="https://www.linkedin.com/in/ernestguevarra/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/ernestguevarra" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://fosstodon.org/@ernestguevarra" class="about-link" rel="" target="">
-    <i class="bi bi-mastodon"></i>
-     <span class="about-link-text">Mastodon</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<p>I am an independent public health consultant with more than 20 years of professional experience in community and public health in humanitarian crises and developing country-settings, including as a community health worker, medical doctor, and most recently as the Head of Valid Measures, the specialised metrics, analytics and technology unit of <a href="https://www.validinternational.org">Valid International</a>. I have expertise in spatial epidemiology, geo-statistics, cartography and statistical programming. In my role as head of Valid Measures, I led the design, development and implementation of innovative surveys and assessments on health and nutrition and bespoke analytical approaches that leverage the advantages of Bayesian statistics and resampling techniques. I am a founding member of <a href="https://katilingban.io/">Katilingban</a>, a collective of public health and nutrition experts and practitioners. I am currently a <a href="https://www.ecohealthalliance.org/personnel/dr-ernest-guevarra">consulting research data scientist</a> for <a href="https://www.ecohealthalliance.org/">EcoHealth Alliance</a> to support its computational analytics work in support of pandemic preparedness and One Health research and a Senior Research and Teaching Associate at the <a href="https://www.tropicalmedicine.ox.ac.uk/">Centre for Tropical Medicine and Global Health</a>, <a href="https://www.ndm.ox.ac.uk/">Nuffield Department of Medicine</a>, <a href="https://www.ox.ac.uk/">University of Oxford</a>.</p>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p><strong>Harvard School of Public Health, Harvard University</strong> | Boston, MA<br>
-Master of Public Health International Health Concentration | Sept 2004 - June 2005</p>
-<p><strong>Harvard School of Public Health, Harvard University</strong> | Boston, MA<br>
-Certificate in Humanitarian Studies | Sept 2004 - June 2005</p>
-<p><strong>University of the Philippines College of Medicine</strong> | Manila, Philippines<br>
-Doctor of Medicine | June 1994 - June 2001</p>
-<p><strong>University of the Philippines College of Medicine</strong> | Manila, Philippines<br>
-Bachelor of Science in Basic Medical Sciences | June 1994 - June 1998</p>
+
+
+
+<div class="community-banner">
+<div class="info-block">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/community.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<h1 id="go-to-the-people.-live-with-them.-learn-from-them.-love-them.">Go to the people. Live with them. Learn from them. Love them.</h1>
+<h1 id="start-with-what-they-know.-build-with-what-they-have.">Start with what they know. Build with what they have.</h1>
+<h1 id="but-with-the-best-leaders-when-the-work-is-done-the-task-accomplished-the-people-will-say-we-have-done-it-ourselves.">But with the best leaders, when the work is done, the task accomplished, the people will say “We have done it ourselves”.</h1>
+</div>
+</div>
+<div class="approach-banner">
+<section id="community-calls" class="info-block">
+<h1>Community calls</h1>
+<h4 id="our-planned-quarterly-community-call-is-when-our-community-gets-to-come-together-and-connect.-we-envision-a-forum-by-which-the-community-is-able-to-discuss-on-the-relevant-topics-of-the-time.">Our planned quarterly community call is when our community gets to come together and connect. We envision a forum by which the community is able to discuss on the relevant topics of the time.</h4>
+<h4 id="we-plan-to-hold-our-first-community-call-sometime-in-october-2025.">We plan to hold our first community call sometime in October 2025.</h4>
 </section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<p><a href="https://www.tropicalmedicine.ox.ac.uk/"><strong>Centre for Tropical Medicine and Global Health</strong></a>, <a href="https://www.ndm.ox.ac.uk/"><strong>Nuffield Department of Medicine</strong></a>, <a href="https://www.ox.ac.uk/"><strong>University of Oxford</strong></a><br>
-Senior Research and Teaching Associate | October 2023 - present<br>
-Teaching Fellow | July 2020 - October 2023</p>
-<p><a href="https://www.ecohealthalliance.org"><strong>EcoHealth Alliance</strong></a><br>
-Consulting Research Data Scientist | December 2020 - present</p>
-<p><a href="https://katilingban.io"><strong>Katilingban</strong></a><br>
-Founding Member | July 2020 - present</p>
-<p><a href="https://www.validinternational.org"><strong>Valid International</strong></a><br>
-Head of Measures | January 2017 - March 2020<br>
-Survey and Assessments Specialist | January 2015 - December 2016<br>
-Technical Advisor | September 2009 - December 2014</p>
-
-
-</section>
-</main></div>
-    </div>
-    <img src="../images/ernestguevarra.jpg" class="about-image
-  rounded " style="width: 15em;">
-  </div>
 </div>
- <!-- /main -->
+<div class="event-banner">
+<section id="featured-events" class="info-block">
+<h1>Featured Events</h1>
+<h4 id="upcoming-events-that-involve-oxford-ihealth-and-its-community-members.">Upcoming events that involve Oxford iHealth and its community members.</h4>
+<h4 id="you-can-subscribe-to-oxford-ihealth-led-events-via-our-ics-calendar-by-copying-the-link-and-adding-to-your-calendar-serviceapplication.">You can subscribe to Oxford iHealth-led events via <a href="https://calendar.google.com/calendar/ical/c_0db826712181c28f2b7e5c0f11b8c08b11f4e844894ab03b77702ccaf7d9c5df%40group.calendar.google.com/public/basic.ics">our ICS calendar</a> by copying the link and adding to your calendar service/application.</h4>
+<h4 id="see-a-full-listing-of-upcoming-events-here.">See a full listing of upcoming events <a href="https://oxford-ihtm.io/events/">here</a>.</h4>
+<div id="listing-featured-events" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1753722933655" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<a href="../events/2025-08-05-champions-onboarding.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="../images/champion_alt_badge.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Champions Onboarding - Americas/Pacific time zone
+</h5>
+<div class="card-text listing-description delink">
+<strong>Date:</strong> 5 August 2025<br>
+<strong>Time:</strong> 19:00-20:00 BST / 12:00-13:00 Americas/Pacific<br>
+<strong>Venue:</strong> Online via Zoom
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1753722933655" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
+<a href="../events/2025-08-07-champions-onboarding.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="../images/champion_alt_badge.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Champions Onboarding - Southeast Asia time zone
+</h5>
+<div class="card-text listing-description delink">
+<strong>Date:</strong> 7 August 2025<br>
+<strong>Time:</strong> 06:00-07:00 BST / 12:00-13:00 Indochina time<br>
+<strong>Venue:</strong> Online via Zoom
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1753722933655" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<a href="../events/2025-08-11-champions-onboarding.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="../images/champion_alt_badge.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Champions Onboarding - UK/Europe time zone
+</h5>
+<div class="card-text listing-description delink">
+<strong>Date:</strong> 11 August 2025<br>
+<strong>Time:</strong> 13:00-14:00 BST / 14:00-15:00 UTC<br>
+<strong>Venue:</strong> Online via Zoom
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+</div>
+
+
+
+
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -667,7 +770,7 @@ Technical Advisor | September 2009 - December 2014</p>
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2025, University of Oxford MSc in International Health and Tropical Medicine</p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/edit/main/people/ernest-guevarra.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/edit/main/community/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OxfordIHTM/OxfordIHTM.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
