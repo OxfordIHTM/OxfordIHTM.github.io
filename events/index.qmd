@@ -20,15 +20,22 @@ listing:
 
 # Events
 
-#### Upcoming events that involve Oxford iHealth and its community members.
+Upcoming events that involve Oxford iHealth and its community members.
 
 ::: {#featured-events}
 :::
 
-#### You can subscribe to Oxford iHealth-led events via [our ICS calendar](https://calendar.google.com/calendar/ical/c_0db826712181c28f2b7e5c0f11b8c08b11f4e844894ab03b77702ccaf7d9c5df%40group.calendar.google.com/public/basic.ics) by copying the link and adding to your calendar service/application.
+:::
+
+:::
+
+::: {.approach-banner}
+
+::: {.info-block}
+
+You can subscribe to Oxford iHealth-led events by downloading our [our ICS calendar](https://calendar.google.com/calendar/ical/c_0db826712181c28f2b7e5c0f11b8c08b11f4e844894ab03b77702ccaf7d9c5df%40group.calendar.google.com/public/basic.ics) and adding it to your calendar service/application.
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_0db826712181c28f2b7e5c0f11b8c08b11f4e844894ab03b77702ccaf7d9c5df%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
-
 
 :::
 
