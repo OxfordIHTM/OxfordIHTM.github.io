@@ -1,0 +1,44 @@
+---
+title: "Oxford iHealth Champions onboarding sessions - August 2025"
+subtitle: "Onboarding sessions to the Champions Programme"
+description: |
+  Presentation and discussion about the programme, the Champion's journey and its requirements, the new credentialing and badging process for milestones and achievements, and support and mentorship available
+author: "iHealth Team"
+date: "29 July 2025"
+date-modified: last-modified
+image: ../../images/champion_alt_badge.png
+draft: false
+categories:
+  - announcement
+  - "Champions Programme"
+listing:
+  - id: onboarding
+    contents:
+      - ../../events/+([[:digit:]]){\-}+([[:digit:]]){\-}+([[:digit:]])*{\.qmd}
+    type: grid
+    image-height: 250px
+    grid-item-border: false
+---
+
+We've organised four onboarding sessions to the Champions programme in August 2025 where we will discuss the [Oxford iHealth Champions programme](https://oxford-ihtm.io/champions/), what the *programme is about*, the *Champion's journey* and its requirements, and the *accreditation/badging process* for milestones and achievements.
+
+This event is open to all Oxford IHTM alumni. [Registration](https://forms.gle/vWy1qMbjALSHAswY7){.external target="_blank"} is **required** to be able to attend. Registration is required so we can verify that you are indeed an Oxford IHTM alumnus. In the registration, you are asked to select one of the four onboarding sessions.
+
+Each session is planned at a reasonable time for four different time zones:
+
+- *Americas/Pacific*;
+- *West and East Africa*;
+- *Indochina*; and,
+- *UK and Europe*
+
+for those **who are at or within any of these time zones** to choose. However, any of the sessions can be participated in by an alumnus from any time zone or location if that timing is more convenient for them.
+
+The session Zoom link for the session you have registered for will be provided via email after your registration has been verified.
+
+We look forward to having you in one of these sessions.
+
+::: {#onboarding}
+:::
+
+
+
