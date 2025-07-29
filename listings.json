@@ -13,8 +13,19 @@
     ]
   },
   {
+    "listing": "/posts/2025-07-27-champions-onboarding/index.html",
+    "items": [
+      "/events/2025-08-05-champions-onboarding.html",
+      "/events/2025-08-07-champions-onboarding.html",
+      "/events/2025-08-11-champions-onboarding.html",
+      "/events/2025-08-06-champions-onboarding.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
+      "/posts/2025-07-29-monthly-roundup/index.html",
+      "/posts/2025-07-27-champions-onboarding/index.html",
       "/posts/2025-07-23-champions-2025/index.html",
       "/posts/2025-07-21-waiting-for-orchid/index.html",
       "/posts/2024-10-26-it-takes-a-village/index.html",
@@ -44,6 +55,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2025-07-29-monthly-roundup/index.html",
+      "/posts/2025-07-27-champions-onboarding/index.html",
       "/posts/2025-07-23-champions-2025/index.html",
       "/posts/2025-07-21-waiting-for-orchid/index.html",
       "/posts/2024-10-26-it-takes-a-village/index.html",
