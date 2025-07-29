@@ -14,14 +14,13 @@ categories:
   - "Champions Programme"
 ---
 
-<!---
+
 ::: {.column-margin}
 
-**Cite:**
-Ariana, P. (2024, October 16). It takes a village…. Oxford iHealth. [https://doi.org/10.59350/x8apg-7kb31](https://doi.org/10.59350/x8apg-7kb31)
+**Cite:** Guevarra, E. (2025, July 23). Welcome iHealth Champions 2025. Oxford iHealth. [https://doi.org/10.59350/4tny8-90c60](https://doi.org/10.59350/4tny8-90c60)
 
 :::
---->
+
 
 In mid-October 2024, Proochista Ariana [announced the Oxford iHealth Champions programme](https://oxford-ihtm.io/posts/2024-10-26-it-takes-a-village/) - a re-brand of earlier efforts to encourage and support community-building among our Oxford IHTM alumni towards continued learning, collaboration, and impactful action along the lines of open and reproducible science.
 

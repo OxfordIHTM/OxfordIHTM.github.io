@@ -2,7 +2,7 @@
 title: "Creating and styling boxplots"
 subtitle: "Using base R"
 description: "We demonstrate how to create and style boxplots using the `boxplot()` function in base R"
-author: "iHealth Team"
+author: "Oxford iHealth Team"
 date: "29 November 2023"
 date-modified: last-modified
 image: "boxplot_base.png"
@@ -14,7 +14,7 @@ categories:
 
 ::: {.column-margin}
 
-**Cite:** iHealth Team. (2023, November 29). Creating and styling boxplots. Oxford iHealth. [https://doi.org/10.59350/1shx4-jvf47](https://doi.org/10.59350/1shx4-jvf47)
+**Cite:** Oxford iHealth Team. (2023, November 29). Creating and styling boxplots. Oxford iHealth. [https://doi.org/10.59350/1shx4-jvf47](https://doi.org/10.59350/1shx4-jvf47)
 
 :::
 
