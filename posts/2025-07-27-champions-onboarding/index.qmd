@@ -26,9 +26,9 @@ listing:
 
 :::
 
-We've organised four onboarding sessions to the Champions programme in August 2025 where we will discuss the [Oxford iHealth Champions programme](https://oxford-ihtm.io/champions/), what the *programme is about*, the *Champion's journey* and its requirements, and the *accreditation/badging process* for milestones and achievements.
+We've organised four onboarding sessions to the [Oxford iHealth Champions programme](https://oxford-ihtm.io/champions/) in August 2025 where we will discuss what the *programme is about*, the *Champion's journey* and its requirements, and the *accreditation/badging process* for milestones and achievements.
 
-This event is open to all Oxford IHTM alumni. [Registration](https://forms.gle/vWy1qMbjALSHAswY7){.external target="_blank"} is **required** to be able to attend. Registration is required so we can verify that you are indeed an Oxford IHTM alumnus. In the registration, you are asked to select one of the four onboarding sessions.
+These events are open to all Oxford IHTM alumni. [Registration](https://forms.gle/vWy1qMbjALSHAswY7){.external target="_blank"} is **required** to be able to attend. Registration is required so we can verify that you are indeed an Oxford IHTM alumnus. In the registration, you are asked to select one of the four onboarding sessions.
 
 Each session is planned at a reasonable time for four different time zones:
 
@@ -45,6 +45,4 @@ We look forward to having you in one of these sessions.
 
 ::: {#onboarding}
 :::
-
-
 
