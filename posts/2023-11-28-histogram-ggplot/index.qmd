@@ -2,7 +2,7 @@
 title: "Creating and styling histograms"
 subtitle: "Using ggplot"
 description: "We demonstrate how to create and style histograms using ggplot"
-author: "iHealth Team"
+author: "Oxford iHealth Team"
 date: "28 November 2023"
 date-modified: last-modified
 image: "histogram_ggplot.png"
@@ -15,7 +15,7 @@ categories:
 
 ::: {.column-margin}
 
-**Cite:** iHealth Team. (2023, November 28). Creating and styling histograms. Oxford iHealth. [https://doi.org/10.59350/4v8hj-zyv85](https://doi.org/10.59350/4v8hj-zyv85)
+**Cite:** Oxford iHealth Team. (2023, November 28). Creating and styling histograms. Oxford iHealth. [https://doi.org/10.59350/4v8hj-zyv85](https://doi.org/10.59350/4v8hj-zyv85)
 
 :::
 

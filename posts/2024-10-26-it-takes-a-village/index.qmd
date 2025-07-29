@@ -16,8 +16,7 @@ categories:
 
 ::: {.column-margin}
 
-**Cite:**
-Ariana, P. (2024, October 16). It takes a village…. Oxford iHealth. [https://doi.org/10.59350/x8apg-7kb31](https://doi.org/10.59350/x8apg-7kb31)
+**Cite:** Ariana, P. (2024, October 16). It takes a village…. Oxford iHealth. [https://doi.org/10.59350/x8apg-7kb31](https://doi.org/10.59350/x8apg-7kb31)
 
 :::
 

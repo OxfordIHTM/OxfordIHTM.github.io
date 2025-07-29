@@ -2,7 +2,7 @@
 title: "Creating and styling histograms"
 subtitle: "Using base R"
 description: "We demonstrate how to create and style histograms using the `hist()` function in base R"
-author: "iHealth Team"
+author: "Oxford iHealth Team"
 date: "28 November 2023"
 date-modified: last-modified
 image: "histogram_base.png"
@@ -14,7 +14,7 @@ categories:
 
 ::: {.column-margin}
 
-**Cite:** iHealth Team. (2023, November 28). Creating and styling histograms. Oxford iHealth. [https://doi.org/10.59350/h7vd8-1an14](https://doi.org/10.59350/h7vd8-1an14)
+**Cite:** Oxford iHealth Team. (2023, November 28). Creating and styling histograms. Oxford iHealth. [https://doi.org/10.59350/h7vd8-1an14](https://doi.org/10.59350/h7vd8-1an14)
 
 :::
 

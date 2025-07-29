@@ -12,14 +12,11 @@ categories:
   - news
 ---
 
-<!---
 ::: {.column-margin}
 
-**Cite:**
-Ariana, P. (2024, October 16). It takes a village…. Oxford iHealth. [https://doi.org/10.59350/x8apg-7kb31](https://doi.org/10.59350/x8apg-7kb31)
+**Cite:** Guevarra, E. (2025, July 21). Waiting for orchid. Oxford iHealth. [https://doi.org/10.59350/tp3yz-5dm43](https://doi.org/10.59350/tp3yz-5dm43)
 
 :::
---->
 
 By the end of July 2025, we are expecting delivery of a compute server/workstation capable of running large language models (LLMs) efficiently. This machine will allow for local LLM deployment to support development and use of artificial intelligence workflows in-house. 
 
