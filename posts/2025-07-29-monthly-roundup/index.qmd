@@ -1,0 +1,75 @@
+---
+title: "Oxford iHealth Monthly Round-up - July 2025"
+subtitle: "All the news, stories, and events in and around Oxford iHealth"
+description: |
+  New champions inducted, new champions badges, champions onboarding sessions, waiting for orchid, new community tools, planning for our first community call
+author: "iHealth Team"
+date: "29 July 2025"
+date-modified: last-modified
+image: ../../images/ihealth_base_pos_square.png
+draft: false
+categories:
+  - news
+  - monthly-round-up
+---
+
+It's time for our first monthly news round-up!
+
+## Latest batch of Oxford iHealth Champions
+
+We're very happy to have our latest cohort of [Oxford iHealth Champions](../../champions/index.qmd) inducted into the programme. Congratulations to our newest batch and we hope to hear from those of you plant to further their Champion's journey. Read more about our newest Champions cohort in this [blog post](../2025-07-23-champions-2025/index.qmd).
+
+## New Oxford iHealth Champions badges
+
+Finally, we have in place our new Oxford iHealth Champions credentialing process using digital [Open Badges](https://en.wikipedia.org/wiki/Mozilla_Open_Badges){.external target="_blank"}.
+
+::: {layout-ncol="5"}
+
+![Knowledge Badge](../../images/knowledge_badge.png)
+
+![Champions Badge](../../images/champion_alt_badge.png)
+
+![Action Badge](../../images/action_badge.png)
+
+![Impact Badge](../../images/impact_badge.png)
+
+![Legend Badge](../../images/legend_badge.png)
+
+:::
+
+Read more about the Oxford iHealth credentialing process and the badges offered [here](../../champions/index.qmd).
+
+## Oxford iHealth Champions onboarding
+
+To generate more interest in the Oxford iHealth Champions programme among our alumni, we're going to hold our first series of Champions onboarding sessions. in August 2025. These sessions are aimed not only for the latest batch of Champions but also for previous batches who have not had an onboarding session.
+
+To read more about the Champions onboarding sessions and how to register, see this [blog post](../../posts/2025-07-27-champions-onboarding/index.qmd).
+
+## Waiting for orchid
+
+We are keenly awaiting the arrival of **orchid** - our first compute server/workstation capable of running large language models (LLMs) efficiently. This resource is part of Oxford IHTM’s efforts to support its current students and its alumni in learning and applying modern tools for global health projects. Specifically, this machine will provide support for and teaching on application of computational sciences to existing global health challenges.
+
+Read more about **orchid**'s arrival in this [blog post](../2025-07-21-waiting-for-orchid/index.qmd).
+
+## Community forum/chat
+
+::: {.img-float}
+
+[![](../../images/zulip-icon-512x512.png){style="float: right; margin: 10px; width: 250px"}](https://zulip.com/)
+
+:::
+
+We are fortunate to have been gifted with sponsored hosting by [Zulip](https://zulip.com){.external target="_blank"}, an organised team chat app designed for efficient communication. Invitations to join the community chat group on Zulip are usually handed out during or after an alumni event or an Oxford iHealth-led event. If you are an Oxford IHTM alumni and would like to join its community chat group on Zulip but have not had the chance to be invited, please send us a message via our [contacts page](../../contact.qmd) requesting an invite.
+
+## Community call
+
+::: {.img-float}
+
+![](../../images/community_call.png){style="float: left; margin: 10px; width: 250px"}
+
+:::
+
+We are planning our first quarterly community call sometime around October 2025. We have some ideas of topics to focus on including a presentation on our plans and actions for high-performance computing resources for our students and alumni and the requisite tools and skills needed to be able to access these resources. If you have any ideas for topics you want covered in our first community call, please let us know in our community call channel on Zulip or via our [contacts page](../../contact.qmd).
+
+
+
