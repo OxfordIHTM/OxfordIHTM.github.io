@@ -4,6 +4,15 @@
     "items": []
   },
   {
+    "listing": "/events/index.html",
+    "items": [
+      "/events/2025-08-05-champions-onboarding.html",
+      "/events/2025-08-07-champions-onboarding.html",
+      "/events/2025-08-11-champions-onboarding.html",
+      "/events/2025-08-06-champions-onboarding.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/posts/2025-07-23-champions-2025/index.html",
@@ -48,15 +57,6 @@
   },
   {
     "listing": "/community/index.html",
-    "items": [
-      "/events/2025-08-05-champions-onboarding.html",
-      "/events/2025-08-07-champions-onboarding.html",
-      "/events/2025-08-11-champions-onboarding.html",
-      "/events/2025-08-06-champions-onboarding.html"
-    ]
-  },
-  {
-    "listing": "/events/index.html",
     "items": [
       "/events/2025-08-05-champions-onboarding.html",
       "/events/2025-08-07-champions-onboarding.html",

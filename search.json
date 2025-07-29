@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Your name\n  \n\n\nYour e-mail\n\n\n\n\nYour message"
+  },
+  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
@@ -33,12 +40,5 @@
     "title": "Proochista Ariana",
     "section": "",
     "text": "Proochista Ariana is Associate Professor of International Development and Health and Director of the MSc in International Health and Tropical Medicine, Centre for Tropical Medicine and Global Health, Nuffield Department of Medicine. Her research empirically examines the relationship between processes of development and health in resource limited and transition contexts, appreciating the multidimensionality of both."
-  },
-  {
-    "objectID": "about/contact.html",
-    "href": "about/contact.html",
-    "title": "Contact Us",
-    "section": "",
-    "text": "If you would like to contact us for any ideas, comments, suggestions, or questions, please send us your thoughts through the following form.\n\n \n\nYour name\n  \n\n\nYour e-mail\n\n\n\n\nYour message"
   }
 ]
