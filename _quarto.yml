@@ -45,6 +45,8 @@ website:
             href: community/index.qmd
           - text: Events
             href: events/index.qmd
+          - text: Code of Conduct
+            href: code-of-conduct.qmd
   page-footer: 
     center: "Copyright 2025, University of Oxford MSc in International Health and Tropical Medicine" 
     background: light
