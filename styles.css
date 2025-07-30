@@ -408,7 +408,7 @@ blockquote:before {
   left: 0;
   color: #ccc;
   content: open-quote;
-  font-size: 4em;
+  font-size: 8em;
 }
 
 blockquote p {
