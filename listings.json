@@ -22,7 +22,16 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/community/index.html",
+    "items": [
+      "/events/2025-08-05-champions-onboarding.html",
+      "/events/2025-08-07-champions-onboarding.html",
+      "/events/2025-08-11-champions-onboarding.html",
+      "/events/2025-08-06-champions-onboarding.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
     "items": [
       "/posts/2025-07-29-monthly-roundup/index.html",
       "/posts/2025-07-27-champions-onboarding/index.html",
@@ -53,7 +62,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
       "/posts/2025-07-29-monthly-roundup/index.html",
       "/posts/2025-07-27-champions-onboarding/index.html",
@@ -66,15 +75,6 @@
       "/posts/2023-11-29-boxplot-base-r/index.html",
       "/posts/2023-11-28-histogram-base-r/index.html",
       "/posts/2023-11-28-histogram-ggplot/index.html"
-    ]
-  },
-  {
-    "listing": "/community/index.html",
-    "items": [
-      "/events/2025-08-05-champions-onboarding.html",
-      "/events/2025-08-07-champions-onboarding.html",
-      "/events/2025-08-11-champions-onboarding.html",
-      "/events/2025-08-06-champions-onboarding.html"
     ]
   }
 ]
