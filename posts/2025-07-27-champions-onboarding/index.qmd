@@ -3,7 +3,7 @@ title: "Oxford iHealth Champions onboarding sessions - August 2025"
 subtitle: "Onboarding sessions to the Champions Programme"
 description: |
   Presentation and discussion about the programme, the Champion's journey and its requirements, the new credentialing and badging process for milestones and achievements, and support and mentorship available
-author: "iHealth Team"
+author: "Oxford iHealth Team"
 date: "29 July 2025"
 date-modified: last-modified
 image: ../../images/champion_alt_badge.png

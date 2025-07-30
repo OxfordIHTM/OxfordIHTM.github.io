@@ -3,7 +3,7 @@ title: "Oxford iHealth Monthly Round-up - July 2025"
 subtitle: "All the news, stories, and events in and around Oxford iHealth"
 description: |
   New champions inducted, new champions badges, champions onboarding sessions, waiting for orchid, new community tools, planning for our first community call
-author: "iHealth Team"
+author: "Oxford iHealth Team"
 date: "29 July 2025"
 date-modified: last-modified
 image: ../../images/ihealth_base_pos_square.png
