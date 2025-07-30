@@ -390,3 +390,27 @@
 .card .source-code {
   margin-top: 3px;
 }
+
+blockquote {
+  position: relative;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 0.5em 0.5em 0.5em !important;
+  padding: 1em 2em 0 2em !important;
+  font-size: 125%;
+  quotes: "\201C" "\201D";
+}
+
+
+blockquote:before {
+  position: absolute;
+  top: -0.5em; /* relative to padding blockquote size */
+  left: 0;
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+}
+
+blockquote p {
+  display: inline;
+}
