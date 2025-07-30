@@ -391,16 +391,16 @@
   margin-top: 3px;
 }
 
+
 blockquote {
   position: relative;
-  background: #f9f9f9;
+  background: #E4F0EF;
   border-left: 10px solid #ccc;
   margin: 1.5em 0.5em 0.5em 0.5em !important;
   padding: 1em 2em 0 2em !important;
-  font-size: 125%;
+  font-size: 150%;
   quotes: "\201C" "\201D";
 }
-
 
 blockquote:before {
   position: absolute;
@@ -413,4 +413,6 @@ blockquote:before {
 
 blockquote p {
   display: inline;
+  font-size: 1.5em;
+  color: #7F055F;
 }
