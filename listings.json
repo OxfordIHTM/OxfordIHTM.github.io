@@ -1,7 +1,19 @@
 [
   {
-    "listing": "/packages/index.html",
-    "items": []
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2025-07-29-monthly-roundup/index.html",
+      "/posts/2025-07-27-champions-onboarding/index.html",
+      "/posts/2025-07-23-champions-2025/index.html",
+      "/posts/2025-07-21-waiting-for-orchid/index.html",
+      "/posts/2024-10-26-it-takes-a-village/index.html",
+      "/posts/2024-10-03-welcome-class-2025/index.html",
+      "/posts/2024-09-26-introducing-ihealth/index.html",
+      "/posts/2023-11-29-boxplot-ggplot/index.html",
+      "/posts/2023-11-29-boxplot-base-r/index.html",
+      "/posts/2023-11-28-histogram-base-r/index.html",
+      "/posts/2023-11-28-histogram-ggplot/index.html"
+    ]
   },
   {
     "listing": "/events/index.html",
@@ -22,12 +34,22 @@
     ]
   },
   {
-    "listing": "/community/index.html",
+    "listing": "/packages/index.html",
+    "items": []
+  },
+  {
+    "listing": "/teaching/index.html",
     "items": [
-      "/events/2025-08-05-champions-onboarding.html",
-      "/events/2025-08-07-champions-onboarding.html",
-      "/events/2025-08-11-champions-onboarding.html",
-      "/events/2025-08-06-champions-onboarding.html"
+      "/teaching/session1-summary.html",
+      "/teaching/session2-summary.html",
+      "/teaching/session3-summary.html",
+      "/teaching/session4-summary.html",
+      "/teaching/session5-summary.html",
+      "/teaching/session6-summary.html",
+      "/teaching/session7-summary.html",
+      "/teaching/session8-summary.html",
+      "/teaching/session9-summary.html",
+      "/teaching/session10-summary.html"
     ]
   },
   {
@@ -47,34 +69,12 @@
     ]
   },
   {
-    "listing": "/teaching/index.html",
+    "listing": "/community/index.html",
     "items": [
-      "/teaching/session1-summary.html",
-      "/teaching/session2-summary.html",
-      "/teaching/session3-summary.html",
-      "/teaching/session4-summary.html",
-      "/teaching/session5-summary.html",
-      "/teaching/session6-summary.html",
-      "/teaching/session7-summary.html",
-      "/teaching/session8-summary.html",
-      "/teaching/session9-summary.html",
-      "/teaching/session10-summary.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/2025-07-29-monthly-roundup/index.html",
-      "/posts/2025-07-27-champions-onboarding/index.html",
-      "/posts/2025-07-23-champions-2025/index.html",
-      "/posts/2025-07-21-waiting-for-orchid/index.html",
-      "/posts/2024-10-26-it-takes-a-village/index.html",
-      "/posts/2024-10-03-welcome-class-2025/index.html",
-      "/posts/2024-09-26-introducing-ihealth/index.html",
-      "/posts/2023-11-29-boxplot-ggplot/index.html",
-      "/posts/2023-11-29-boxplot-base-r/index.html",
-      "/posts/2023-11-28-histogram-base-r/index.html",
-      "/posts/2023-11-28-histogram-ggplot/index.html"
+      "/events/2025-08-05-champions-onboarding.html",
+      "/events/2025-08-07-champions-onboarding.html",
+      "/events/2025-08-11-champions-onboarding.html",
+      "/events/2025-08-06-champions-onboarding.html"
     ]
   }
 ]
